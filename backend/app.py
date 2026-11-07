@@ -270,7 +270,7 @@ async def valuate_property(request: ValuationRequest):
         return result
     except ValueError as e:
         logger.warning("Valuation validation error: %s", e)
-        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=str(e))
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail=str(e))
     except Exception as e:
         logger.error("Valuation engine failure: %s", e, exc_info=True)
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Valuation calculation failed")

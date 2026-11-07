@@ -1,6 +1,6 @@
 # PS1 Valuation Engine
 
-Hero Housing Fintech Challenge — Problem Statement 1. Runnable, offline ML core with locked benchmarks, point/quantile valuation, train-only locality enrichment, and three comparable listings. The FastAPI service and React application are the next team integration tasks, not implemented endpoints/UI.
+Hero Housing Fintech Challenge — Problem Statement 1. Runnable, offline ML core with locked benchmarks, point/quantile valuation, train-only locality enrichment, and three comparable listings. The FastAPI backend is implemented; React application integration remains a team task.
 
 ## Quick start
 
@@ -57,7 +57,7 @@ Only load trusted pickle/joblib files: loading an untrusted bundle can execute c
 |---|---|
 | Person 1 — ML core | `backend/prepare_data.py`, `backend/features.py`, `backend/train.py`, `backend/models/valuation_bundle.pkl`, shared ML regression tests |
 | Person 2 — evaluation/data support | Locked `backend/data/processed/` benchmarks and `backend/logs/`; review metrics, data provenance, and replace proxy infrastructure only with verified offline data in a versioned benchmark |
-| Person 3 — FastAPI | Implement the HTTP contract below using the existing shared feature/prediction helpers; do not duplicate feature engineering |
+| Person 3 — | Person 3 — FastAPI | Implemented `backend/app.py` with valuation, city, locality, and health endpoints; added API contract tests in `backend/test_api.py`; uses shared feature/prediction helpers without duplicating feature engineering |
 | Person 4 — frontend | `frontend/`: React + Vite + Tailwind; see its placeholder README |
 
 ```text
@@ -165,9 +165,16 @@ Auto-accept is a transparent demonstration policy: `(high-low)/point <= 0.40` **
 
 The primary benchmark uses available listing coordinates/proxies. A minimal API request instead fills them from the training lookup: random-split MdAPE is **13.22%**, within ±20% is **65.81%**. Both paths and per-city breakdowns are saved in `evaluation_metrics.json`. Random LightGBM interval coverage is **74.37%**, below the nominal 80%; do not advertise calibrated coverage. Do not tune parameters or thresholds against these locked test sets; use a separate training-only validation/calibration split for future improvements.
 
-## API contract for Person 3
+## Implemented FastAPI backend
 
-**Proposed HTTP route (not yet implemented):** `POST /api/v1/valuate`, JSON request/response. Map validated request data to `predict_valuation(request_dict, bundle)`.
+The FastAPI backend implements the following routes using the shared `predict_valuation(request_dict, bundle)` helper:
+
+- `POST /api/v1/valuate` — validate a property request and return its valuation.
+- `GET /api/v1/cities` — list supported cities.
+- `GET /api/v1/localities` — search localities within a city.
+- `GET /health` — report API and model availability.
+
+The API validates requests with Pydantic, loads trusted model bundles at startup, and does not perform live geocoding.
 
 | Request field | Type / contract |
 |---|---|
@@ -198,3 +205,42 @@ Response keys:
 - `comparables`: up to three objects containing `row_id`, `city`, `locality`, `sqft`, `bhk`, `floor`, `age_years`, `lat`, `lon`, `price_lakhs`, `price_per_sqft` (INR/sqft), `distance_km`, and `feature_distance`.
 
 Person 4 should show the nominal range, review reason, and comparable asking prices, not turn `auto_accept` into a credit approval. This contract intentionally leaves authentication, deployment, underwriting rules, and UI implementation to the owning teammates.
+
+## Running and testing the API
+
+Install the project dependencies from the locked requirements file:
+
+```bash
+python -m pip install -r backend/requirements.lock.txt
+```
+
+Start the FastAPI server from the project root:
+
+```bash
+python -m uvicorn backend.app:app --reload
+```
+
+The API is available at `http://127.0.0.1:8000`.
+
+Interactive API documentation: `http://127.0.0.1:8000/docs`
+
+### API endpoints
+
+- `GET /health`
+- `GET /api/v1/cities`
+- `GET /api/v1/localities?city=Gurgaon`
+- `POST /api/v1/valuate`
+
+### Running API tests
+
+Run the API contract tests:
+
+```bash
+python -m unittest backend.test_api -v
+```
+
+Run the complete backend test suite, including ML core tests:
+
+```bash
+python -m unittest discover -s backend -v
+```
