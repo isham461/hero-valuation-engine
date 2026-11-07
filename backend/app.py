@@ -16,7 +16,7 @@ import joblib
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Query, status
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 from backend import features as f_v1
 try:
@@ -124,6 +124,13 @@ class ValuationRequest(BaseModel):
         if not cleaned:
             raise ValueError("Must not be empty or whitespace only")
         return cleaned
+    @model_validator(mode="after")
+    def validate_coordinate_pair(self):
+        if (self.lat is None) != (self.lon is None):
+            raise ValueError(
+                "Latitude and longitude must be provided together"
+            )
+        return self
 
 
 class ComparableListing(BaseModel):
