@@ -57,7 +57,7 @@ Only load trusted pickle/joblib files: loading an untrusted bundle can execute c
 |---|---|
 | Person 1 — ML core | `backend/prepare_data.py`, `backend/features.py`, `backend/train.py`, `backend/models/valuation_bundle.pkl`, shared ML regression tests |
 | Person 2 — evaluation/data support | Locked `backend/data/processed/` benchmarks and `backend/logs/`; review metrics, data provenance, and replace proxy infrastructure only with verified offline data in a versioned benchmark |
-| Person 3 — | Person 3 — FastAPI | Implemented `backend/app.py` with valuation, city, locality, and health endpoints; added API contract tests in `backend/test_api.py`; uses shared feature/prediction helpers without duplicating feature engineering |
+| Person 3 — FastAPI | Implemented `backend/app.py` with valuation, city, locality, and health endpoints; added API contract tests in `backend/test_api.py`; uses shared feature/prediction helpers without duplicating feature engineering |
 | Person 4 — frontend | `frontend/`: React + Vite + Tailwind; see its placeholder README |
 
 ```text
@@ -200,7 +200,7 @@ Response keys:
 
 - `model_version`, `currency: "INR"`, `unit: "lakh"`.
 - `price_lakhs`, `range_low_lakhs`, `range_high_lakhs`: ordered positive numbers rounded to two decimals.
-- `nominal_interval_coverage: 0.8`, `auto_accept`, nullable `review_reason` (`insufficient_locality_support` or `wide_prediction_interval`).
+- `nominal_interval_coverage`: model-specific nominal interval coverage (0.8 for v1, 0.84 for v2), `auto_accept`, nullable `review_reason` (`insufficient_locality_support` or `wide_prediction_interval`).
 - `locality_sample_count`, `location_source`, `infrastructure_source` indicate support/fallback and that landmarks are proxies.
 - `comparables`: up to three objects containing `row_id`, `city`, `locality`, `sqft`, `bhk`, `floor`, `age_years`, `lat`, `lon`, `price_lakhs`, `price_per_sqft` (INR/sqft), `distance_km`, and `feature_distance`.
 
