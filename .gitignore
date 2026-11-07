@@ -1,0 +1,8 @@
+backend/data/raw/*.csv
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.DS_Store
+.env

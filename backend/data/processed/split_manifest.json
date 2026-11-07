@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "source_sha256": {
+    "gurgaon_10k.csv": "ec7fb90bd185daddf88d6ef2c36d9eb2d6a8def32db4bca44c58cddf8cbbf202",
+    "hyderabad.csv": "9e81698322606c86b4a23e41ace5deecff5e5ed94dc768e9e5e371a2bc48898a",
+    "kolkata.csv": "fa0ac7bfac9b0700eb3ed2329ca3203386468603f7cf92b7c6e975b7cb27c208",
+    "mumbai.csv": "3ad854622f9f72b8cc2326fa6750c0eb73e65783ef35ff929e3e8219f8ea2f6c"
+  },
+  "output_sha256": {
+    "train_random.csv": "d16560dd89f12cdea86d20a28b505278ed612bf9857c4431932dfb4ea8a708fd",
+    "test_random.csv": "a34e1e925a3fe40d17b90fa389bd4fc6a72ab740aadce09e5bc4f010b9374f37",
+    "localities_lookup.csv": "aadbfa33fed446ccd2426c7c10d53315eceb4440aef1a7f0284fcf96ed638f2e",
+    "train_locality_heldout.csv": "d089bb777c66f5f1c25035961d354b1223ea1330b1b721e8beb857217adf03e4",
+    "test_locality_heldout.csv": "d63ebadcbef3632a63ea368622a16b6ac1a56e942037bf0c46c4e92bb2341178"
+  },
+  "row_counts": {
+    "loaded": 38502,
+    "residential_dwellings_sale": 28479,
+    "valid_required_values": 28120,
+    "within_absolute_bounds": 27821,
+    "deduplicated": 25256,
+    "within_city_2_98_percentiles": 24244
+  },
+  "splits": {
+    "random": {
+      "train_rows": 19395,
+      "test_rows": 4849,
+      "train_localities": 1518,
+      "test_localities": 857
+    },
+    "locality_heldout": {
+      "train_rows": 19495,
+      "test_rows": 4749,
+      "train_localities": 1340,
+      "test_localities": 335
+    }
+  },
+  "outlier_policy": "City 2nd/98th target-rate percentiles define the full cleaned benchmark before splitting; metrics exclude those tails.",
+  "imputation_policy": "Separate training-only medians for each split; no test targets used in lookup/features/model fitting.",
+  "infrastructure_policy": "99acres counts and deterministic proximity proxies; not measured OSM counts, radii, or distances."
+}

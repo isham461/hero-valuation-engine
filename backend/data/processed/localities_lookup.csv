@@ -1,0 +1,1539 @@
+city_key,locality_key,city,locality,lat,lon,osm_schools_2km,osm_hospitals_2km,osm_metro_dist_km,floor,age_years,locality_sample_count,locality_median_ppsqft
+central mumbai suburbs,ambedkar nagar,Central Mumbai Suburbs,Ambedkar Nagar,19.135641,72.930286,0,28,5,4,7.5,1,21863.11787
+central mumbai suburbs,asha nagar,Central Mumbai Suburbs,Asha Nagar,19.1698535,72.94332,0,21,5,1,0,6,28132.87177
+central mumbai suburbs,bhandup west,Central Mumbai Suburbs,Bhandup West,19.155971,72.9324656,0,18,5,1,0,28,23547.87991
+central mumbai suburbs,chandivali,Central Mumbai Suburbs,Chandivali,19.111785,72.9004373,1,1,1.333333333,1,0,35,26682.13457
+central mumbai suburbs,chunabhatti,Central Mumbai Suburbs,Chunabhatti,19.0508312,72.8720036,0,21,5,4,7.5,1,18534.48276
+central mumbai suburbs,gavanpada,Central Mumbai Suburbs,Gavanpada,19.1729546,72.9607445,0,11,5,0,15,1,23605.15021
+central mumbai suburbs,ghatkopar east,Central Mumbai Suburbs,Ghatkopar East,19.078006,72.9085958,0,32,5,1,0,29,28354.43038
+central mumbai suburbs,ghatkopar west,Central Mumbai Suburbs,Ghatkopar West,19.092168,72.90703,0,36,2,4,5.25,8,19566.51258
+central mumbai suburbs,hanuman chowk,Central Mumbai Suburbs,Hanuman Chowk,19.172167,72.959247,0,8,5,13,15,1,27860.02692
+central mumbai suburbs,hariyali,Central Mumbai Suburbs,Hariyali,19.108794,72.931588,1,10.5,3.166666667,6,0.25,4,20609.47595
+central mumbai suburbs,hiranandani gardens powai,Central Mumbai Suburbs,Hiranandani Gardens Powai,19.1156516,72.909922,0,1,5,7,3,48,39420.46886
+central mumbai suburbs,jagdusha nagar,Central Mumbai Suburbs,Jagdusha Nagar,19.101864,72.908167,0,22,1.333333333,2,15,1,20833.33333
+central mumbai suburbs,kanjurmarg east,Central Mumbai Suburbs,Kanjurmarg East,19.1307,72.93076,4,2,1,1,0.5,31,27200
+central mumbai suburbs,kanjurmarg west,Central Mumbai Suburbs,Kanjurmarg West,19.136794,72.930672,4,2,2,1,0.5,21,25675.67568
+central mumbai suburbs,kannamwar nagar 1,Central Mumbai Suburbs,Kannamwar Nagar 1,19.116624,72.937839,0,20,5,12,0.5,3,17159.76331
+central mumbai suburbs,kannamwar nagar 2,Central Mumbai Suburbs,Kannamwar Nagar 2,19.118611,72.938594,0,20,5,6,0.5,1,21204.81928
+central mumbai suburbs,kurla east,Central Mumbai Suburbs,Kurla East,19.062182,72.88017,1.5,3,1.333333333,1,0,26,24000
+central mumbai suburbs,kurla west,Central Mumbai Suburbs,Kurla West,19.075583,72.879824,2,3,5,1,0,22,23936.24127
+central mumbai suburbs,lbs marg,Central Mumbai Suburbs,Lbs Marg,19.181338,72.946832,0,29,5,1,0.5,4,22652.93642
+central mumbai suburbs,moti nagar,Central Mumbai Suburbs,Moti Nagar,19.169081,72.935647,0,14,5,2,3,4,15055.55556
+central mumbai suburbs,mulund east,Central Mumbai Suburbs,Mulund East,19.16943,72.95919,0,11.5,5,3,0,26,23343.65325
+central mumbai suburbs,mulund west,Central Mumbai Suburbs,Mulund West,19.1703502,72.941346,1,3,2,1,0,167,27862.20871
+central mumbai suburbs,nahur,Central Mumbai Suburbs,Nahur,19.156629,72.950511,2,1,1.333333333,1,0.5,15,33333.33333
+central mumbai suburbs,naidu colony,Central Mumbai Suburbs,Naidu Colony,19.0832316,72.9153573,0,32,5,14,0.5,1,19411.76471
+central mumbai suburbs,nehru nagar,Central Mumbai Suburbs,Nehru Nagar,19.061833,72.879335,0,22,5,1,0,3,24029.57486
+central mumbai suburbs,nirmal nagar,Central Mumbai Suburbs,Nirmal Nagar,19.163623,72.940706,0,13,5,1,0.5,3,29952.07668
+central mumbai suburbs,panchkutir ganesh nagar,Central Mumbai Suburbs,Panchkutir Ganesh Nagar,19.122144,72.912585,0,3,5,15,7.5,1,38251.36612
+central mumbai suburbs,pant nagar,Central Mumbai Suburbs,Pant Nagar,19.08322,72.90888,2,1,1.333333333,1,0,3,23000
+central mumbai suburbs,pirojshanagar,Central Mumbai Suburbs,Pirojshanagar,19.103068,72.9273603,2,3,0.6666666667,16,3,3,32154.34084
+central mumbai suburbs,police colony,Central Mumbai Suburbs,Police Colony,19.064942,72.884034,0,25,5,8,3,1,22807.01754
+central mumbai suburbs,powai,Central Mumbai Suburbs,Powai,19.11928,72.8996468,2,1,1.333333333,1,0,85,36754.96689
+central mumbai suburbs,raheja vihar,Central Mumbai Suburbs,Raheja Vihar,19.1176385,72.894227,0,13.5,2,4,11.25,2,21987.01299
+central mumbai suburbs,sambhaji nagar,Central Mumbai Suburbs,Sambhaji Nagar,19.1676278,72.9508666,6,0,5,1,0,14,33565.34727
+central mumbai suburbs,sion east,Central Mumbai Suburbs,Sion East,19.040922,72.865195,3,1,0.8,1,0,27,43982.33346
+central mumbai suburbs,sion west,Central Mumbai Suburbs,Sion West,19.0393789,72.8588276,0,24,5,1,15,1,27222.22222
+central mumbai suburbs,tagore nagar,Central Mumbai Suburbs,Tagore Nagar,19.117922,72.932904,0,20,5,10.5,0.5,16,22593.40744
+central mumbai suburbs,tagore nagar road,Central Mumbai Suburbs,Tagore Nagar Road,19.155238,72.954021,0,0,5,6,0.5,1,24234.69388
+central mumbai suburbs,takshashila nagar,Central Mumbai Suburbs,Takshashila Nagar,19.060247,72.879054,0,23,5,17,3,1,15277.77778
+central mumbai suburbs,tata colony,Central Mumbai Suburbs,Tata Colony,19.159621,72.957141,0,21,5,4,3,1,20000
+central mumbai suburbs,vaishali nagar,Central Mumbai Suburbs,Vaishali Nagar,19.1868116,72.9403045,3,2,1,1,0,3,25943.39623
+central mumbai suburbs,vaithara nagar,Central Mumbai Suburbs,Vaithara Nagar,19.163431,72.948657,0,16,5,2,15,1,17261.90476
+central mumbai suburbs,vardhman nagar,Central Mumbai Suburbs,Vardhman Nagar,19.1816215,72.948721,0,28,5,5,7.75,2,25552.88033
+central mumbai suburbs,vidyavihar,Central Mumbai Suburbs,Vidyavihar,19.076743,72.901226,0,31,5,2,15,1,46960
+central mumbai suburbs,vikhroli east,Central Mumbai Suburbs,Vikhroli East,19.1025954,72.932396,1.5,3,2,1,0,32,22772.72727
+central mumbai suburbs,vikhroli west,Central Mumbai Suburbs,Vikhroli West,19.111341,72.9175825,1,2.5,2.785714286,5.5,1.75,2,17428.22967
+gurgaon,a block sushant lok phase - 3,Gurgaon,A Block Sushant Lok Phase - 3,28.423088,77.08192105,0,15,5,2,3,3,9027.777778
+gurgaon,a block sushant lok phase 1,Gurgaon,A Block Sushant Lok Phase 1,28.478103,77.080502,0,7,1.333333333,3,0.5,8,12884.52933
+gurgaon,ambience,Gurgaon,Ambience,28.4594965,77.0266383,0,43,5,7,3,1,15714.28571
+gurgaon,ansal plaza,Gurgaon,Ansal Plaza,28.511407,77.041968,0,3,5,3,3,4,15047.91505
+gurgaon,ardee city,Gurgaon,Ardee City,28.442367,77.0788305,0,8,2,4.5,5.25,10,8726.550179
+gurgaon,b block sushant lok phase 1,Gurgaon,B Block Sushant Lok Phase 1,28.466154,77.077396,0,8,1.333333333,3,0.5,17,13750
+gurgaon,bhondsi,Gurgaon,Bhondsi,28.35093,77.062225,0,1,5,3,3,1,7530.864198
+gurgaon,bissar,Gurgaon,Bissar,28.290528,76.965795,0,0,5,3,7.5,17,12500
+gurgaon,block b sushant lok phase - 3,Gurgaon,Block B Sushant Lok Phase - 3,28.42093,77.08117,0,8,5,3.5,1.75,2,16279.06977
+gurgaon,block c ardee city,Gurgaon,Block C Ardee City,28.441278,77.077759,0,8,5,1.5,7.75,2,9650.997151
+gurgaon,block c greenwood city,Gurgaon,Block C Greenwood City,28.44164,77.0667,0,10,5,0.5,1.75,2,13380.95238
+gurgaon,block c palam vihar,Gurgaon,Block C Palam Vihar,28.50629,77.03307,0,9,5,2.5,15,2,8221.153846
+gurgaon,block c sector 17,Gurgaon,Block C Sector 17,28.47413504,77.06012304,0,6,2,3,7.5,1,12222.22222
+gurgaon,block c sushant lok phase - 3,Gurgaon,Block C Sushant Lok Phase - 3,28.42024,77.07822,0,12,5,3,0.5,3,9722.222222
+gurgaon,block e dlf city phase 1,Gurgaon,Block E Dlf City Phase 1,28.46524,77.10203,0,8,0.5714285714,0,7.5,1,9677.419355
+gurgaon,"block f, sushant lok phase - 2",Gurgaon,"Block F, Sushant Lok Phase - 2",28.41933,77.0882,0,6,1.333333333,2,1.75,4,7858.426522
+gurgaon,block m dlf phase 2,Gurgaon,Block M Dlf Phase 2,28.48970801,77.08382649,0,7,0.8,2,0.5,2,13796.2963
+gurgaon,block m south city 1,Gurgaon,Block M South City 1,28.45478056,77.05951219,0,5,2,2,3,1,12323.23232
+gurgaon,"block n, mayfield garden",Gurgaon,"Block N, Mayfield Garden",28.42706,77.0603,0,17,5,2,1.75,2,11944.44444
+gurgaon,"block-a, dlf city phase 1",Gurgaon,"Block-A, Dlf City Phase 1",28.47469985,77.08970584,0,8,0.6666666667,2,0.5,3,13000
+gurgaon,c block mayfield garden,Gurgaon,C Block Mayfield Garden,28.4199,77.06169,0,15,5,1,0.5,1,10756.75676
+gurgaon,c block pocket i mayfield garden,Gurgaon,C Block Pocket I Mayfield Garden,28.42046,77.0615,0,15,5,2,0.5,4,10869.56522
+gurgaon,c block sector 43,Gurgaon,C Block Sector 43,28.45616066,77.08324415,0,8,1.333333333,3,0.5,3,7259.259259
+gurgaon,c block sushant lok phase 1,Gurgaon,C Block Sushant Lok Phase 1,28.454279,77.085314,0,8,1.333333333,3,0.5,48,11268.08786
+gurgaon,chakkarpur,Gurgaon,Chakkarpur,28.4778841,77.0844742,0,7,0.6666666667,5,7.5,5,14285.71429
+gurgaon,civil lines,Gurgaon,Civil Lines,28.450105,77.032728,0,30,5,3,15,1,10563.38028
+gurgaon,cyber city,Gurgaon,Cyber City,28.496058,77.088872,0,14,0.6666666667,4,0.5,3,12429.74492
+gurgaon,d block sushant lok phase 1,Gurgaon,D Block Sushant Lok Phase 1,28.454279,77.076838,0,9,2,3,3,1,11184.21053
+gurgaon,dlf city,Gurgaon,Dlf City,28.46945,77.09141,2,1,0.8,2,0.5,1,15000
+gurgaon,dlf phase 1,Gurgaon,Dlf Phase 1,28.4754909,77.1032095,0,21,0.5714285714,3,0.5,153,13888.88889
+gurgaon,dlf phase 2,Gurgaon,Dlf Phase 2,28.4889627,77.0866646,0,9,0.6666666667,2,0.5,167,13888.88889
+gurgaon,dlf phase 3,Gurgaon,Dlf Phase 3,28.49459,77.1032,0,14,0.6666666667,3,3,57,13580.24691
+gurgaon,dlf phase 4,Gurgaon,Dlf Phase 4,28.465786,77.083806,0,11,1,4,3,61,13505.90884
+gurgaon,dlf phase 5,Gurgaon,Dlf Phase 5,28.447417,77.093635,2,2,1.333333333,7,7.5,89,18421.05263
+gurgaon,dwarka expressway,Gurgaon,Dwarka Expressway,28.4595,77.02664,0,0,5,8,0,3,6884.422111
+gurgaon,farrukh nagar,Gurgaon,Farrukh Nagar,28.44798,76.8266,0,14,5,3,0.5,1,7407.407407
+gurgaon,golf course ext road,Gurgaon,Golf Course Ext Road,28.43141255,77.03858545,0,10,5,2.5,0.5,4,13596.77419
+gurgaon,greenwood city,Gurgaon,Greenwood City,28.446127,77.06218,0,10,2,2,0.5,14,11574.07407
+gurgaon,gurgaon,Gurgaon,Gurgaon,28.4595,77.02664,0,0,5,9,0,3,14571.42857
+gurgaon,gwal pahari,Gurgaon,Gwal Pahari,28.4339616,77.1370117,3,1,1,3.5,0.5,48,9965.034965
+gurgaon,heritage city,Gurgaon,Heritage City,28.48041,77.079157,0,8,0.8,5,15,13,14769.23077
+gurgaon,kadarpur,Gurgaon,Kadarpur,28.393559,77.096839,2,1,1.333333333,5,0.5,1,10393.25843
+gurgaon,malibu town,Gurgaon,Malibu Town,28.425675,77.045656,0,18,5,2,0.5,68,10628.84484
+gurgaon,mayfield garden,Gurgaon,Mayfield Garden,28.42414,77.06148,0,16,5,1,1.75,10,9990.253411
+gurgaon,mg road,Gurgaon,Mg Road,28.472761,77.085959,3,2,1,9,0.5,15,22309.12477
+gurgaon,new,Gurgaon,New,28.4595,77.02664,0,43,5,1,0,1,8490.967056
+gurgaon,new colony,Gurgaon,New Colony,28.465462,77.01534,0,42,5,3,7.5,1,14351.85185
+gurgaon,new palam vihar phase 1,Gurgaon,New Palam Vihar Phase 1,28.50471,77.0187,0,13,5,3,3,1,8080.808081
+gurgaon,nirvana country,Gurgaon,Nirvana Country,28.4157007,77.06328,1,1,1.666666667,4,7.5,124,12488.00384
+gurgaon,palam vihar,Gurgaon,Palam Vihar,28.5129305,77.037736,0,3,5,3,3,118,8702.724685
+gurgaon,palam vihar extension,Gurgaon,Palam Vihar Extension,28.501859,77.039287,0,12,5,3,0.5,1,23442.51766
+gurgaon,phase 2 sushant lok 3,Gurgaon,Phase 2 Sushant Lok 3,28.42264121,77.08801184,0,6,1.333333333,2,0.5,1,10689.65517
+gurgaon,pocket i nirvana country,Gurgaon,Pocket I Nirvana Country,28.41934405,77.05942254,0,15,5,3,15,1,33950.61728
+gurgaon,ramgarh,Gurgaon,Ramgarh,28.388195,77.065921,0,8,5,2,7.5,1,6387.096774
+gurgaon,rattan garden,Gurgaon,Rattan Garden,28.46805,77.02059,0,45,5,3,3,1,9535.655058
+gurgaon,rosewood,Gurgaon,Rosewood,28.408363,77.05355,0,19,5,1,3,1,9236.620484
+gurgaon,rosewood city,Gurgaon,Rosewood City,28.409021,77.054554,0,18,5,3,7.5,2,25000
+gurgaon,sai kunj,Gurgaon,Sai Kunj,28.51838,77.0319,0,4,5,5,3,1,5714.285714
+gurgaon,samaspur,Gurgaon,Samaspur,28.426034,77.065805,0,18,5,0,7.5,1,6222.222222
+gurgaon,sec 90,Gurgaon,Sec 90,28.4595,77.02664,0,0,5,8,0,1,5000
+gurgaon,"sector - 33, sohna,",Gurgaon,"Sector - 33, Sohna,",28.4595,77.02664,0,0,5,2,0,1,14701.73791
+gurgaon,sector 10,Gurgaon,Sector 10,28.455037,77.002745,0,48,5,3,7.5,1,17222.22222
+gurgaon,sector 102,Gurgaon,Sector 102,28.47927684,76.9721757,2,1,1.333333333,8,3,199,10303.0303
+gurgaon,sector 103,Gurgaon,Sector 103,28.495485,76.9844677,2,1,1,7,3,80,7747.585604
+gurgaon,sector 104,Gurgaon,Sector 104,28.48379,76.99599,2,1,0.8,11,3,119,10009.09918
+gurgaon,sector 106,Gurgaon,Sector 106,28.5033,76.9940123,2,1,0.8,9,0,118,13207.54717
+gurgaon,sector 107,Gurgaon,Sector 107,28.51284,76.973355,0,1,5,6,3,46,6965.678096
+gurgaon,sector 108,Gurgaon,Sector 108,28.51633109,76.99568505,2,1,1,9,0.5,105,16498.62511
+gurgaon,sector 109,Gurgaon,Sector 109,28.513368,77.003236,2,1,2,6,3,71,10028.6533
+gurgaon,sector 10a,Gurgaon,Sector 10A,28.445676,77.007452,0,42,5,2,7.75,2,7892.156863
+gurgaon,sector 110,Gurgaon,Sector 110,28.501365,77.010746,2,1,0.8,7,3,29,11044.77612
+gurgaon,sector 110 a,Gurgaon,Sector 110 A,28.513142,77.025951,2,1,2,9,3,9,10267.11185
+gurgaon,sector 111,Gurgaon,Sector 111,28.5194517,77.027259,2,1,0.8,9,0.5,57,13891.05058
+gurgaon,sector 112,Gurgaon,Sector 112,28.518677,77.015115,2,2,1.333333333,10,3,56,12490.03455
+gurgaon,sector 113,Gurgaon,Sector 113,28.5313615,77.020297,2,1,0.8,10,0,136,12539.38348
+gurgaon,sector 14,Gurgaon,Sector 14,28.4736102,77.0463719,0,14,5,3,15,9,19410.97724
+gurgaon,sector 15,Gurgaon,Sector 15,28.4558436,77.0406147,0,22,5,3,0,3,12556.05381
+gurgaon,sector 15 part 2,Gurgaon,Sector 15 Part 2,28.459821,77.04516,0,18,5,9,0,5,13452.9148
+gurgaon,sector 17,Gurgaon,Sector 17,28.4791609,77.0593246,0,6,2,3,15,6,14659.71187
+gurgaon,sector 17a,Gurgaon,Sector 17A,28.478537,77.059947,0,6,2,3,3,1,23423.42342
+gurgaon,sector 17c,Gurgaon,Sector 17C,28.47439,77.06282,0,7,2,3,7.5,1,11666.66667
+gurgaon,sector 1a imt manesar,Gurgaon,Sector 1A Imt Manesar,28.358827,76.945318,0,6,5,0,3,1,6578.947368
+gurgaon,sector 2,Gurgaon,Sector 2,28.509691,77.032006,1,1,2,11.5,15,2,6869.645398
+gurgaon,sector 21,Gurgaon,Sector 21,28.5133929,77.0722759,0,4,5,3,7.5,3,14500
+gurgaon,sector 22,Gurgaon,Sector 22,28.504246,77.065435,0,3,5,3,0.5,37,10666.66667
+gurgaon,sector 23,Gurgaon,Sector 23,28.512097,77.064145,0,4,5,3,0.5,69,9209.970427
+gurgaon,sector 23a,Gurgaon,Sector 23A,28.505619,77.049258,0,3,5,3,15,5,18518.51852
+gurgaon,sector 26,Gurgaon,Sector 26,28.4731287,77.0897112,0,8,0.6666666667,2,0.5,19,15555.55556
+gurgaon,sector 27,Gurgaon,Sector 27,28.465767,77.091674,0,9,1,3,0.5,8,10913.41991
+gurgaon,sector 28,Gurgaon,Sector 28,28.475639,77.0823482,0,8,1.333333333,5,7.5,37,12356.12729
+gurgaon,"sector 28 , golf course road",Gurgaon,"Sector 28 , Golf Course Road",28.4595,77.02664,0,43,5,2,3,1,10348.58388
+gurgaon,sector 3,Gurgaon,Sector 3,28.483961,77.013514,2,1,1,8,0,19,7951.219512
+gurgaon,sector 30,Gurgaon,Sector 30,28.460407,77.0578855,1,4,2,4,7.5,11,15384.61538
+gurgaon,sector 31,Gurgaon,Sector 31,28.453807,77.0492504,0,12,5,3,3,25,12915.12915
+gurgaon,sector 33,Gurgaon,Sector 33,28.428798,77.029648,0,26,5,3,3,21,20202.0202
+gurgaon,sector 36 sohna,Gurgaon,Sector 36 Sohna,28.29722,77.06475,4,1,1.333333333,4,0.5,7,7458.44504
+gurgaon,sector 36a,Gurgaon,Sector 36A,28.430479,76.959579,2,1,1,10,0,13,13002.36407
+gurgaon,sector 37c,Gurgaon,Sector 37C,28.45135,76.9888,2,1,1,6,1.75,56,6643.271646
+gurgaon,sector 37d,Gurgaon,Sector 37D,28.4465158,76.970787,2,2,1.333333333,6,0.5,118,8148.103113
+gurgaon,sector 38,Gurgaon,Sector 38,28.4357613,77.0406147,0,18,5,3,3,4,15591.83452
+gurgaon,sector 39,Gurgaon,Sector 39,28.4423313,77.0492504,0,11,5,3,7.5,7,10000
+gurgaon,sector 4,Gurgaon,Sector 4,28.4741603,77.0075055,0,37,5,3,3,7,7111.111111
+gurgaon,sector 40,Gurgaon,Sector 40,28.4489007,77.0578855,0,9,2,3,7.5,23,18166.45543
+gurgaon,sector 41,Gurgaon,Sector 41,28.4580615,77.064177,0,7,2,8,15,21,12310.60606
+gurgaon,sector 42,Gurgaon,Sector 42,28.4548972,77.1053673,0,6,1.333333333,3,1.75,14,13058.82353
+gurgaon,sector 43,Gurgaon,Sector 43,28.4532404,77.0881034,0,9,1.333333333,4,7.5,37,10037.17472
+gurgaon,sector 45,Gurgaon,Sector 45,28.4439933,77.06652,0,10,2,3,3,31,10769.23077
+gurgaon,sector 46,Gurgaon,Sector 46,28.4345552,77.0578855,0,15,5,3,3,39,10942.12083
+gurgaon,sector 47,Gurgaon,Sector 47,28.4266134,77.0545575,0,18,5,5,3,49,12068.96552
+gurgaon,"sector 47 , sector 51",Gurgaon,"Sector 47 , Sector 51",28.425726,77.05422,0,18,5,2,3,1,14090.90909
+gurgaon,sector 48,Gurgaon,Sector 48,28.4153994,77.037736,2,2,2,6,7.5,197,11824.32432
+gurgaon,sector 49,Gurgaon,Sector 49,28.4091958,77.0478112,0,5,5,5,7.5,99,11766.97531
+gurgaon,sector 5,Gurgaon,Sector 5,28.4802232,77.018303,0,35,5,3,15,1,18611.11111
+gurgaon,sector 50,Gurgaon,Sector 50,28.417189,77.0593246,0,16,5,3,3,67,10341.72662
+gurgaon,sector 51,Gurgaon,Sector 51,28.428074,77.0650809,0,17,5,2,3,31,9183.673469
+gurgaon,sector 52,Gurgaon,Sector 52,28.4354721,77.0823482,0,6,5,2,3,54,10171.95767
+gurgaon,sector 53,Gurgaon,Sector 53,28.4412952,77.099865,2,0,1.333333333,9,7.5,71,18929.50392
+gurgaon,sector 54,Gurgaon,Sector 54,28.4439713,77.1111214,3,1,1,9,7.5,177,24404.7619
+gurgaon,sector 55,Gurgaon,Sector 55,28.4251808,77.1096829,0,5,1,2,3,12,8476.62647
+gurgaon,sector 56,Gurgaon,Sector 56,28.4256506,77.099613,0,5,1,3.5,7.5,98,8708.333333
+gurgaon,sector 57,Gurgaon,Sector 57,28.4234414,77.0765927,0,13,5,2,3,140,9611.111111
+gurgaon,sector 58,Gurgaon,Sector 58,28.412502,77.113072,2,1,1.333333333,9.5,3,24,18479.02263
+gurgaon,sector 59,Gurgaon,Sector 59,28.409433,77.10647,2,1,0.8,11,0,117,18188.82466
+gurgaon,sector 60,Gurgaon,Sector 60,28.39988,77.09654,1,1,1.333333333,7,3,61,15403.42298
+gurgaon,sector 61,Gurgaon,Sector 61,28.4090849,77.099979,2,1,1,10,0,69,14117.64706
+gurgaon,sector 62,Gurgaon,Sector 62,28.40356,77.085012,3,1,1.333333333,11,0.5,118,16588.09101
+gurgaon,sector 62emaar uarban oasis,Gurgaon,Sector 62Emaar Uarban Oasis,28.4595,77.02664,0,0,5,18,0,1,18596.98682
+gurgaon,sector 63,Gurgaon,Sector 63,28.411794,77.06903,2,1,1,2,0.5,72,14848.8121
+gurgaon,sector 63a,Gurgaon,Sector 63A,28.392382,77.089173,2,1,1,2,0,101,12345.67901
+gurgaon,sector 64,Gurgaon,Sector 64,28.391713,77.077605,0,3,5,2,7.5,1,5416.666667
+gurgaon,sector 65,Gurgaon,Sector 65,28.4056704,77.06856,2,1,1,7,3,251,14375
+gurgaon,sector 66,Gurgaon,Sector 66,28.400973,77.0531172,2,1,1,8,3,122,15113.63636
+gurgaon,sector 67,Gurgaon,Sector 67,28.389679,77.0607637,2,1,2,7,3,135,13400.33501
+gurgaon,sector 67a,Gurgaon,Sector 67A,28.382146,77.06087,2,0,1.333333333,4,0.5,57,9983.079526
+gurgaon,sector 68,Gurgaon,Sector 68,28.3849411,77.04925,2,1,1.333333333,8,0.5,56,8835.341365
+gurgaon,sector 69,Gurgaon,Sector 69,28.393622,77.0344132,2,1,1,10,0.5,47,10470.58824
+gurgaon,sector 7,Gurgaon,Sector 7,28.4632438,77.0132643,0,42,5,3,3,3,10689.65517
+gurgaon,sector 7 extension,Gurgaon,Sector 7 Extension,28.46808422,77.01014,0,41,5,3,15,4,15296.2963
+gurgaon,sector 70,Gurgaon,Sector 70,28.393486,77.022335,1,2,1,7,3,82,8717.948718
+gurgaon,sector 70a,Gurgaon,Sector 70A,28.384036,77.020381,2,1,1.333333333,5,3,77,9793.103448
+gurgaon,sector 71,Gurgaon,Sector 71,28.416575,77.025941,0,2,0.8,6,3,49,6975.308642
+gurgaon,sector 72,Gurgaon,Sector 72,28.40230943,77.0360478,2,1,1,11,3,65,13846.15385
+gurgaon,sector 73,Gurgaon,Sector 73,28.40548885,77.0148109,2,1,1,4,0.25,4,13541.66667
+gurgaon,sector 74,Gurgaon,Sector 74,28.4164,77.01262,2,1,1,14,0.5,46,11644.0252
+gurgaon,sector 76,Gurgaon,Sector 76,28.393738,76.995553,2,1,0.8,8,0,73,11483.25359
+gurgaon,sector 77,Gurgaon,Sector 77,28.383485,76.979604,2,1,1.333333333,5,3,45,8717.948718
+gurgaon,sector 78,Gurgaon,Sector 78,28.3699015,76.9622501,0,1,1.333333333,7,7.5,5,6618.531889
+gurgaon,sector 79,Gurgaon,Sector 79,28.359235,76.97409821,2,1,1.333333333,7,0.5,134,8988.372093
+gurgaon,sector 80,Gurgaon,Sector 80,28.375022,76.957302,0,4,5,9,7.5,2,6378.793242
+gurgaon,sector 81,Gurgaon,Sector 81,28.3889069,76.9513279,1,1,1.333333333,10,3,136,10347.74436
+gurgaon,sector 82,Gurgaon,Sector 82,28.39379,76.9599852,2,1,2,3,3,78,7134.964483
+gurgaon,sector 82a,Gurgaon,Sector 82A,28.386254,76.966492,1,1,1.333333333,12,3,31,11265.58006
+gurgaon,sector 83,Gurgaon,Sector 83,28.39661,76.97283,2,1,1.333333333,5,3,120,7893.241804
+gurgaon,sector 83 new,Gurgaon,Sector 83 New,28.4595,77.02664,0,0,5,6,0,1,8344.827586
+gurgaon,sector 83 vatika floor,Gurgaon,Sector 83 Vatika Floor,28.25418792,77.07253396,0,2,5,2,0.5,1,7608.695652
+gurgaon,sector 84,Gurgaon,Sector 84,28.408225,76.9627918,2,1,1.666666667,9.5,3,92,7239.035088
+gurgaon,sector 85,Gurgaon,Sector 85,28.4085579,76.951783,2,1,1,9,0.5,125,8513.289037
+gurgaon,sector 86,Gurgaon,Sector 86,28.397175,76.935532,2,1,2,9,3,68,8878.44534
+gurgaon,sector 88a,Gurgaon,Sector 88A,28.43231805,76.94980475,4,3,1.333333333,9.5,3,20,7998.808254
+gurgaon,sector 88b,Gurgaon,Sector 88B,28.446282,76.954775,2,2,1.333333333,1.5,0.5,12,7888.888889
+gurgaon,sector 89,Gurgaon,Sector 89,28.4220715,76.94922495,2,1,0.9,3.5,0,24,8015.130268
+gurgaon,sector 89 a,Gurgaon,Sector 89 A,28.4373379,76.9440586,3,1,1.333333333,10,0,16,8711.715665
+gurgaon,sector 9,Gurgaon,Sector 9,28.4621304,77.0017465,0,42,5,3,7.5,6,10955.55556
+gurgaon,sector 90,Gurgaon,Sector 90,28.406885,76.930127,2,3,5,9,3,83,7500
+gurgaon,sector 91,Gurgaon,Sector 91,28.404292,76.9196505,2,1,2,5,0.5,41,7305.699482
+gurgaon,sector 92,Gurgaon,Sector 92,28.409208,76.9174417,2,1,1,3,0.5,136,7559.88787
+gurgaon,sector 93,Gurgaon,Sector 93,28.41462,76.92754,2,1,1.333333333,2,0,43,9090.909091
+gurgaon,sector 95,Gurgaon,Sector 95,28.4143242,76.9081238,1,1,1.333333333,3,0,24,6899.32552
+gurgaon,sector 95a,Gurgaon,Sector 95A,28.427713,76.922308,2,1,1,2,0.5,5,6854.130053
+gurgaon,sector 99,Gurgaon,Sector 99,28.463603,76.961894,2,1,1.333333333,7,0.5,27,8727.272727
+gurgaon,sector 99a,Gurgaon,Sector 99A,28.46252,76.951718,2,1,1.333333333,7.5,0.5,20,7451.174018
+gurgaon,sector 9a,Gurgaon,Sector 9A,28.468927,76.997421,0,38,5,2,3,4,10072.07207
+gurgaon,sector 9a sector 9,Gurgaon,Sector 9A Sector 9,28.47117713,76.99827116,0,37,5,3.5,1.75,2,12415.52956
+gurgaon,sector-2 sohna,Gurgaon,Sector-2 Sohna,28.26119078,77.06354117,0,2,5,12,3,1,13182.6742
+gurgaon,sector-33 sohna,Gurgaon,Sector-33 Sohna,28.28497315,77.06772544,2,1,1.333333333,6,0.5,148,9375.788707
+gurgaon,sector-35 sohna,Gurgaon,Sector-35 Sohna,28.2700476,77.0589727,0,2,5,2,0,1,9456.436931
+gurgaon,sector-4 sohna,Gurgaon,Sector-4 Sohna,28.25771788,77.07900125,0,2,5,9,3,1,5341.880342
+gurgaon,shivpuri,Gurgaon,Shivpuri,28.47037,77.01701,0,41,5,2,0.5,1,5187.5
+gurgaon,shyam kunj,Gurgaon,Shyam Kunj,28.36011,77.0734,0,1,5,3,3,1,4666.666667
+gurgaon,sohna,Gurgaon,Sohna,28.281936,77.066043,2,1,1.333333333,6,0.5,138,6781.494068
+gurgaon,sohna road,Gurgaon,Sohna Road,28.4317031,77.0361832,0,23,5,3,3,1,9236.842105
+gurgaon,south city,Gurgaon,South City,28.45403387,77.06318494,0,6,2,2,15,4,17804.92899
+gurgaon,south city 1,Gurgaon,South City 1,28.460089,77.066245,0,6,2,2,0.5,55,12121.21212
+gurgaon,south city 2,Gurgaon,South City 2,28.418353,77.053084,0,15,5,1,0.5,36,10735.37305
+gurgaon,southern peripheral road,Gurgaon,Southern Peripheral Road,28.40114,77.009525,0,1,5,8,0,1,12272.72727
+gurgaon,subhash nagar,Gurgaon,Subhash Nagar,28.465706,77.024432,0,43,5,3,3,1,11740.04193
+gurgaon,suncity,Gurgaon,Suncity,28.43642,77.1099,0,6,0.8,3.5,0.5,14,13732.68921
+gurgaon,surat nagar 1,Gurgaon,Surat Nagar 1,28.484594,77.003677,0,36,5,3,3,2,9700.854701
+gurgaon,sushant lok,Gurgaon,Sushant Lok,28.45631985,77.0819653,0,0,2,1.5,3,8,10816.49832
+gurgaon,sushant lok 3 extension,Gurgaon,Sushant Lok 3 Extension,28.418144,77.075667,0,17,5,2,1.75,2,17574.07407
+gurgaon,sushant lok phase 1,Gurgaon,Sushant Lok Phase 1,28.4572434,77.0782527,0,9,2,3,0.5,126,12315.31966
+gurgaon,sushant lok phase 2,Gurgaon,Sushant Lok Phase 2,28.47805,77.074159,0,6,1.333333333,2,3,33,9953.703704
+gurgaon,sushant lok phase 3,Gurgaon,Sushant Lok Phase 3,28.42348,77.08451,0,7,5,2,3,34,9288.421599
+gurgaon,udyog vihar industrial area phase 6,Gurgaon,Udyog Vihar Industrial Area Phase 6,28.419174,76.993454,0,10,5,3,3,1,7584.084084
+gurgaon,uppals southend,Gurgaon,Uppals Southend,28.409324,77.045716,0,19,5,2,3,63,9302.325581
+gurgaon,valley view estate,Gurgaon,Valley View Estate,28.4367302,77.1366519,0,3,5,12,15,17,6230.769231
+gurgaon,valley view estate gwal pahari,Gurgaon,Valley View Estate Gwal Pahari,28.4367302,77.1366519,0,3,5,10,15,1,5878.859857
+gurgaon,vigyan vihar,Gurgaon,Vigyan Vihar,28.421561,77.101017,0,5,1,6,7.5,5,8085.106383
+gurgaon,westerlies,Gurgaon,Westerlies,28.4595,77.02664,0,43,5,2,0.5,1,6875
+hyderabad,3rd phase kphb,Hyderabad,3Rd Phase Kphb,17.489676,78.393731,0,22,5,8,7.5,1,7734.303913
+hyderabad,5th phase kphb,Hyderabad,5Th Phase Kphb,17.475742,78.392116,2,1,1,5,3,13,10181.49624
+hyderabad,adarsh nagar,Hyderabad,Adarsh Nagar,17.404619,78.473067,0,14,1.333333333,3,15,1,5887.681159
+hyderabad,addagutta,Hyderabad,Addagutta,17.5007411,78.3958548,0,16,2,1,0.5,1,4494.382022
+hyderabad,adibatla,Hyderabad,Adibatla,17.2335629,78.54189609,0,0,5,3,0,8,5194.972647
+hyderabad,adikmet,Hyderabad,Adikmet,17.4044157,78.5105026,0,5,5,1,15,1,7964.60177
+hyderabad,aditya nagar,Hyderabad,Aditya Nagar,17.459904,78.306975,2,1,1,7,0,3,6899.850523
+hyderabad,"aditya nagar , nallagandla",Hyderabad,"Aditya Nagar , Nallagandla",17.459904,78.306975,2,1,1,3,0,1,6925.064599
+hyderabad,aditya nagar colony toli chowki,Hyderabad,Aditya Nagar Colony Toli Chowki,17.38504,78.48667,0,16,0.8,3,0.5,1,6474.358974
+hyderabad,agi colony,Hyderabad,Agi Colony,17.47234,78.419588,0,24,1.333333333,4,7.5,1,6730.769231
+hyderabad,alkapoor township,Hyderabad,Alkapoor Township,17.39718421,78.37653844,0,11,5,3,0,8,5874.76844
+hyderabad,alkapur,Hyderabad,Alkapur,17.38504,78.48667,0,0,5,-1,0,1,5800.128535
+hyderabad,alkapur township,Hyderabad,Alkapur Township,17.38504,78.48667,0,0,5,3,0,2,6000
+hyderabad,alkapur twp,Hyderabad,Alkapur Twp,17.38590122,78.36908565,0,8,5,3,0,1,5949.78355
+hyderabad,alkapuri,Hyderabad,Alkapuri,17.38504,78.48667,0,0,5,3,0.25,6,6327.22623
+hyderabad,alkapuri township,Hyderabad,Alkapuri Township,17.38504,78.48667,0,0,5,2,0,5,6500
+hyderabad,allauddin basthi,Hyderabad,Allauddin Basthi,17.456025,78.4480617,0,22,5,6,7.5,3,9027.777778
+hyderabad,alluri seetaramaraju nagar,Hyderabad,Alluri Seetaramaraju Nagar,17.505631,78.381318,0,13,1.333333333,0,7.5,1,9183.673469
+hyderabad,almas guda,Hyderabad,Almas Guda,17.395195,78.614557,0,4,5,3,3,4,8518.518519
+hyderabad,ambedkar nagar,Hyderabad,Ambedkar Nagar,17.412891,78.399847,0,3,5,6,7.5,1,11010.0091
+hyderabad,amberpet,Hyderabad,Amberpet,17.391354,78.506462,0,8,5,2,0,1,7894.736842
+hyderabad,ameenpur village,Hyderabad,Ameenpur Village,17.52384799,78.32276922,0,17,5,3,0.5,6,5992.605461
+hyderabad,ameerpet,Hyderabad,Ameerpet,17.43415714,78.44395135,4,2,1.666666667,5,0.5,2,9990.796981
+hyderabad,aminpur,Hyderabad,Aminpur,17.5226145,78.333031,0,2,5,3,0.5,48,5675.060504
+hyderabad,anand nagar colony,Hyderabad,Anand Nagar Colony,17.4391272,78.40939405,0,8,3.5,3,3.75,2,8790.264981
+hyderabad,anjanadri nagar,Hyderabad,Anjanadri Nagar,17.34714563,78.60300869,0,5,5,0,15,1,3611.111111
+hyderabad,anjaneya nagar,Hyderabad,Anjaneya Nagar,17.471315,78.418257,0,24,1.333333333,16,3,1,9600
+hyderabad,annojiguda,Hyderabad,Annojiguda,17.435904,78.66222,0,2,5,3,3,3,5114.638448
+hyderabad,aporva colony,Hyderabad,Aporva Colony,17.38504,78.48667,0,16,0.8,3,0.5,1,5370.37037
+hyderabad,appa junction,Hyderabad,Appa Junction,17.349758,78.360196,0,0,5,5,0.5,17,7530.120482
+hyderabad,attapur,Hyderabad,Attapur,17.368312,78.429677,0,2,5,2,0,7,10357.81544
+hyderabad,attapur ring road,Hyderabad,Attapur Ring Road,17.3780046,78.4305287,0,14,5,3,7.5,1,19444.44444
+hyderabad,"b.n.reddy nagar,vinayaka hills,road no:-14, almas guda",Hyderabad,"B.N.Reddy Nagar,Vinayaka Hills,Road No:-14, Almas Guda",17.38504,78.48667,0,0,5,3,7.5,1,6814.814815
+hyderabad,bachupally,Hyderabad,Bachupally,17.5468498,78.3650231,0,4,5,3,0,106,5500.214592
+hyderabad,bagh amberpet,Hyderabad,Bagh Amberpet,17.3941246,78.5170995,0,7,5,3,15,1,16666.66667
+hyderabad,bahadurpally,Hyderabad,Bahadurpally,17.549696,78.478157,2,1,1,2.5,0.5,2,6610.425283
+hyderabad,bairagiguda,Hyderabad,Bairagiguda,17.3676045,78.3742678,0,3,5,3,0.5,1,11851.85185
+hyderabad,balakrishna nagar,Hyderabad,Balakrishna Nagar,17.495289,78.418967,0,13,2,4,3,1,7916.666667
+hyderabad,balanagar,Hyderabad,Balanagar,17.46825,78.44908,0,21,5,3,15,1,12931.03448
+hyderabad,balapoor,Hyderabad,Balapoor,17.38504,78.48667,0,16,0.8,3,3,1,7407.407407
+hyderabad,bandam kommu,Hyderabad,Bandam Kommu,17.50422805,78.3248441,0,15.5,5,0,0.5,2,8695.67172
+hyderabad,bandlaguda jagir,Hyderabad,Bandlaguda Jagir,17.34259,78.396008,0,3,5,3,0,25,6823.554065
+hyderabad,banjara hills,Hyderabad,Banjara Hills,17.4164707,78.4382469,0,13,5,3,3,21,10000
+hyderabad,banjara hills road no 12,Hyderabad,Banjara Hills Road No 12,17.38504,78.48667,0,16,0.8,3.5,0.5,2,12197.08185
+hyderabad,banjara hills road no 2,Hyderabad,Banjara Hills Road No 2,17.38504,78.48667,0,16,0.8,3,7.5,1,7000
+hyderabad,banjara hills road number 10,Hyderabad,Banjara Hills Road Number 10,17.38504,78.48667,0,16,0.8,3,7.5,1,9375
+hyderabad,banjarahills road no.1,Hyderabad,Banjarahills Road No.1,17.38504,78.48667,0,16,0.8,3,7.5,1,9905.660377
+hyderabad,bazar ghat,Hyderabad,Bazar Ghat,17.392451,78.459504,0,13,5,3,15,1,11111.11111
+hyderabad,beeramguda,Hyderabad,Beeramguda,17.5090182,78.3001801,0,24,5,3,0.5,76,6604.767585
+hyderabad,begumpet,Hyderabad,Begumpet,17.438581,78.459592,0,9,2,1,3,3,10465.11628
+hyderabad,beside my home mangala,Hyderabad,Beside My Home Mangala,17.38504,78.48667,0,16,0.8,5,0,1,5431.502716
+hyderabad,beverly hills,Hyderabad,Beverly Hills,17.38504,78.48667,0,0,5,5,3,1,8076.923077
+hyderabad,bhagya nagar colony,Hyderabad,Bhagya Nagar Colony,17.494913,78.403112,0,16,2,1,15,1,5864.197531
+hyderabad,bhanur,Hyderabad,Bhanur,17.47661,78.173427,0,3,5,3,0.5,4,7487.348178
+hyderabad,bhel,Hyderabad,Bhel,17.495438,78.3084136,0,21,5,3,3,10,6683.268988
+hyderabad,"bhel,lingampally",Hyderabad,"Bhel,Lingampally",17.38504,78.48667,0,0,5,4,0,1,3611.111111
+hyderabad,bhoiguda,Hyderabad,Bhoiguda,17.4271765,78.4965665,0,10,1,3.5,15,2,6921.549156
+hyderabad,bn reddy nagar,Hyderabad,Bn Reddy Nagar,17.3130765,78.5632461,0,17,5,1,0.5,4,6750
+hyderabad,boduppal,Hyderabad,Boduppal,17.4154884,78.5717631,0,9,5,3,1.75,2,7921.065862
+hyderabad,bolarum-alwal,Hyderabad,Bolarum-Alwal,17.38504,78.48667,0,0,5,0,0,1,4898.919753
+hyderabad,bollaram,Hyderabad,Bollaram,17.557123,78.343555,0,3,5,1,0.5,1,15000
+hyderabad,bongulur,Hyderabad,Bongulur,17.228693,78.577689,0,0,5,3,0,1,3472.222222
+hyderabad,bowrampet,Hyderabad,Bowrampet,17.56162,78.40555,0,1,5,3,0,7,7984.031936
+hyderabad,budvel,Hyderabad,Budvel,17.334703,78.406198,0,4,5,15,0.25,2,8890.740741
+hyderabad,canara nagar,Hyderabad,Canara Nagar,17.407272,78.599946,0,11,5,1,0.5,1,5581.395349
+hyderabad,chaitanya enclave,Hyderabad,Chaitanya Enclave,17.414323,78.365354,0,9,5,4,0.5,2,9928.770436
+hyderabad,champapet,Hyderabad,Champapet,17.3447337,78.5182911,0,24,5,3,15,1,11111.11111
+hyderabad,chanda naik nagar,Hyderabad,Chanda Naik Nagar,17.453897,78.39297,0,3,5,4,0.5,1,11000
+hyderabad,chandanagar,Hyderabad,Chandanagar,17.49182,78.32617,0,13,5,3,0.5,54,5483.978434
+hyderabad,chandrayangutta,Hyderabad,Chandrayangutta,17.3154003,78.4711424,0,7,2,3,15,1,5745.489079
+hyderabad,"chengicherla, uppal",Hyderabad,"Chengicherla, Uppal",17.38504,78.48667,0,0,5,7,0,1,5598.870056
+hyderabad,chilkuru,Hyderabad,Chilkuru,17.3423568,78.3011735,0,0,5,3,3,1,4273.504274
+hyderabad,chingicherla,Hyderabad,Chingicherla,17.4308299,78.6101105,0,5,5,0,0.5,1,11851.85185
+hyderabad,chintal,Hyderabad,Chintal,17.495306,78.45874,0,12,5,3,7.5,3,4770.642202
+hyderabad,"chintal,near balanagr",Hyderabad,"Chintal,Near Balanagr",17.38504,78.48667,0,16,0.8,6,3,1,4565.916399
+hyderabad,chintalkunta,Hyderabad,Chintalkunta,17.3446823,78.5522626,0,15,2,1,0.5,1,7000
+hyderabad,chinthal,Hyderabad,Chinthal,17.516217,78.44972,0,22,5,6,3,1,5461.84739
+hyderabad,"chirayu villas,bachupally",Hyderabad,"Chirayu Villas,Bachupally",17.38504,78.48667,0,0,5,3,0,1,6896.551724
+hyderabad,chitkul,Hyderabad,Chitkul,17.53113,78.297,0,7,5,3,0.5,3,5518.518519
+hyderabad,czech colony,Hyderabad,Czech Colony,17.455364,78.438058,0,18,1,1,15,1,7570.977918
+hyderabad,defence colony,Hyderabad,Defence Colony,17.37331,78.426046,0,16,5,3,7.5,1,5508.474576
+hyderabad,diamond hills,Hyderabad,Diamond Hills,17.4350753,78.3707122,0,3,2,9,7.5,3,10699.58848
+hyderabad,dilsukh nagar,Hyderabad,Dilsukh Nagar,17.36229,78.544106,0,17,1.333333333,2,3,7,7000
+hyderabad,dundigal,Hyderabad,Dundigal,17.626354,78.400816,0,0,5,3,0,1,8333.333333
+hyderabad,east maruti nagar,Hyderabad,East Maruti Nagar,17.343347,78.513876,0,20,5,3,15,2,9859.15493
+hyderabad,engineers enclave,Hyderabad,Engineers Enclave,17.49353729,78.33346882,0,9,5,1,0,1,6889.632107
+hyderabad,fab city,Hyderabad,Fab City,17.210329,78.500098,0,2,5,3,0.25,2,10745.12012
+hyderabad,film nagar,Hyderabad,Film Nagar,17.413956,78.409714,0,2,5,2,7.5,3,12906.25
+hyderabad,financial district,Hyderabad,Financial District,17.411744,78.341175,0.5,1,5,5.5,0.5,30,9508.440914
+hyderabad,financial district gachibowli,Hyderabad,Financial District Gachibowli,17.38504,78.48667,0,0,5,7,0,1,8194.965185
+hyderabad,gachibowli,Hyderabad,Gachibowli,17.4359437,78.3416731,2,1,1.333333333,9,0.5,187,10528.27381
+hyderabad,gagillapur,Hyderabad,Gagillapur,17.61031,78.39133,0,0,5,3,0,3,5988.023952
+hyderabad,gajulramaram,Hyderabad,Gajulramaram,17.5337007,78.40468151,0,6,5,1,0.5,26,4711.431743
+hyderabad,gandimaisamma,Hyderabad,Gandimaisamma,17.5789054,78.4268758,1,1,1.333333333,6,0,12,5244.444444
+hyderabad,gandipet,Hyderabad,Gandipet,17.385392,78.33106,0,0,5,3,0.5,9,13333.33333
+hyderabad,gayathri nagar colony,Hyderabad,Gayathri Nagar Colony,17.440084,78.348915,0,2,5,3,3,1,8214.285714
+hyderabad,geological survey of india colony,Hyderabad,Geological Survey Of India Colony,17.366353,78.58283,0,4,5,1,7.5,1,4705.882353
+hyderabad,ghatkesar,Hyderabad,Ghatkesar,17.435904,78.6242289,0,2,5,3,3,8,6072.06636
+hyderabad,gokhale nagar,Hyderabad,Gokhale Nagar,17.394985,78.532609,0,9,5,3,0.5,1,20799.12425
+hyderabad,"gopanapally,tellapur",Hyderabad,"Gopanapally,Tellapur",17.38504,78.48667,0,0,5,5,0,1,4000
+hyderabad,gopanpally,Hyderabad,Gopanpally,16.5609,77.85031,3,1,1,12,0.5,19,8745.247148
+hyderabad,gouthami enclave,Hyderabad,Gouthami Enclave,17.465666,78.350562,0,6,5,5,7.5,1,7661.290323
+hyderabad,gowdavalli,Hyderabad,Gowdavalli,17.611834,78.465146,0,2,5,3,0.25,2,7828.306265
+hyderabad,gowrelly,Hyderabad,Gowrelly,17.371384,78.671282,0,0,5,3,0,1,12063.49206
+hyderabad,gulmohar park colony,Hyderabad,Gulmohar Park Colony,17.47777,78.31405,0,8,5,3,15,1,12849.58428
+hyderabad,gurram guda,Hyderabad,Gurram Guda,17.296883,78.5638198,0,4,5,3,7.5,1,8040.935673
+hyderabad,habshiguda street no 8,Hyderabad,Habshiguda Street No 8,17.542116,78.49383,0,10,5,3,7.5,1,13333.33333
+hyderabad,hafeezpet,Hyderabad,Hafeezpet,17.485091,78.3671565,0,5,2,4,0.5,19,6816.93238
+hyderabad,hafeezpet gokul plots,Hyderabad,Hafeezpet Gokul Plots,17.38504,78.48667,0,0,5,2,3,1,4407.407407
+hyderabad,hakimpet,Hyderabad,Hakimpet,17.54901472,78.53293103,1,0,5,3,15,1,13888.88889
+hyderabad,hanuman nagar colony,Hyderabad,Hanuman Nagar Colony,17.324294,78.530504,0,30,5,1,3,1,4687.5
+hyderabad,hari hara puram,Hyderabad,Hari Hara Puram,17.31439772,78.56443918,0,16,5,3,3,1,8000
+hyderabad,haripuri colony,Hyderabad,Haripuri Colony,17.361493,78.550751,0,17,1.333333333,2,0,1,6053.268765
+hyderabad,harithavanam colony,Hyderabad,Harithavanam Colony,17.543522,78.366315,0,4,5,1,3,1,4837.209302
+hyderabad,hastinapuram,Hyderabad,Hastinapuram,17.324113,78.550901,0,19.5,5,4.5,4,4,6773.03523
+hyderabad,hayathnagar,Hyderabad,Hayathnagar,17.327119,78.589535,0,10,5,3,0.25,8,5429.611944
+hyderabad,hi tech city,Hyderabad,Hi Tech City,17.4480919,78.3787508,2,1,1,15,0.5,98,10000
+hyderabad,hitec city,Hyderabad,Hitec City,17.44763314,78.37449664,0,5,1.333333333,18,0,2,8792.217327
+hyderabad,hmt swarnapuri colony,Hyderabad,Hmt Swarnapuri Colony,17.516728,78.341893,0,15,5,10,0,8,6298.567684
+hyderabad,huda layout,Hyderabad,Huda Layout,17.417875,78.33617,0,1,5,3,3,1,5459.770115
+hyderabad,hyderabad,Hyderabad,Hyderabad,17.38504,78.48667,0,0,5,24,3,1,20000
+hyderabad,hyderabad pati,Hyderabad,Hyderabad Pati,17.38504,78.48667,0,0,5,3,0,1,7492.641156
+hyderabad,hyderguda,Hyderabad,Hyderguda,17.3964311,78.4815879,0,18,5,4,15,1,7692.307692
+hyderabad,ibrahimpatnam,Hyderabad,Ibrahimpatnam,17.290095,78.571455,0,9,2.9,3,0,2,4726.882923
+hyderabad,ida nacharam,Hyderabad,Ida Nacharam,17.440369,78.562932,0,12,5,3,0.5,1,4600
+hyderabad,indira nagar,Hyderabad,Indira Nagar,17.438076,78.35422,0,1,5,3,7.5,1,8888.888889
+hyderabad,indresham,Hyderabad,Indresham,17.575068,78.253963,0,1,5,3,0.5,13,6797.385621
+hyderabad,injapur,Hyderabad,Injapur,17.307541,78.590305,0,7,5,3,1.75,2,6000
+hyderabad,isnapur,Hyderabad,Isnapur,17.548606,78.210422,0,3,5,3,0,23,4154.589372
+hyderabad,isnapur main road,Hyderabad,Isnapur Main Road,17.38504,78.48667,0,0,5,4,0,1,3500
+hyderabad,"isnapur, patancheruvu",Hyderabad,"Isnapur, Patancheruvu",17.38504,78.48667,0,0,5,2,0,1,3508.064516
+hyderabad,izzat nagar,Hyderabad,Izzat Nagar,17.470128,78.380278,0,7,5,2,7.5,2,11502.10084
+hyderabad,janachaitanya colony,Hyderabad,Janachaitanya Colony,17.3518346,78.406108,0,11,5,2,0.5,1,4347.826087
+hyderabad,janapriya nagar,Hyderabad,Janapriya Nagar,17.489713,78.363397,0,4,5,3,7.5,1,20833.33333
+hyderabad,jawahar nagar,Hyderabad,Jawahar Nagar,17.4406386,78.4282972,0,11,2,0,15,1,4511.494253
+hyderabad,jayabheri pine valley,Hyderabad,Jayabheri Pine Valley,17.430185,78.370314,0,4,5,5,3,1,11085.51684
+hyderabad,jntu,Hyderabad,Jntu,17.496402,78.3941299,0,18,5,3,0,1,4503.10559
+hyderabad,jubilee hills,Hyderabad,Jubilee Hills,17.4295317,78.41266,0,5.5,1.333333333,3,0.5,18,11799.89945
+hyderabad,"jubilee hills extension, shaiket",Hyderabad,"Jubilee Hills Extension, Shaiket",17.38504,78.48667,0,0,5,10,0,1,9513.274336
+hyderabad,kaali mandir,Hyderabad,Kaali Mandir,17.360594,78.377846,0,3,5,2,3,1,4688.644689
+hyderabad,kalyanpuri,Hyderabad,Kalyanpuri,17.413809,78.55837,0,7,1.333333333,3,3,1,19259.25926
+hyderabad,kandi,Hyderabad,Kandi,17.58357825,78.10823161,0,9,5,3,0,1,5236.54749
+hyderabad,kandukur,Hyderabad,Kandukur,17.063734,78.488644,0,0,5,3,0,2,4161.111111
+hyderabad,kapra,Hyderabad,Kapra,17.48718,78.5761477,0,16,5,3,3,13,6124.234471
+hyderabad,kardhanur,Hyderabad,Kardhanur,17.516623,78.226869,0,0,5,3,0,1,11666.66667
+hyderabad,kavuri hills,Hyderabad,Kavuri Hills,17.445121,78.39967,0,1,5,4,7.5,1,9019.886364
+hyderabad,khairatabad,Hyderabad,Khairatabad,17.4106,78.46241,0,7,2,3,15,1,22479.12653
+hyderabad,khajaguda,Hyderabad,Khajaguda,17.41214,78.36431,0,6,5,8,3,19,8309.248555
+hyderabad,kishareddypet,Hyderabad,Kishareddypet,17.38504,78.48667,0,0,5,3,0,1,10235.69024
+hyderabad,kismathpur,Hyderabad,Kismathpur,17.33746,78.38138,0,1,5,3,0.5,5,15001.24595
+hyderabad,kismatpur,Hyderabad,Kismatpur,17.38504,78.48667,0,16,0.8,2,0.5,1,5780.346821
+hyderabad,kistareddypet,Hyderabad,Kistareddypet,17.543634,78.293712,0,1,5,3,0.5,15,5920
+hyderabad,kistareddypet near beeramguda common,Hyderabad,Kistareddypet Near Beeramguda Common,17.38504,78.48667,0,16,0.8,3,7.5,1,9411.050395
+hyderabad,koheda,Hyderabad,Koheda,17.280656,78.635099,0,0,5,3,0,3,4297.520661
+hyderabad,kokapet,Hyderabad,Kokapet,17.40223,78.3444,2,1,1.333333333,9,0,143,9272.816008
+hyderabad,kokapet junction,Hyderabad,Kokapet Junction,17.38504,78.48667,0,0,5,1,0,1,5000
+hyderabad,kollaru,Hyderabad,Kollaru,17.38504,78.48667,0,0,5,3,0,1,8494.208494
+hyderabad,kollur,Hyderabad,Kollur,17.443855,78.250431,0,0,5,3,0,124,6407.63945
+hyderabad,kolluru,Hyderabad,Kolluru,17.443855,78.250431,0,0,5,3,0.5,1,5897.435897
+hyderabad,konda nagar,Hyderabad,Konda Nagar,17.469862,78.35783,0,9,5,4,3,1,8052.147239
+hyderabad,kondakal,Hyderabad,Kondakal,17.467181,78.205133,0,0,5,3,0.5,4,10205.06923
+hyderabad,kondakal phase2,Hyderabad,Kondakal Phase2,17.38504,78.48667,0,0,5,3,0,1,5208.333333
+hyderabad,kondapur,Hyderabad,Kondapur,17.4609913,78.3532083,1,1,5,7,0.5,253,10000
+hyderabad,kondapur beside my home mangala,Hyderabad,Kondapur Beside My Home Mangala,17.38504,78.48667,0,16,0.8,3,0,1,5315.110099
+hyderabad,kothaguda,Hyderabad,Kothaguda,17.462758,78.371177,0,6,5,4,3,9,10611.67748
+hyderabad,kothapet,Hyderabad,Kothapet,17.3761525,78.5462098,0,10,5,3,9,2,18222.22222
+hyderabad,kothur,Hyderabad,Kothur,17.71607,78.52229,0,0,5,3,0,1,3472.222222
+hyderabad,kphb,Hyderabad,Kphb,17.4833526,78.39183685,0,10,5,1,3,6,4545.393213
+hyderabad,kpr colony,Hyderabad,Kpr Colony,17.40188,78.37616,0,12,5,2,3,1,4938.271605
+hyderabad,krishna reddy pet,Hyderabad,Krishna Reddy Pet,17.536121,78.289779,0,13,5,3,0.5,36,8222.222222
+hyderabad,kukatapally,Hyderabad,Kukatapally,17.292089,78.526265,0,2,5,1,3,4,4623.082354
+hyderabad,kukatpally,Hyderabad,Kukatpally,17.49479,78.39964,0,11,2,5,0.5,29,8853.474989
+hyderabad,kukatpally kphb hyd,Hyderabad,Kukatpally Kphb Hyd,17.38504,78.48667,0,0,5,3,0.5,1,5799.239544
+hyderabad,kundanpally,Hyderabad,Kundanpally,17.48782695,78.5969651,0,10,5,3,0.25,2,5560.428031
+hyderabad,lakdaram,Hyderabad,Lakdaram,17.58074373,78.20768573,0,0,5,3,0,1,4975.609756
+hyderabad,"lakdaram , patancheruv",Hyderabad,"Lakdaram , Patancheruv",17.38504,78.48667,0,0,5,3,0,1,4975.845411
+hyderabad,lalitha nagar,Hyderabad,Lalitha Nagar,17.367175,78.52609,0,14,2,2,15,1,4900
+hyderabad,lanco hills,Hyderabad,Lanco Hills,17.4151333,78.3631194,0,6,5,8,0,4,7211.442878
+hyderabad,langer house,Hyderabad,Langer House,17.360594,78.377846,0,3,5,3,3,1,4688.644689
+hyderabad,laxmi nagar,Hyderabad,Laxmi Nagar,17.463252,78.354557,0,7,5,8,15,2,8772.127923
+hyderabad,laxmi narayan nagar colony,Hyderabad,Laxmi Narayan Nagar Colony,17.386899,78.555292,0,13,1.333333333,2,15,1,5439.005439
+hyderabad,laxmiguda,Hyderabad,Laxmiguda,17.29849,78.43683,0,3,5,3,0.5,1,10555.55556
+hyderabad,lb nagar,Hyderabad,Lb Nagar,17.358966,78.540209,0,17,2,2,0.5,12,6684.624697
+hyderabad,lecturers colony,Hyderabad,Lecturers Colony,17.333085,78.59372,0,10,5,3,0,1,10416.66667
+hyderabad,"ligampally,chanda nagar",Hyderabad,"Ligampally,Chanda Nagar",17.38504,78.48667,0,0,5,4,0,1,3509.677419
+hyderabad,lingampally,Hyderabad,Lingampally,17.48331,78.32076,0,7,5,4,0.25,2,6669.230769
+hyderabad,lingampally x roads,Hyderabad,Lingampally X Roads,17.38504,78.48667,0,0,5,2,0,1,4505.454545
+hyderabad,mac society,Hyderabad,Mac Society,17.49611535,78.28056454,0,14,5,3,7.5,1,9444.444444
+hyderabad,madhapur,Hyderabad,Madhapur,17.442544,78.3910691,0,3,5,3,3,13,10149.25373
+hyderabad,madhapur kakatheya hills,Hyderabad,Madhapur Kakatheya Hills,17.38504,78.48667,0,16,0.8,2,0.5,1,10000
+hyderabad,madinaguda,Hyderabad,Madinaguda,17.49148,78.341844,0,16,5,3,3,9,7185.628743
+hyderabad,maheshwaram,Hyderabad,Maheshwaram,17.16954,78.47093,0,0,5,3,3.75,2,7688.492063
+hyderabad,mailardevpally,Hyderabad,Mailardevpally,17.318429,78.451794,0,5,5,1,0,1,4466.666667
+hyderabad,malakpet,Hyderabad,Malakpet,17.376286,78.494843,0,17,0.8,3,7.5,1,10072.68951
+hyderabad,malampet,Hyderabad,Malampet,17.38504,78.48667,0,0,5,2,0.5,1,3619.047619
+hyderabad,mallampet,Hyderabad,Mallampet,17.5564,78.36389,0,4,5,3,0,18,4624.762874
+hyderabad,mallapur,Hyderabad,Mallapur,17.4216645,78.53673305,0,11,5,3,7.75,2,4491.470274
+hyderabad,manchirevula village,Hyderabad,Manchirevula Village,17.3673066,78.3443972,0,0,5,3,0.5,3,6305.555556
+hyderabad,manchirevulu,Hyderabad,Manchirevulu,17.366347,78.348441,0,0,5,21,0,4,7645.779869
+hyderabad,manikonda,Hyderabad,Manikonda,17.4011618,78.37569,0,12,5,3,0.25,94,5936.507937
+hyderabad,mansoorabad,Hyderabad,Mansoorabad,17.349561,78.561578,0,12,5,2,0,1,8196.721311
+hyderabad,masjid banda,Hyderabad,Masjid Banda,17.466434,78.34865,0,6,5,3,3,1,8194.343727
+hyderabad,matha bhuvaneshwari colony,Hyderabad,Matha Bhuvaneshwari Colony,17.38504,78.48667,0,0,5,4,3,1,8571.428571
+hyderabad,mayuri nagar,Hyderabad,Mayuri Nagar,17.5096595,78.367607,0,9,2,8,3,2,7306.681724
+hyderabad,medipally,Hyderabad,Medipally,17.40777,78.6025,0,11,5,0,3,1,4896.421846
+hyderabad,meerpet,Hyderabad,Meerpet,17.323048,78.534004,0,31,5,3,15,1,6734.006734
+hyderabad,mehdipatnam,Hyderabad,Mehdipatnam,17.3868889,78.4342289,0,13,5,3,15,1,14649.53798
+hyderabad,mehdipatnam humayun nagar,Hyderabad,Mehdipatnam Humayun Nagar,17.38504,78.48667,0,16,0.8,1,7.5,1,5869.565217
+hyderabad,miyapur,Hyderabad,Miyapur,17.509181,78.3521088,0,4,5,5,0,98,6499.26466
+hyderabad,miyapur met,Hyderabad,Miyapur Met,17.38504,78.48667,0,0,5,8,0,1,5596.707819
+hyderabad,miyapur road,Hyderabad,Miyapur Road,17.38504,78.48667,0,0,5,7,0,1,5263.157895
+hyderabad,miyapur. sector 2,Hyderabad,Miyapur. Sector 2,17.38504,78.48667,0,16,0.8,9,0,1,5042.016807
+hyderabad,mokila,Hyderabad,Mokila,17.443354,78.182044,0,0,5,3,0.5,54,9614.121342
+hyderabad,moosapet,Hyderabad,Moosapet,17.46779,78.42118,0,25,2,8,0,1,5206.349206
+hyderabad,moosarambagh,Hyderabad,Moosarambagh,17.4044157,78.4465453,0,0,5,1,0.5,1,7980.356047
+hyderabad,moti nagar,Hyderabad,Moti Nagar,17.4459627,78.4197681,2,1,1,7,0,4,9097.479882
+hyderabad,mouryas ranga prasad avenue,Hyderabad,Mouryas Ranga Prasad Avenue,17.444237,78.356383,0,1,5,5,7.5,1,9090.909091
+hyderabad,mucherla,Hyderabad,Mucherla,18.268193,78.622186,0,0,5,3,0,1,3472.222222
+hyderabad,munganoor,Hyderabad,Munganoor,17.302603,78.609452,0,2,5,3,3,1,5505.505506
+hyderabad,muppas panchavati colony,Hyderabad,Muppas Panchavati Colony,17.41102,78.38512,0,8,5,3,3,9,6000
+hyderabad,muthangi,Hyderabad,Muthangi,17.542319,78.226934,0,3,5,3,0.5,26,5303.45893
+hyderabad,muthawalliguda,Hyderabad,Muthawalliguda,17.387665,78.647677,0,0,5,3,0.5,1,5555.555556
+hyderabad,nacharam,Hyderabad,Nacharam,17.435821,78.560357,0,7,5,4,1.75,4,5946.273055
+hyderabad,nadargul,Hyderabad,Nadargul,17.272435,78.5491325,0,1,5,3,1.75,2,7435.129741
+hyderabad,nagaram,Hyderabad,Nagaram,17.48520641,78.60681439,0,10,5,3,0,7,5000
+hyderabad,nagole,Hyderabad,Nagole,17.3697735,78.5618265,0,9,5,2.5,0.5,16,5943.478261
+hyderabad,nallagandla,Hyderabad,Nallagandla,17.47078,78.30668,2,1,1.333333333,7,0.5,115,9254.498715
+hyderabad,nallakunta,Hyderabad,Nallakunta,17.398686,78.505806,0,8,5,2.5,7.5,2,13219.95465
+hyderabad,nanakramguda,Hyderabad,Nanakramguda,17.42278,78.34724,0,0,5,7,0.5,46,10732.0259
+hyderabad,nandamuri nagar,Hyderabad,Nandamuri Nagar,17.38504,78.48667,0,0,5,1,15,1,3851.851852
+hyderabad,nandigama,Hyderabad,Nandigama,17.509668,78.196121,0,1,5,3,0.25,4,5566.444091
+hyderabad,narapally,Hyderabad,Narapally,17.4219,78.63155,0,2,5,3,0,8,5124.209575
+hyderabad,narsingi,Hyderabad,Narsingi,17.3923634,78.3621784,0.5,1,2,6,0.5,154,7526.17801
+hyderabad,neknampur,Hyderabad,Neknampur,17.3930103,78.3713897,0,11,5,3,3,1,4651.162791
+hyderabad,new green city,Hyderabad,New Green City,17.337367,78.402863,0,3,5,3,7.5,1,6066.666667
+hyderabad,new malakpet,Hyderabad,New Malakpet,17.36821,78.506278,0,13,1.333333333,5,0,1,10714.28571
+hyderabad,new maruthi nagar,Hyderabad,New Maruthi Nagar,17.377228,78.534817,0,16,2,1,15,1,5647.058824
+hyderabad,new nagole colony,Hyderabad,New Nagole Colony,17.374194,78.553525,0,7,5,2,0.5,1,9090.909091
+hyderabad,new sai nagar colony,Hyderabad,New Sai Nagar Colony,17.416278,78.579471,0,9,5,1.5,0.5,2,8987.055237
+hyderabad,nizampet,Hyderabad,Nizampet,17.5179636,78.38264025,0,14,5,2.5,3,26,6624.941324
+hyderabad,north ncl,Hyderabad,North Ncl,17.38504,78.48667,0,16,0.8,5,0.5,1,5500.408163
+hyderabad,nursing,Hyderabad,Nursing,17.38504,78.48667,0,16,0.8,36,0,1,6290.909091
+hyderabad,on requiest,Hyderabad,On Requiest,17.450455,78.424385,0,12,5,1,3,1,7804.878049
+hyderabad,osman nagar,Hyderabad,Osman Nagar,17.442196,78.280067,0,0,5,7,0,53,6000
+hyderabad,ou colony,Hyderabad,Ou Colony,17.4079925,78.3902645,0,6.5,5,2,4,2,6655.045091
+hyderabad,p janardhan reddy nagar,Hyderabad,P Janardhan Reddy Nagar,17.444797,78.366116,0,5,5,12,7.5,10,10360.99166
+hyderabad,p&t colony,Hyderabad,P&T Colony,17.357233,78.404825,0,14,5,3,7.5,1,25000
+hyderabad,padmanagar phase 2,Hyderabad,Padmanagar Phase 2,17.49565,78.466262,0,13,5,3,15,1,13333.33333
+hyderabad,padmavti colony,Hyderabad,Padmavti Colony,17.32673908,78.59537991,0,10,5,3,0.5,1,5613.207547
+hyderabad,panchavati layout,Hyderabad,Panchavati Layout,17.411192,78.383435,0,8,5,3,0,1,6000
+hyderabad,panchvati colony manikonda,Hyderabad,Panchvati Colony Manikonda,17.38504,78.48667,0,16,0.8,3,3,1,5172.413793
+hyderabad,panjagutta,Hyderabad,Panjagutta,17.423529,78.45261,0,15,1.333333333,1,3,1,9513.560052
+hyderabad,paparayadu nagar,Hyderabad,Paparayadu Nagar,17.399403,78.36901,0,12,5,3,3,1,6307.619048
+hyderabad,parvathapur,Hyderabad,Parvathapur,17.398313,78.620039,0,5,5,3,0.5,1,6666.666667
+hyderabad,pasumamula,Hyderabad,Pasumamula,17.348269,78.647456,0,0,5,3,0.5,1,8440.999139
+hyderabad,patancheru,Hyderabad,Patancheru,17.5316,78.26729,0,8,5,3,0,53,5466.666667
+hyderabad,patancheru main road,Hyderabad,Patancheru Main Road,17.38504,78.48667,0,0,5,4,0,1,3744.855967
+hyderabad,"patancheru, sai ram colony",Hyderabad,"Patancheru, Sai Ram Colony",17.38504,78.48667,0,0,5,2,0,1,4400
+hyderabad,patancheruva near,Hyderabad,Patancheruva Near,17.38504,78.48667,0,0,5,4,0,1,3504.761905
+hyderabad,patancheruvu,Hyderabad,Patancheruvu,17.53308675,78.26827459,0,9,5,3,0,20,4785.714286
+hyderabad,patancheruvu main road,Hyderabad,Patancheruvu Main Road,17.38504,78.48667,0,0,5,4,0,1,3503.225806
+hyderabad,"patancheruvu, isnapur",Hyderabad,"Patancheruvu, Isnapur",17.38504,78.48667,0,0,5,4,0,1,3629.032258
+hyderabad,"patancheruvu,sai ram colony",Hyderabad,"Patancheruvu,Sai Ram Colony",17.38504,78.48667,0,0,5,2,0,1,4400
+hyderabad,patelguda,Hyderabad,Patelguda,17.53286,78.27255,0,11,5,3,0.5,1,5362.139918
+hyderabad,pati,Hyderabad,Pati,17.492871,78.239079,0,1,5,3,0,8,5826.666667
+hyderabad,pati kolluru,Hyderabad,Pati Kolluru,17.38504,78.48667,0,16,0.8,6,0.5,1,3500
+hyderabad,patighanpur,Hyderabad,Patighanpur,17.510159,78.247179,0,5,5,3,0,1,5573.333333
+hyderabad,peeramcheru,Hyderabad,Peeramcheru,17.360594,78.377846,0,3,5,3,3,3,4688.644689
+hyderabad,peerzadiguda,Hyderabad,Peerzadiguda,17.406421,78.616398,0,5,5,3,3,5,5777.777778
+hyderabad,phase 1 vanasthalipuram.a10,Hyderabad,Phase 1 Vanasthalipuram.A10,17.38504,78.48667,0,16,0.8,3,0.5,1,12296.2963
+hyderabad,pjr layout,Hyderabad,Pjr Layout,17.5074799,78.33724515,0,16.5,5,3,5.25,2,5597.673347
+hyderabad,pocharam,Hyderabad,Pocharam,17.44007494,78.650905,0,2,5,3,15,3,3600
+hyderabad,pragathi nagar,Hyderabad,Pragathi Nagar,17.5203424,78.3970205,0,9,5,3,0,39,5599.36407
+hyderabad,pragati nagar,Hyderabad,Pragati Nagar,17.38504,78.48667,0,0,5,12,0,1,5688.622754
+hyderabad,pragatinagar,Hyderabad,Pragatinagar,17.38504,78.48667,0,0,5,3,0,2,6045.460807
+hyderabad,prakash nagar,Hyderabad,Prakash Nagar,17.4412055,78.408876,0,5.5,3.166666667,3,5.25,2,8032.28022
+hyderabad,prasanth nagar,Hyderabad,Prasanth Nagar,17.50231,78.353671,0,4,5,4,7.5,3,5324.543611
+hyderabad,pupaalguda,Hyderabad,Pupaalguda,17.38504,78.48667,0,0,5,5,0,1,5499.705015
+hyderabad,puppalaguda,Hyderabad,Puppalaguda,17.3973794,78.3856447,2,1,2,9,1.75,110,7301.198983
+hyderabad,"puppalaguda,gachibowli",Hyderabad,"Puppalaguda,Gachibowli",17.38504,78.48667,0,0,5,3,3,1,19444.44444
+hyderabad,puppalguda junction orr,Hyderabad,Puppalguda Junction Orr,17.38504,78.48667,0,0,5,31,0,1,9828.080229
+hyderabad,"puppalguda, manikonda jagir",Hyderabad,"Puppalguda, Manikonda Jagir",17.38504,78.48667,0,0,5,5,0.5,1,6250.406504
+hyderabad,qutbullapur,Hyderabad,Qutbullapur,17.502996,78.458742,0,13,5,3,0,5,5830.721003
+hyderabad,"qutubullapur, jagadgiri gutta - suchitra circle",Hyderabad,"Qutubullapur, Jagadgiri Gutta - Suchitra Circle",17.38504,78.48667,0,0,5,2,0,1,6004.728132
+hyderabad,"qutubullapur, jeedimetla",Hyderabad,"Qutubullapur, Jeedimetla",17.38504,78.48667,0,0,5,3,0,1,6072.423398
+hyderabad,"qutubullapur, kphb suchitra road",Hyderabad,"Qutubullapur, Kphb Suchitra Road",17.38504,78.48667,0,0,5,4,0,1,6020.942408
+hyderabad,"qutubullapur, suchitra circle",Hyderabad,"Qutubullapur, Suchitra Circle",17.38504,78.48667,0,0,5,2,0,1,6016.713092
+hyderabad,raghavendra colony,Hyderabad,Raghavendra Colony,17.473732,78.3586,0,8,5,6,3,2,10470.58824
+hyderabad,raidurgam,Hyderabad,Raidurgam,17.423947,78.388726,0,3,5,28,0,2,12512.54984
+hyderabad,rajarajeshwari nagar,Hyderabad,Rajarajeshwari Nagar,17.468429,78.354317,0,8,5,3,3,1,21111.11111
+hyderabad,rajendra nagar,Hyderabad,Rajendra Nagar,17.3188385,78.407034,1,1.5,3.5,3.5,5.25,2,10746.63109
+hyderabad,ramachandrapuram,Hyderabad,Ramachandrapuram,17.519291,78.306542,0,23,5,4,7.75,2,11286.4365
+hyderabad,"ramachandrapuram,bhel",Hyderabad,"Ramachandrapuram,Bhel",17.38504,78.48667,0,0,5,2,0,1,4505.454545
+hyderabad,ramanthapur,Hyderabad,Ramanthapur,17.404097,78.55019,0,9,3.5,2,11.25,2,5107.973422
+hyderabad,rameshwaram banda,Hyderabad,Rameshwaram Banda,17.558119,78.278593,0,0,5,3,0.5,7,8518.518519
+hyderabad,"ramgopalpet, secundrabad",Hyderabad,"Ramgopalpet, Secundrabad",17.38504,78.48667,0,0,5,0,0.5,1,7504.288165
+hyderabad,sai harsha nagar,Hyderabad,Sai Harsha Nagar,17.369796,78.389502,0,6,5,3,0,1,11130.43478
+hyderabad,sai pruthvi enclave,Hyderabad,Sai Pruthvi Enclave,17.463287,78.342495,0,2,5,3,1.75,2,10300.92593
+hyderabad,saidabad,Hyderabad,Saidabad,17.357762,78.511415,0,10,5,5,15,1,4714.142427
+hyderabad,sanath nagar,Hyderabad,Sanath Nagar,17.4588955,78.4356755,0,20,1.166666667,2,11.25,2,9220.520359
+hyderabad,sangareddy,Hyderabad,Sangareddy,17.6197,78.082693,0,6,5,3,0.5,1,6666.666667
+hyderabad,sanjeeva rao serene county,Hyderabad,Sanjeeva Rao Serene County,17.38504,78.48667,0,0,5,3,0,1,6400
+hyderabad,sanjeeva reddy nagar,Hyderabad,Sanjeeva Reddy Nagar,17.444695,78.444759,0,9,2,4,15,1,7602.339181
+hyderabad,santosh nagar,Hyderabad,Santosh Nagar,17.39336,78.438999,0,6,5,5,7.5,1,6631.578947
+hyderabad,santoshnagar,Hyderabad,Santoshnagar,17.346091,78.50495,0,17,5,3,7.5,1,4541.95535
+hyderabad,saroor nagar,Hyderabad,Saroor Nagar,17.3561,78.5333,0,18,2,1,0.5,1,6996.69967
+hyderabad,sarvodaya colony,Hyderabad,Sarvodaya Colony,17.349881,78.555418,0,11,2,3,0,1,6501.37741
+hyderabad,sbh colony,Hyderabad,Sbh Colony,17.4044157,78.4465453,0,0,5,5,15,1,5473.684211
+hyderabad,secretariat colony,Hyderabad,Secretariat Colony,17.401445,78.37764,0,11,5,3,3,1,6071.428571
+hyderabad,secunderabad,Hyderabad,Secunderabad,17.38504,78.48667,0,0,5,3,15,1,10000
+hyderabad,senore colony,Hyderabad,Senore Colony,17.410585,78.401307,0,2,5,5,15,1,11111.11111
+hyderabad,serlingampally,Hyderabad,Serlingampally,17.47946,78.33037,0,6,5,5,3,11,8064.516129
+hyderabad,shad nagar,Hyderabad,Shad Nagar,17.06947838,78.20387245,0,3,3.5,3,0,2,7106.946545
+hyderabad,shaikpet,Hyderabad,Shaikpet,17.406722,78.38975,2,3,5,8,0.5,11,8548.812665
+hyderabad,shamshabad,Hyderabad,Shamshabad,17.2494091,78.4183466,0,0,5,3,0,8,6548.717949
+hyderabad,shanakar nagar,Hyderabad,Shanakar Nagar,17.495922,78.54423,0,16,5,3,3,1,6800
+hyderabad,shankarpally,Hyderabad,Shankarpally,17.42169,78.21842,0,0,5,3,0.5,9,8330.827068
+hyderabad,shanti nagar colony,Hyderabad,Shanti Nagar Colony,17.526544,78.265008,0,11,5,9,0,1,4764.123471
+hyderabad,shantinagar colony,Hyderabad,Shantinagar Colony,17.401138,78.455748,0,9,5,4,15,1,10714.28571
+hyderabad,"sheriguda,kollur",Hyderabad,"Sheriguda,Kollur",17.38504,78.48667,0,0,5,3,0,1,6538.461538
+hyderabad,shilpa hills,Hyderabad,Shilpa Hills,17.463222,78.373772,0,8,5,4,7.5,5,10462.77666
+hyderabad,shilpa nagar,Hyderabad,Shilpa Nagar,17.48308,78.603777,0,10,5,3,0.5,1,7272.727273
+hyderabad,somajiguda,Hyderabad,Somajiguda,17.42726,78.45985,1,6.5,1,1,7.5,4,13675.21039
+hyderabad,sr naik nagar,Hyderabad,Sr Naik Nagar,17.53274,78.44489,0,24,5,3,15,1,6111.111111
+hyderabad,sreenivasa nagar,Hyderabad,Sreenivasa Nagar,17.503176,78.394379,0,17,2,3,7.5,1,6296.296296
+hyderabad,sri balaji layout,Hyderabad,Sri Balaji Layout,17.522635,78.433311,0,18.5,5,2.5,5.25,2,6858.259259
+hyderabad,sri mytri avasa,Hyderabad,Sri Mytri Avasa,17.38504,78.48667,0,16,0.8,3,0.5,1,9144.295302
+hyderabad,sri nagar colony,Hyderabad,Sri Nagar Colony,17.427863,78.43395,0,10,5,3,15,1,10000
+hyderabad,sri ram nagar colony,Hyderabad,Sri Ram Nagar Colony,17.408816,78.44313,0,10,5,2,15,1,17504.10509
+hyderabad,srinagar colony,Hyderabad,Srinagar Colony,17.414768,78.4089855,0,10,5,3.5,15,2,9464.178534
+hyderabad,sriram nagar,Hyderabad,Sriram Nagar,17.38504,78.48667,0,0,5,0,0,3,5599.230769
+hyderabad,srisailam highway,Hyderabad,Srisailam Highway,17.284328,78.471841,0,2,5,3,0,3,9756.097561
+hyderabad,sultanpur,Hyderabad,Sultanpur,17.555324,78.308221,0,0,5,3,0,7,5701.592003
+hyderabad,sun city,Hyderabad,Sun City,17.3611945,78.3930377,0,10.5,5,3,3,2,8618.614404
+hyderabad,tara nagar,Hyderabad,Tara Nagar,17.493235,78.318054,0,13,5,1,0,1,6299.798793
+hyderabad,tatianaram,Hyderabad,Tatianaram,17.361288,78.606466,0,0,5,3,0.5,1,10740.74074
+hyderabad,telecom nagar,Hyderabad,Telecom Nagar,17.4332,78.366763,0,3,5,4,7.5,1,7851.239669
+hyderabad,tellapur,Hyderabad,Tellapur,17.4664197,78.285342,0,1,5,3,0.5,99,7511.111111
+hyderabad,"tellapur, gachibowli",Hyderabad,"Tellapur, Gachibowli",17.434335,78.286311,0,0,5,3,3,1,19742.06349
+hyderabad,tellpur osmannagar,Hyderabad,Tellpur Osmannagar,17.4563368,78.2967816,0,2,5,14,0,11,6800
+hyderabad,thorrur,Hyderabad,Thorrur,17.29118,78.61292,0,0,5,3,0,1,6981.132075
+hyderabad,tirumala hills,Hyderabad,Tirumala Hills,17.401445,78.37764,0,11,5,3,3,1,5312.5
+hyderabad,tolichowki,Hyderabad,Tolichowki,17.4025387,78.4125676,0,10.5,5,3,3.75,2,4948.043107
+hyderabad,tukkuguda,Hyderabad,Tukkuguda,17.20869,78.47603,0,2,5,3,0,49,4940.213523
+hyderabad,turkayamjal,Hyderabad,Turkayamjal,17.27395,78.59163,0,0,5,3,0.5,4,7373.931624
+hyderabad,uppal,Hyderabad,Uppal,17.4018092,78.5601892,0,9,1.333333333,1,0,18,5809.592286
+hyderabad,vaidehi nagar,Hyderabad,Vaidehi Nagar,17.3209895,78.57159809,0,16,5,4,7.5,1,3965.517241
+hyderabad,vanasthalipuram,Hyderabad,Vanasthalipuram,17.42648055,78.499383,0,15.5,5,2.5,1.75,2,5975.043029
+hyderabad,vattinagulapally,Hyderabad,Vattinagulapally,17.41821,78.29459,0,0,5,3,0,1,6481.481481
+hyderabad,velimeela,Hyderabad,Velimeela,17.38504,78.48667,0,0,5,1,0,1,3800
+hyderabad,velimela,Hyderabad,Velimela,17.477415,78.227409,0,1,5,3,0,20,6136.113256
+hyderabad,"velimella, kollur",Hyderabad,"Velimella, Kollur",17.38504,78.48667,0,0,5,3,0,1,6512.226512
+hyderabad,velly view enclave,Hyderabad,Velly View Enclave,17.35459,78.400939,0,7,5,3,7.5,1,12578.61635
+hyderabad,vengalarao nagar,Hyderabad,Vengalarao Nagar,17.4419073,78.4375362,0,19,2,2,0.5,1,8333.333333
+hyderabad,venkat enclave,Hyderabad,Venkat Enclave,17.454262,78.366306,0,7,5,2,3,1,10000
+hyderabad,vidya nagar,Hyderabad,Vidya Nagar,17.4046741,78.5107083,0,7,5,1,0,1,9251.471825
+hyderabad,vijaya nagar colony,Hyderabad,Vijaya Nagar Colony,17.44701075,78.4300871,0,13,5,4,4,2,4583.333333
+hyderabad,vikarabad,Hyderabad,Vikarabad,17.33671,77.9044,0,8,5,3,0.5,1,3764.420158
+hyderabad,visaka nagar,Hyderabad,Visaka Nagar,17.395199,78.64021,0,1,5,3,3,1,6296.296296
+hyderabad,vittal rao nagar,Hyderabad,Vittal Rao Nagar,17.433231,78.383657,0,0,5,10,3,1,16353.11143
+hyderabad,wadakpally,Hyderabad,Wadakpally,17.563151,78.296336,0,0,5,3,0,5,5701.592003
+hyderabad,whitefield,Hyderabad,Whitefield,17.45506,78.36797,0,6.5,5,2.5,3,6,10506.32911
+hyderabad,yadadri bhuvanagiri,Hyderabad,Yadadri Bhuvanagiri,17.45759207,78.96171674,0,0,5,0,0,1,5555.555556
+hyderabad,yellareddyguda,Hyderabad,Yellareddyguda,17.4312892,78.4465453,0,14,1,2,7.5,1,5510.204082
+hyderabad,yousufguda,Hyderabad,Yousufguda,17.435608,78.431012,0,8,2,4,15,1,8161.044614
+hyderabad,zahra nagar,Hyderabad,Zahra Nagar,17.419033,78.444699,0,12,5,5,7.5,1,8629.989213
+hyderabad,"zee family daba, kompally",Hyderabad,"Zee Family Daba, Kompally",17.38504,78.48667,0,0,5,5,0.5,1,5200
+kolkata central,ajc bose road,Kolkata Central,Ajc Bose Road,22.55908,88.36628,0,20,5,4,3,1,19250
+kolkata central,auckland square,Kolkata Central,Auckland Square,22.571148,88.43248,0,2,2,5,7.5,1,11538.46154
+kolkata central,camac street,Kolkata Central,Camac Street,22.5468344,88.3530029,0,6,2,3.5,15,2,11724.13793
+kolkata central,christopher road,Kolkata Central,Christopher Road,22.55023,88.380192,0,25,5,3,3,1,7920
+kolkata central,entally,Kolkata Central,Entally,22.55654,88.37128,0,4,2,3,3,9,11743.45077
+kolkata central,maula ali,Kolkata Central,Maula Ali,22.559608,88.363888,0,20,5,11,0,6,12566.13757
+kolkata central,minto park,Kolkata Central,Minto Park,22.541847,88.354515,0,15,2,3,0.5,7,15909.09091
+kolkata central,park street,Kolkata Central,Park Street,22.548059,88.358223,3,1,5,14,0,1,25892.85714
+kolkata central,sealdah,Kolkata Central,Sealdah,22.558844,88.380082,0,26,2,1,7.5,1,7808.433108
+kolkata central,shakespeare sarani,Kolkata Central,Shakespeare Sarani,22.54517747,88.35090064,0,8,1.333333333,4,3,3,20392.15686
+kolkata central,theatre road,Kolkata Central,Theatre Road,22.54512,88.3536,0,9,2,2,7.5,1,20392.15686
+kolkata east,aa 1d newtown,Kolkata East,Aa 1D Newtown,22.632687,88.450763,0,16,5,2,0.5,1,5909.090909
+kolkata east,action area 1,Kolkata East,Action Area 1,22.581047,88.462231,0,7,1.333333333,2,3,65,5858.585859
+kolkata east,action area 2,Kolkata East,Action Area 2,22.60134,88.471506,0,6,5,3,3,46,6365.079365
+kolkata east,action area 2 b,Kolkata East,Action Area 2 B,22.632687,88.450763,0,0,5,3,0,1,5099.923722
+kolkata east,action area 2 new town,Kolkata East,Action Area 2 New Town,22.632687,88.450763,0,0,5,2,0,3,5813.953488
+kolkata east,action area 2b,Kolkata East,Action Area 2B,22.615992,88.47667,0,1,5,2.5,3,14,5103.414063
+kolkata east,action area 2c,Kolkata East,Action Area 2C,22.626212,88.46577,0,4,5,3,0,3,4848.484848
+kolkata east,action area 3,Kolkata East,Action Area 3,22.569,88.510296,0,2,5,4,3,48,5690.417438
+kolkata east,bablatala,Kolkata East,Bablatala,22.6342671,88.4550798,0,10,5,3,3,19,4741.877256
+kolkata east,bd block,Kolkata East,Bd Block,22.632687,88.450763,0,16,5,1,3,1,7021.276596
+kolkata east,be... block,Kolkata East,Be... Block,22.582096,88.47181,0,6,2,1,3,1,8125
+kolkata east,beleghata,Kolkata East,Beleghata,22.5656296,88.382219,0,26,2,1,3,7,10005.26593
+kolkata east,ca block,Kolkata East,Ca Block,22.632687,88.450763,0,16,5,1,0.5,1,8333.333333
+kolkata east,ca.. block,Kolkata East,Ca.. Block,22.585785,88.46386,0,8,1.333333333,1,3,1,7978.723404
+kolkata east,chinar park,Kolkata East,Chinar Park,22.6239661,88.441203,0,15.5,5,2,0.5,62,5461.111111
+kolkata east,chingrighata,Kolkata East,Chingrighata,22.557147,88.398467,4,3,1,5.5,0.5,4,10577.44565
+kolkata east,chotto chandpur,Kolkata East,Chotto Chandpur,22.624996,88.49144,3,3,0.5714285714,3,3,3,4493.464052
+kolkata east,city centre 2,Kolkata East,City Centre 2,22.62153022,88.4515519,0,15,5,3,0.25,2,7124.019489
+kolkata east,dash drone,Kolkata East,Dash Drone,22.627717,88.44796,0,17,5,3,3,8,3895.012469
+kolkata east,dashadrone,Kolkata East,Dashadrone,22.580566,88.498405,0,4,5,3,3,1,3000
+kolkata east,em bypass,Kolkata East,Em Bypass,22.55484,88.394022,2,1,1,3.5,0,36,9936.666523
+kolkata east,kadapara,Kolkata East,Kadapara,22.574639,88.400702,1,4,5,1,0,2,11706.48646
+kolkata east,kalipark,Kolkata East,Kalipark,22.63842723,88.45139082,0,15,5,3,0.5,2,3800.117509
+kolkata east,krishnapur,Kolkata East,Krishnapur,22.598583,88.435604,0,12,3,3.5,11.25,2,5342.391304
+kolkata east,majarhati,Kolkata East,Majarhati,22.6224,88.440371,0,18,5,5,0,1,9336.609337
+kolkata east,metropolitan,Kolkata East,Metropolitan,22.715388,88.378133,0,12,5,3,0,1,6500
+kolkata east,mission bazar,Kolkata East,Mission Bazar,22.58588155,88.43741077,0,6,1.333333333,4,3,1,4588.607595
+kolkata east,mohisbathan,Kolkata East,Mohisbathan,22.57694,88.442409,2,1,1,1,0.5,2,6478.637631
+kolkata east,naipukur,Kolkata East,Naipukur,22.632324,88.48269,0,2,5,2,7.5,1,4761.904762
+kolkata east,natunpara,Kolkata East,Natunpara,22.6352532,88.4594179,0,8,5,7.5,5.25,2,6079.554231
+kolkata east,new town,Kolkata East,New Town,22.587219,88.4694535,0,3,5,4,3,590,6666.666667
+kolkata east,new town action area 1,Kolkata East,New Town Action Area 1,22.581047,88.462231,0,7,1.333333333,4,3,7,6590.909091
+kolkata east,new town action area 1a,Kolkata East,New Town Action Area 1A,22.584146,88.450439,0,6,2,3.5,3,8,6186.147186
+kolkata east,new town action area 1b,Kolkata East,New Town Action Area 1B,22.581425,88.463023,0,7,1.333333333,2,3,3,6008.010681
+kolkata east,new town action area 1c,Kolkata East,New Town Action Area 1C,22.578154,88.460627,0,7,1.333333333,3,3,14,6203.448276
+kolkata east,new town action area 1d,Kolkata East,New Town Action Area 1D,22.574199,88.474834,0,6,2,2,0.5,3,5600
+kolkata east,new town action area 2b,Kolkata East,New Town Action Area 2B,22.615992,88.47667,0,1,5,2,0.5,5,5405.405405
+kolkata east,new town action area 2d,Kolkata East,New Town Action Area 2D,22.627955,88.457437,0,14,5,2.5,1.75,4,5803.359684
+kolkata east,new town action area iid,Kolkata East,New Town Action Area Iid,22.629627,88.45772,0,11,5,3,3,1,5773.195876
+kolkata east,new town actuon area 2d,Kolkata East,New Town Actuon Area 2D,22.629627,88.45772,0,11,5,2,3,1,5384.615385
+kolkata east,new town biswa bangla gate,Kolkata East,New Town Biswa Bangla Gate,22.632687,88.450763,0,16,5,2,3,1,6782.608696
+kolkata east,noapara,Kolkata East,Noapara,22.616942,88.448736,0,12,5,7,7.5,1,7142.857143
+kolkata east,omarhati,Kolkata East,Omarhati,22.599273,88.518206,5,3,5,4,3,3,4000
+kolkata east,rajarhat,Kolkata East,Rajarhat,22.62554,88.4694535,1,2,5,3,3,316,4664.939551
+kolkata east,rajarhat chowmatha kol,Kolkata East,Rajarhat Chowmatha Kol,22.62927,88.48963,0,1,5,2,3,1,3090.909091
+kolkata east,rajarhat main road,Kolkata East,Rajarhat Main Road,22.632687,88.450763,0,0,5,2,0,1,3800
+kolkata east,rekjuani,Kolkata East,Rekjuani,22.624919,88.491208,0,0,5,2.5,5.25,2,4037.091881
+kolkata east,samarpally,Kolkata East,Samarpally,22.593327,88.43192,0,12,1,4,0.5,1,3997.461929
+kolkata east,seal lane,Kolkata East,Seal Lane,22.6357815,88.395451,0,5.5,5,2,1.5,2,9275.806005
+kolkata east,subhas sarobar park,Kolkata East,Subhas Sarobar Park,22.569097,88.397185,0,19,1,1,15,1,6400
+kolkata east,tangra,Kolkata East,Tangra,22.548158,88.3840868,2,1,1.333333333,8,3,15,8936.170213
+kolkata east,uniworld city,Kolkata East,Uniworld City,22.561539,88.495989,0,3,5,14,3,1,6933.115824
+kolkata east,vip haldirams,Kolkata East,Vip Haldirams,22.628036,88.4312305,0,23,5,2.5,9,2,4815.228835
+kolkata north,5/1b mm feeder road.kolkata-700057,Kolkata North,5/1B Mm Feeder Road.Kolkata-700057,22.665262,88.371312,3,2,1,5,0,1,4408.352668
+kolkata north,agarpara,Kolkata North,Agarpara,22.6847476,88.3858564,0,14,5,2.5,3,4,3132.705882
+kolkata north,airport,Kolkata North,Airport,22.6471095,88.428,0,21,5,2,3,23,3521.126761
+kolkata north,alipore,Kolkata North,Alipore,22.522484,88.32527,0,19,5,9,15,1,9900.990099
+kolkata north,amarpalli,Kolkata North,Amarpalli,22.618703,88.4091866,0,20.5,2,3.5,11.25,2,4502.427184
+kolkata north,anandapuri,Kolkata North,Anandapuri,22.756078,88.377017,0,11,5,2,7.5,1,3303.964758
+kolkata north,ananya,Kolkata North,Ananya,22.6420458,88.37800897,0,21,1,1,15,1,4940.711462
+kolkata north,ariadaha,Kolkata North,Ariadaha,22.645936,88.365289,0,23,1.333333333,4,7.5,1,4468.085106
+kolkata north,badamtala,Kolkata North,Badamtala,22.790656,88.368255,0,2,5,4,15,1,2500
+kolkata north,badu,Kolkata North,Badu,22.665874,88.3692,0,19,1.333333333,3,7.5,1,2307.692308
+kolkata north,baguiati,Kolkata North,Baguiati,22.615848,88.4300897,0,21,5,2,3,39,3500
+kolkata north,baguihati,Kolkata North,Baguihati,22.611822,88.43902,0,17,5,3,3,13,3000
+kolkata north,baguihati jyangra,Kolkata North,Baguihati Jyangra,22.557718,88.39732,0,16,1.333333333,2,3,1,2800
+kolkata north,bangur,Kolkata North,Bangur,22.6075649,88.4100911,0,20,2,3,0.5,7,5633.575464
+kolkata north,bangur avenue,Kolkata North,Bangur Avenue,22.715388,88.378133,0,0,5,2,0,3,5600
+kolkata north,bara nagar,Kolkata North,Bara Nagar,22.64095,88.37248,0,20,1.333333333,3,3,5,4476.584022
+kolkata north,barasat,Kolkata North,Barasat,22.730184,88.455814,4,0,1,2,3,67,2682.926829
+kolkata north,barat colony,Kolkata North,Barat Colony,22.608378,88.405796,0,19,2,2,0,3,6685.633001
+kolkata north,barrackpore,Kolkata North,Barrackpore,22.76743,88.38835,0,10,5,3,0,21,3400
+kolkata north,basunagar,Kolkata North,Basunagar,22.69821,88.462063,0,14,5,1,3,1,3545.454545
+kolkata north,belgachia,Kolkata North,Belgachia,22.605825,88.386555,0,21,1,2,0,1,3500
+kolkata north,belgharia,Kolkata North,Belgharia,22.6683782,88.384625,0,13,2,1,0,7,3800
+kolkata north,beliaghata,Kolkata North,Beliaghata,22.5667378,88.3929875,0,17,1,4,0,3,8121.212121
+kolkata north,bhatpara,Kolkata North,Bhatpara,22.861431,88.398684,0,3,5,1,15,1,4109.589041
+kolkata north,birati,Kolkata North,Birati,22.663497,88.420867,0,13,5,3,9,6,3645.789277
+kolkata north,"block c, bangur",Kolkata North,"Block C, Bangur",22.60531157,88.40967685,0,18,2,7,0.5,1,7849.293564
+kolkata north,bonhooghly,Kolkata North,Bonhooghly,22.64694315,88.379847,0,17,1,7,0.25,4,5874.839365
+kolkata north,"bt collage, jessore road",Kolkata North,"Bt Collage, Jessore Road",22.585943,88.486206,0,6,2,3,3,1,3099.773243
+kolkata north,bt road,Kolkata North,Bt Road,22.645631,88.3781071,2,1,1,5,0,59,6940.874036
+kolkata north,cossipore,Kolkata North,Cossipore,22.6289837,88.3780146,2,1,1.333333333,1,0,3,9449.929478
+kolkata north,dakshineswar,Kolkata North,Dakshineswar,22.650162,88.37912,0,17,1.333333333,1,3,3,4269.449715
+kolkata north,dakshinpara,Kolkata North,Dakshinpara,22.613626,88.419182,0,21,5,3,0,5,4000
+kolkata north,debpukur,Kolkata North,Debpukur,22.7649636,88.4054386,0,2,5,3,7.5,1,2734.375
+kolkata north,doltala,Kolkata North,Doltala,22.715388,88.378133,0,0,5,5,0,1,4727.272727
+kolkata north,dum dum,Kolkata North,Dum Dum,22.64288,88.40235,0,12,2,2,3,27,4199.791883
+kolkata north,dum dum cantt,Kolkata North,Dum Dum Cantt,22.639279,88.412077,0,25,2,2,3,14,3250.661491
+kolkata north,dum dum metro,Kolkata North,Dum Dum Metro,22.620932,88.39349075,0,24,1.333333333,2.5,1.75,8,3874.710425
+kolkata north,dum dum park,Kolkata North,Dum Dum Park,22.61059,88.41494,0,18,5,3,3,15,5000
+kolkata north,dunlop,Kolkata North,Dunlop,22.65248,88.3769,0,17,1.333333333,2,0.5,9,4499.568594
+kolkata north,durganagar,Kolkata North,Durganagar,22.652139,88.4165805,0,14,5,1,0.5,8,3998.780798
+kolkata north,dutta bagan,Kolkata North,Dutta Bagan,22.6090628,88.3913374,0,21,1.333333333,3,15,1,2692.307692
+kolkata north,em bypass,Kolkata North,Em Bypass,22.5387755,88.397944,0,5.5,3.166666667,12,4,2,10031.13385
+kolkata north,garpar,Kolkata North,Garpar,22.715388,88.378133,0,12,5,1,15,1,6000
+kolkata north,girish park,Kolkata North,Girish Park,22.58715,88.36218,0,16,1,2,0,1,7099.686028
+kolkata north,gorabazar,Kolkata North,Gorabazar,22.6347922,88.4146371,0,24,5,5,3,1,3000
+kolkata north,hanapara,Kolkata North,Hanapara,22.596258,88.431366,0,16,1,1,0.5,1,3814.43299
+kolkata north,hb town,Kolkata North,Hb Town,22.693873,88.393203,0,11,5,3,0,3,3085.106383
+kolkata north,ichapore,Kolkata North,Ichapore,22.7972,88.37711,0,1,5,2,3,2,3529.948565
+kolkata north,jawpur,Kolkata North,Jawpur,22.715388,88.378133,0,0,5,5,0,2,5494.071665
+kolkata north,jessore road,Kolkata North,Jessore Road,22.6286209,88.417697,4,2,1.333333333,6,3,21,7760.416667
+kolkata north,jessore road ganga nagar,Kolkata North,Jessore Road Ganga Nagar,22.678347,88.459393,0,10,5,1,15,1,4077.010193
+kolkata north,jheel bagan,Kolkata North,Jheel Bagan,22.627697,88.398093,0,23,1.333333333,2,15,1,4117.647059
+kolkata north,jyangra,Kolkata North,Jyangra,22.61441575,88.4393241,0,18,5,3,3,10,2918.513029
+kolkata north,kaikhali,Kolkata North,Kaikhali,22.6315756,88.434212,0,22,5,2.5,7.5,14,4718.605324
+kolkata north,kalindi,Kolkata North,Kalindi,22.6094203,88.4006739,0,16,1.333333333,2,0.5,1,4650.980392
+kolkata north,kalindi jessore road,Kolkata North,Kalindi Jessore Road,22.715388,88.378133,0,0,5,4,0,2,7008.201301
+kolkata north,kalyani,Kolkata North,Kalyani,22.566956,88.325134,0,15,5,2,3,6,3448.051948
+kolkata north,kanchrapara,Kolkata North,Kanchrapara,22.946702,88.439948,0,1,5,2,0.5,9,3200
+kolkata north,kankinara,Kolkata North,Kankinara,22.85345,88.398977,0,2,5,3,0.5,1,4875
+kolkata north,kankurgachi,Kolkata North,Kankurgachi,22.577629,88.393108,0,18,1,4,0.5,11,9632.751355
+kolkata north,kestopur,Kolkata North,Kestopur,22.597982,88.43201,0,16,1.333333333,2,3,73,3904.170364
+kolkata north,khalisha kota,Kolkata North,Khalisha Kota,22.654824,88.424994,0,16,5,2,3,1,4370.629371
+kolkata north,khanna,Kolkata North,Khanna,22.593544,88.374381,0,0,1.333333333,10,3,1,10386.47343
+kolkata north,khardah,Kolkata North,Khardah,22.72348025,88.38612,1,6,3,3,3,18,3617.882865
+kolkata north,lake town,Kolkata North,Lake Town,22.601544,88.402625,0,14,2,1,0.25,32,7290.770494
+kolkata north,lake town/kalindi,Kolkata North,Lake Town/Kalindi,22.715388,88.378133,0,12,5,1,15,1,4251
+kolkata north,madhyamgram,Kolkata North,Madhyamgram,22.69386699,88.46143194,0,2,2,1,0,97,4239.130435
+kolkata north,"madhyamgram, doltala",Kolkata North,"Madhyamgram, Doltala",22.585943,88.486206,0,6,2,3,3,1,3098.298677
+kolkata north,maniktala,Kolkata North,Maniktala,22.58414,88.38404,3,1,1.333333333,1,0,7,9017.595308
+kolkata north,matkol,Kolkata North,Matkol,22.65154383,88.39924741,0,15,1.333333333,3,7.5,1,3179.206049
+kolkata north,michael nagar,Kolkata North,Michael Nagar,22.585943,88.486206,0,6,2,3,3,1,3099.118943
+kolkata north,"michael nagar, birati",Kolkata North,"Michael Nagar, Birati",22.630198,88.48166,0,2,5,2,3,1,3099.118943
+kolkata north,milk colony,Kolkata North,Milk Colony,22.715388,88.378133,0,0,5,1,0,1,8226.691042
+kolkata north,motilal colony,Kolkata North,Motilal Colony,22.65002,88.433655,0,19,5,3,15,1,3500
+kolkata north,nager bazar,Kolkata North,Nager Bazar,22.618223,88.41630387,0,23,5,2,0.5,43,4196.521739
+kolkata north,naihati,Kolkata North,Naihati,22.8912,88.419142,0,8,5,2,0,1,2800
+kolkata north,nandan nagar,Kolkata North,Nandan Nagar,22.6683782,88.384625,0,13,2,3,15,1,4672.897196
+kolkata north,narayanpur,Kolkata North,Narayanpur,22.641954,88.467615,0,2,5,6,3,1,4605.93654
+kolkata north,narayantala,Kolkata North,Narayantala,22.715388,88.378133,0,0,5,2,15,1,4109.589041
+kolkata north,narkeldanga,Kolkata North,Narkeldanga,22.573977,88.398249,1,1,1,17.5,0.5,12,12186.91885
+kolkata north,natunbazar.dumdum cantonment,Kolkata North,Natunbazar.Dumdum Cantonment,22.643322,88.40634,0,16,2,4,3,1,3300.606061
+kolkata north,new barrakpur,Kolkata North,New Barrakpur,22.68875555,88.44971505,0,11,5,3,3,8,2649.942063
+kolkata north,nimta,Kolkata North,Nimta,22.6680851,88.40655518,0,9,5,2,3,1,3382.352941
+kolkata north,noapara,Kolkata North,Noapara,22.64161728,88.38277122,2,0,0.8,1,0,3,4136.413641
+kolkata north,nona chandanpukur,Kolkata North,Nona Chandanpukur,22.7688625,88.3788285,0,10,5,2,9,2,3334.558824
+kolkata north,paikpara,Kolkata North,Paikpara,22.614686,88.390668,0,1,0.8,7.5,3,10,7185.153268
+kolkata north,panihati,Kolkata North,Panihati,22.706026,88.3747015,0,8,5,2,3.75,2,3773.914258
+kolkata north,phoolbagan,Kolkata North,Phoolbagan,22.57069395,88.39414965,0,14,0.8,1.5,3,12,10440.928
+kolkata north,prafulla kanan,Kolkata North,Prafulla Kanan,22.715388,88.378133,0,12,5,3,0,3,4200
+kolkata north,purba sinthi,Kolkata North,Purba Sinthi,22.715388,88.378133,0,0,5,2,0.5,1,4500
+kolkata north,purbachal,Kolkata North,Purbachal,22.507603,88.39057,0,12,5,2,7.5,1,4551.724138
+kolkata north,raghunathpur,Kolkata North,Raghunathpur,22.620659,88.430022,0,22,5,3,3,4,4800.608314
+kolkata north,ramgarh,Kolkata North,Ramgarh,22.473871,88.375145,0,15,1.333333333,1,3,1,3200
+kolkata north,rathtala,Kolkata North,Rathtala,22.6634037,88.3753886,0,13,1.333333333,2,7.5,3,5391.190007
+kolkata north,sabedabagan,Kolkata North,Sabedabagan,22.715388,88.378133,0,12,5,2,7.5,1,2962.962963
+kolkata north,salt lake,Kolkata North,Salt Lake,22.570171,88.446208,2,2,5,13.5,3,34,10618.566
+kolkata north,satgachi,Kolkata North,Satgachi,22.615397,88.418691,0,23,5,1,3,3,3896.103896
+kolkata north,sector 1 salt lake,Kolkata North,Sector 1 Salt Lake,22.59112,88.40403,0,15,1,3,11.25,2,11000
+kolkata north,sector 2 salt lake,Kolkata North,Sector 2 Salt Lake,22.59131,88.42342,0,14,1,3,3,3,13901.76089
+kolkata north,sector 3 salt lake,Kolkata North,Sector 3 Salt Lake,22.57334,88.41373,0,8,0.6666666667,2,9,2,9456.656577
+kolkata north,sector 5 salt lake,Kolkata North,Sector 5 Salt Lake,22.5740607,88.43449295,0,2,2,3,3.75,2,5384.615385
+kolkata north,seth bagan,Kolkata North,Seth Bagan,22.715388,88.378133,0,12,5,1.5,0,2,3500
+kolkata north,shobhabazar,Kolkata North,Shobhabazar,22.610974,88.381115,0,25,1.5,2,15,2,4849.791618
+kolkata north,shova bazar,Kolkata North,Shova Bazar,22.64161728,88.39675,0,0,5,3,7.5,1,6500
+kolkata north,shyam bazaar,Kolkata North,Shyam Bazaar,22.601,88.374,0,18,0.8,3,0,3,7167.235495
+kolkata north,shyam nagar,Kolkata North,Shyam Nagar,22.613895,88.411807,0,18,5,2,0.5,5,4500
+kolkata north,shyamnagar,Kolkata North,Shyamnagar,22.83232,88.39675,0,2,5,2,15,1,6852.865697
+kolkata north,shyamnagar 24 pgs north,Kolkata North,Shyamnagar 24 Pgs North,22.83232,88.39675,0,2,5,3,3,1,2962.962963
+kolkata north,sinthee,Kolkata North,Sinthee,22.631413,88.380238,2,1,1,1,0.5,4,8868.335147
+kolkata north,sinthi,Kolkata North,Sinthi,22.624691,88.387642,0,10,3.166666667,3,4,2,4567.756959
+kolkata north,sinthi more,Kolkata North,Sinthi More,22.6328745,88.3763702,0,16,2,2,3,1,5420.641804
+kolkata north,sodepur,Kolkata North,Sodepur,22.702097,88.38115,0,13,5,2,3,92,3287.396429
+kolkata north,sodepure,Kolkata North,Sodepure,22.715388,88.378133,0,0,5,1,3,1,3307.692308
+kolkata north,south bankimpally,Kolkata North,South Bankimpally,22.6910305,88.4573867,0,15,5,4,3,1,2915.194346
+kolkata north,srirampur,Kolkata North,Srirampur,22.7447227,88.3421906,0,11,5,4,3,1,3624.00906
+kolkata north,subhash nagar,Kolkata North,Subhash Nagar,22.64109,88.4066,0,19,2,1,0.5,1,3507.882883
+kolkata north,sukchar,Kolkata North,Sukchar,22.70813995,88.37012325,0,14,5,2,1.75,2,3949.896463
+kolkata north,surer math,Kolkata North,Surer Math,22.61662,88.405065,0,21,2,4,7.5,1,3125
+kolkata north,teghoria,Kolkata North,Teghoria,22.6226495,88.43007,0,24,5,2,3,21,4192.857143
+kolkata north,telipukur,Kolkata North,Telipukur,22.715388,88.378133,0,12,5,1,15,1,3913.043478
+kolkata north,tetultala,Kolkata North,Tetultala,22.685455,88.376683,0,17,5,4,0,1,4899.891186
+kolkata north,ultadanga,Kolkata North,Ultadanga,22.592136,88.390469,0,14,1,4,7.5,9,7783.613445
+kolkata north,vip haldiram,Kolkata North,Vip Haldiram,22.628267,88.433051,0,22,5,2,15,3,4678.362573
+kolkata north,vip road,Kolkata North,Vip Road,22.603695,88.4142122,0,18,2,6,7.5,1,5173.427396
+kolkata north,vivekananda nagar,Kolkata North,Vivekananda Nagar,22.697585,88.472875,0,15,5,6,0,1,4785.714286
+kolkata north,zarda bagan,Kolkata North,Zarda Bagan,22.610148,88.437363,0,19,5,5,15,1,2796.420582
+kolkata south,ajoy nagar,Kolkata South,Ajoy Nagar,22.4874095,88.397086,0,10,2,3,3,3,5416.666667
+kolkata south,alipore,Kolkata South,Alipore,22.5423442,88.32824215,1,1,0.6666666667,3,3,18,12894.04266
+kolkata south,"ambuja udita, survey park,santoshpur",Kolkata South,"Ambuja Udita, Survey Park,Santoshpur",22.488602,88.392811,0,10,2,11,7.5,1,8666.666667
+kolkata south,amrabati,Kolkata South,Amrabati,22.525854,88.392484,0,17,5,1,15,1,5696.202532
+kolkata south,amtala,Kolkata South,Amtala,22.52439,88.38114,0,16,5,3,0,5,3558.718861
+kolkata south,anandapur,Kolkata South,Anandapur,22.51446,88.4093,0,6,5,2,3,9,4800
+kolkata south,anandpur,Kolkata South,Anandpur,22.514876,88.40979,0,6,5,3,0.5,1,13200.55581
+kolkata south,"atlas more, narendrapur",Kolkata South,"Atlas More, Narendrapur",22.416704,88.40794,2,0,1.333333333,2,3,1,4598.825832
+kolkata south,azadgarh,Kolkata South,Azadgarh,22.48752,88.356035,0,20,1.333333333,3.5,5.25,2,6782.14298
+kolkata south,badam talla,Kolkata South,Badam Talla,22.5032251,88.348532,0,20,1,4,3,1,5238.095238
+kolkata south,bagha jatin,Kolkata South,Bagha Jatin,22.48369,88.37969,0,13.5,5,2,3,6,5000
+kolkata south,baghajatin place,Kolkata South,Baghajatin Place,22.48202023,88.38566037,0,13,1.333333333,2,0.5,1,3452.243959
+kolkata south,baishnabghata,Kolkata South,Baishnabghata,22.470672,88.377655,0,15,1.333333333,2,3,5,5000
+kolkata south,baishnabghata bye lane,Kolkata South,Baishnabghata Bye Lane,22.47085455,88.3717812,0,14.5,2,3,9,2,5452.674897
+kolkata south,bakultala,Kolkata South,Bakultala,22.485516,88.301751,0,14,5,3,7.5,3,3500
+kolkata south,ballygunge,Kolkata South,Ballygunge,22.528881,88.3627061,0,17,5,2,7.5,21,12037.03704
+kolkata south,ballygunge circular road,Kolkata South,Ballygunge Circular Road,22.5363984,88.3576624,0,16,5,3.5,15,8,13746.67274
+kolkata south,ballygunge gardens,Kolkata South,Ballygunge Gardens,22.518518,88.368277,0,15,5,9,15,1,12589.92806
+kolkata south,ballygunge place,Kolkata South,Ballygunge Place,22.526992,88.368848,0,17,5,2,3,9,11818.18182
+kolkata south,bansdroni,Kolkata South,Bansdroni,22.47069,88.36166,0,15,2,2,3,27,4133.333333
+kolkata south,barhans,Kolkata South,Barhans,22.464529,88.383897,0,16,1,1,15,1,5747.126437
+kolkata south,baruipur,Kolkata South,Baruipur,22.36686,88.43711,2,2,1.333333333,1,0.5,17,3720.930233
+kolkata south,batanagar,Kolkata South,Batanagar,22.52409675,88.24169525,0,2,5,4.5,5.25,2,3296.986721
+kolkata south,behala,Kolkata South,Behala,22.4978086,88.3093517,0,17,5,2,3,49,4395.604396
+kolkata south,behala chowrasta,Kolkata South,Behala Chowrasta,22.48668,88.3131558,0,19,5,3,3,23,4170.212766
+kolkata south,behala manton,Kolkata South,Behala Manton,22.49435,88.31612,0,19,5,2,3,11,4473.684211
+kolkata south,behala shakuntala park,Kolkata South,Behala Shakuntala Park,22.48348,88.288312,0,6,5,3,3,7,3169.014085
+kolkata south,behala thana,Kolkata South,Behala Thana,22.5034489,88.3189776,0,17,5,2,3,3,4750
+kolkata south,behala unique park,Kolkata South,Behala Unique Park,22.495148,88.31015,0,19,5,1,3,1,3888.888889
+kolkata south,bhawanipore,Kolkata South,Bhawanipore,22.53566,88.33917,2,1,0.8,5,3,17,13148.63676
+kolkata south,bidhan pally,Kolkata South,Bidhan Pally,22.467949,88.37063,0,14,2,0,15,1,4383.561644
+kolkata south,bijoygarh,Kolkata South,Bijoygarh,22.484906,88.362984,0,16.5,3.166666667,1.5,5.25,2,5347.222222
+kolkata south,bondal gate,Kolkata South,Bondal Gate,22.5292588,88.3725619,0,19,5,1,3,1,10076.33588
+kolkata south,boral,Kolkata South,Boral,22.448549,88.37590485,0,6.5,2,1.5,3,8,3718.181818
+kolkata south,bosepukur,Kolkata South,Bosepukur,22.5008905,88.36050925,0,17,3.166666667,1.5,9,2,4906.976744
+kolkata south,brahmapur,Kolkata South,Brahmapur,22.45965,88.36521,0,11,2,0,15,3,3285.714286
+kolkata south,briji,Kolkata South,Briji,22.466744,88.388085,0,16,1,3,0,5,5478.13195
+kolkata south,budge budge road,Kolkata South,Budge Budge Road,13.06146,80.222766,0,13,2,12,3,1,3937.007874
+kolkata south,bypass road,Kolkata South,Bypass Road,22.5236564,88.3918038,0,16,5,8,3,1,10472.7708
+kolkata south,chak garia,Kolkata South,Chak Garia,22.485966,88.396453,0,14,1.666666667,8.5,7.5,8,7410.220994
+kolkata south,chakraberia,Kolkata South,Chakraberia,22.52942335,88.3494896,0,22.5,1.333333333,3,1.75,2,10724.64564
+kolkata south,chetla,Kolkata South,Chetla,22.5129808,88.3360765,0,21,1.333333333,3,15,3,9729.72973
+kolkata south,dakshin raipur,Kolkata South,Dakshin Raipur,22.473595,88.377602,0,15,1.333333333,4,0.5,1,3003.003003
+kolkata south,daspara,Kolkata South,Daspara,22.480528,88.415215,0,6.5,5,2,3,4,4000
+kolkata south,deshpriya park,Kolkata South,Deshpriya Park,22.536025,88.35469,0,17,1.333333333,1,15,1,9692.307692
+kolkata south,desopriya park,Kolkata South,Desopriya Park,22.52055045,88.3559301,0,23,3.5,2,1.75,4,11698.54705
+kolkata south,dhakuria,Kolkata South,Dhakuria,22.5148038,88.3688527,0,15,5,1.5,3,10,5222.821204
+kolkata south,dhalai bridge,Kolkata South,Dhalai Bridge,22.536025,88.35469,0,0,5,2,0,1,5509.803922
+kolkata south,diamond harbour road,Kolkata South,Diamond Harbour Road,22.76931,87.809688,1,8,3,7.5,3.75,2,12753.01378
+kolkata south,diamond park,Kolkata South,Diamond Park,22.4468309,88.3078244,0,12,5,2,0.5,7,3200
+kolkata south,dover terrace,Kolkata South,Dover Terrace,22.520852,88.357971,0,27,5,3.5,1.5,2,9936.842901
+kolkata south,dr rajendra road,Kolkata South,Dr Rajendra Road,22.536025,88.35469,0,0,5,4,3,1,9593.023256
+kolkata south,east kolkata twp,Kolkata South,East Kolkata Twp,22.51527485,88.39571233,0,12,5,0,15,1,5185.185185
+kolkata south,east park,Kolkata South,East Park,22.536025,88.35469,0,17,1.333333333,2,3,1,5555.555556
+kolkata south,east topsia,Kolkata South,East Topsia,22.537977,88.396324,0,21,5,2,7.5,1,11185.68233
+kolkata south,ekdalia,Kolkata South,Ekdalia,22.523161,88.367818,0,18,5,6,0.5,1,10440.34091
+kolkata south,em bypass,Kolkata South,Em Bypass,22.494852,88.400481,0,4,2,4,3,123,7359.15493
+kolkata south,em bypass extension,Kolkata South,Em Bypass Extension,22.4202875,88.400807,0,0.5,5,4,1.5,2,3448.585813
+kolkata south,fartabad,Kolkata South,Fartabad,22.4594186,88.4000775,0,8,1,1,3,3,5037.037037
+kolkata south,friends eleven,Kolkata South,Friends Eleven,22.536025,88.35469,0,0,5,3,0.5,1,3389.830508
+kolkata south,ganguly bagan,Kolkata South,Ganguly Bagan,22.4766463,88.3732739,0,15,2,0,3,3,4444.444444
+kolkata south,garcha,Kolkata South,Garcha,22.526062,88.36497,0,18,5,3,15,1,10000
+kolkata south,garia,Kolkata South,Garia,22.4654212,88.384625,0,11,1.333333333,2,0.5,119,4810.996564
+kolkata south,garia gardens,Kolkata South,Garia Gardens,22.455502,88.383249,0,9,1.333333333,1,3,1,6472.491909
+kolkata south,garia station,Kolkata South,Garia Station,22.477549,88.4035335,0,12,2,2,3,5,5072.463768
+kolkata south,gariahat,Kolkata South,Gariahat,22.5226995,88.3671083,0,18,5,3,7.75,6,8916.644283
+kolkata south,golf club road,Kolkata South,Golf Club Road,22.4956601,88.3480203,0,22,1,1,15,3,6621.39219
+kolkata south,golf garden,Kolkata South,Golf Garden,22.4970994,88.353077,0,20.5,1.166666667,3.5,15,2,6831.251626
+kolkata south,golf green,Kolkata South,Golf Green,22.491352,88.362509,0,18.5,2,0.5,15,4,6609.090909
+kolkata south,golpark,Kolkata South,Golpark,22.6297728,88.4153947,0,22,5,3,15,1,4333.333333
+kolkata south,gostotala new scheme,Kolkata South,Gostotala New Scheme,22.462422,88.3728814,0,13,1.333333333,3,0.5,1,4494.382022
+kolkata south,haltu,Kolkata South,Haltu,22.507309,88.386635,0,10,5,2,3,3,5000
+kolkata south,haridevpur,Kolkata South,Haridevpur,22.47835715,88.33698419,0,16,2,1,5.25,6,3470.08547
+kolkata south,harinavi,Kolkata South,Harinavi,22.4177159,88.4184156,0,1,5,1,3,1,3981.042654
+kolkata south,harish mukherjee road,Kolkata South,Harish Mukherjee Road,22.53232,88.34345,0,17,1,5,0.5,1,11254.01929
+kolkata south,hastings,Kolkata South,Hastings,22.547352,88.32699,0,13,5,3,3,2,12096.47051
+kolkata south,hindustan more,Kolkata South,Hindustan More,22.457894,88.38333735,0,13,1.333333333,2,0.5,6,3607.98005
+kolkata south,hindustan park,Kolkata South,Hindustan Park,22.5101845,88.349891,0,18,3,2.5,7.75,2,14249.68072
+kolkata south,hindustha road,Kolkata South,Hindustha Road,22.536025,88.35469,0,17,1.333333333,2,15,1,14074.07407
+kolkata south,indrajit pally,Kolkata South,Indrajit Pally,22.497313,88.322952,0,19,5,3,15,1,4594.594595
+kolkata south,jadavpur,Kolkata South,Jadavpur,22.495,88.372,0,18,5,2,3,9,7916.666667
+kolkata south,"jayrampur post office, behala chourasta",Kolkata South,"Jayrampur Post Office, Behala Chourasta",22.536025,88.35469,0,0,5,1,0,1,3699.507389
+kolkata south,jodhpur garden,Kolkata South,Jodhpur Garden,22.506642,88.357385,0,21,2,3,15,1,3000
+kolkata south,jodhpur park,Kolkata South,Jodhpur Park,22.5058175,88.3638288,0,17,5,2.5,5.25,8,9691.151325
+kolkata south,jogendra garden,Kolkata South,Jogendra Garden,22.5148512,88.3869422,0,12,5,2,0.5,1,6181.818182
+kolkata south,joka,Kolkata South,Joka,22.44213,88.29787361,2,2.5,1.333333333,3,0.5,122,5523.605442
+kolkata south,joka metro,Kolkata South,Joka Metro,22.536025,88.35469,0,17,1.333333333,4,3,1,4710.144928
+kolkata south,kabardanga,Kolkata South,Kabardanga,22.5107105,88.3848315,0,0.5,5,1,0.5,4,3640.324658
+kolkata south,kalighat,Kolkata South,Kalighat,22.521646,88.348303,0,24,1.333333333,2.5,3,4,9794.453613
+kolkata south,kalikapur,Kolkata South,Kalikapur,22.4982976,88.394025,0,11.5,5,2,3,30,5645.030614
+kolkata south,kalua,Kolkata South,Kalua,22.511208,88.38653,0,12,5,4,3,1,7000
+kolkata south,kamalgachi,Kolkata South,Kamalgachi,22.536025,88.35469,0,0,5,3,0,1,4850.434783
+kolkata south,kamalgazi,Kolkata South,Kamalgazi,22.446293,88.395019,0,3,2,3,3,43,4636.678201
+kolkata south,kasba,Kolkata South,Kasba,22.519587,88.3789829,0,13,5,2,3,32,5583.439898
+kolkata south,kasba siemens,Kolkata South,Kasba Siemens,22.51589352,88.38505663,0,13,5,1.5,7.5,6,5585.055644
+kolkata south,keyatala,Kolkata South,Keyatala,22.515775,88.365199,0,17,5,4,15,1,14720
+kolkata south,kudghat,Kolkata South,Kudghat,22.4815924,88.34603705,0,15.5,1.666666667,2.5,3,4,4101.11836
+kolkata south,kumrakhali,Kolkata South,Kumrakhali,22.28355,88.476064,0,0,5,3,7.5,1,3608.247423
+kolkata south,lake gardens,Kolkata South,Lake Gardens,22.50508139,88.3544764,0,24,2,2,7.5,13,7319.148936
+kolkata south,lake market,Kolkata South,Lake Market,22.515358,88.3500398,0,24,2,1,15,1,7749.350649
+kolkata south,lake range,Kolkata South,Lake Range,22.512436,88.347349,0,26,1.333333333,2,0.5,1,11007.62066
+kolkata south,lansdown,Kolkata South,Lansdown,22.527533,88.3513,0,25,1.333333333,2,3,3,9479.227618
+kolkata south,laskarpur,Kolkata South,Laskarpur,22.536025,88.35469,0,0,5,2,0,1,4823.529412
+kolkata south,madurdaha,Kolkata South,Madurdaha,22.5023183,88.406038,0,10,5,2,3,29,5000
+kolkata south,mahamayatala,Kolkata South,Mahamayatala,22.45365,88.38791,0,6,1.333333333,3,0.5,13,5549.787234
+kolkata south,maheshtala,Kolkata South,Maheshtala,22.510264,88.23,0,1,5,3,0.5,20,4494.382022
+kolkata south,mandevilla garden,Kolkata South,Mandevilla Garden,22.521551,88.362672,0,21,5,3,15,2,12224.78239
+kolkata south,manoharpukur,Kolkata South,Manoharpukur,22.5204545,88.352015,0,26,1.666666667,1,1.75,4,10324.67532
+kolkata south,mayfair road,Kolkata South,Mayfair Road,22.536025,88.35469,0,17,1.333333333,1,15,1,7894.736842
+kolkata south,mission pally,Kolkata South,Mission Pally,22.437753,88.414464,0,3,5,2,0,1,3200.56101
+kolkata south,moore avenue,Kolkata South,Moore Avenue,22.49092545,88.34707445,0,21,1.333333333,2,5.25,6,5333.783784
+kolkata south,muchipara,Kolkata South,Muchipara,22.487508,88.287829,0,5,5,3,15,1,2875
+kolkata south,mukundapur,Kolkata South,Mukundapur,22.49273247,88.40865,0,8,5,3,3,56,5866.242038
+kolkata south,nabapally,Kolkata South,Nabapally,22.45198583,88.30862651,0,12,5,2,0,1,3695.150115
+kolkata south,naktala,Kolkata South,Naktala,22.473451,88.368155,0,13,2,2,3,17,4933.333333
+kolkata south,nandan kanan,Kolkata South,Nandan Kanan,22.49652,88.396,0,10,5,1,3,1,6910.569106
+kolkata south,nandi bagan,Kolkata South,Nandi Bagan,22.507309,88.386635,0,10,5,2,3,1,4651.162791
+kolkata south,narendrapur,Kolkata South,Narendrapur,22.43618278,88.401162,0,1,5,2,3,128,3980.845369
+kolkata south,narendrapur sonapur crossing,Kolkata South,Narendrapur Sonapur Crossing,22.447386,88.391734,0,5,5,3,0,1,3599.264706
+kolkata south,nayabad,Kolkata South,Nayabad,22.482634,88.4129526,0,8,5,2,3,102,4000
+kolkata south,near rabindra sarovar metro tollygung road,Kolkata South,Near Rabindra Sarovar Metro Tollygung Road,22.536025,88.35469,0,17,1.333333333,1,15,1,7052.631579
+kolkata south,near southern avenue and saratbose road crossing,Kolkata South,Near Southern Avenue And Saratbose Road Crossing,22.536025,88.35469,0,17,1.333333333,2,7.5,1,10555.55556
+kolkata south,nepalgunj tollygunge,Kolkata South,Nepalgunj Tollygunge,22.536025,88.35469,0,0,5,3,0,1,3333.333333
+kolkata south,new alipore,Kolkata South,New Alipore,22.509854,88.329598,0,3,1.666666667,2,1.75,36,10575.56936
+kolkata south,new alipore block g,Kolkata South,New Alipore Block G,22.536025,88.35469,0,17,1.333333333,3,15,1,15324.88762
+kolkata south,new ballygunge,Kolkata South,New Ballygunge,22.520718,88.378747,0,11,5,2,7.75,2,6201.938627
+kolkata south,new garia,Kolkata South,New Garia,22.4800793,88.4044935,0,10,2,2,3,25,4281.767956
+kolkata south,new santoshpur,Kolkata South,New Santoshpur,22.494921,88.387641,0,14,5,2,0.5,1,5200
+kolkata south,north purbachal,Kolkata South,North Purbachal,22.506066,88.397738,0,11,5,1,7.5,1,5294.117647
+kolkata south,nsc bose road,Kolkata South,Nsc Bose Road,22.5283976,88.3527483,0,23,1.333333333,2,7.5,5,4166.666667
+kolkata south,on embypass,Kolkata South,On Embypass,22.499014,88.39904,0,10,5,2,3,1,8000
+kolkata south,p majumder road,Kolkata South,P Majumder Road,22.509784,88.389646,0,11,5,1.5,9,2,6273.809524
+kolkata south,p.a shah connector,Kolkata South,P.A Shah Connector,22.536025,88.35469,0,0,5,2,3,1,5174.129353
+kolkata south,paddapukur,Kolkata South,Paddapukur,22.53024,88.34883,0,20,1.333333333,2,0.5,1,8695.652174
+kolkata south,panchasayar,Kolkata South,Panchasayar,22.47751,88.39917,0,15,1.333333333,3,15,1,4631.773969
+kolkata south,panditiya road,Kolkata South,Panditiya Road,22.5219079,88.3587831,0,24,5,3,0.5,1,10012.06273
+kolkata south,park circus,Kolkata South,Park Circus,22.547169,88.371908,5,1,1.333333333,2.5,3,6,12466.80217
+kolkata south,parnashree,Kolkata South,Parnashree,22.5081,88.30466,0,13,5,1,3,19,4200.700117
+kolkata south,parnasree palli,Kolkata South,Parnasree Palli,22.509326,88.301471,0,10.5,5,1.5,3,28,4462.178428
+kolkata south,paschim barisha,Kolkata South,Paschim Barisha,22.473536,88.3050903,0,16,5,3,7.5,1,4129.032258
+kolkata south,paschim putiary,Kolkata South,Paschim Putiary,22.536025,88.35469,0,0,5,0,15,1,3230.769231
+kolkata south,patuli,Kolkata South,Patuli,22.47636,88.38565,0,17,1,3,3,15,5701.754386
+kolkata south,picnic garden,Kolkata South,Picnic Garden,22.530623,88.381428,0,18,5,3,7.5,7,6333.333333
+kolkata south,postal park,Kolkata South,Postal Park,22.468409,88.360737,0,14,5,1,15,1,3283.58209
+kolkata south,prince anwar shah rd,Kolkata South,Prince Anwar Shah Rd,22.5026325,88.3628985,2.5,8.5,5,9.5,7.5,16,12007.71534
+kolkata south,prince anwar shah road connector,Kolkata South,Prince Anwar Shah Road Connector,22.50217,88.391525,0,11.5,5,3.5,3,6,5914.342629
+kolkata south,purba barisha,Kolkata South,Purba Barisha,22.477387,88.316681,0,19,5,2,7.5,3,4054.054054
+kolkata south,purbachal,Kolkata South,Purbachal,22.50712,88.397934,0,11,5,1,3,3,6080
+kolkata south,purbachal kalitala,Kolkata South,Purbachal Kalitala,22.5010095,88.3984835,0,10,5,2,3,2,6339.552239
+kolkata south,purbalok,Kolkata South,Purbalok,22.4973183,88.403156,0,10,5,2,3,5,4524.886878
+kolkata south,rabindra nagar,Kolkata South,Rabindra Nagar,22.532537,88.257759,0,2,5,1.5,0.25,2,4041.017343
+kolkata south,rabindra sarova metro,Kolkata South,Rabindra Sarova Metro,22.50737845,88.34376925,0,19.5,1,1,3.75,2,6791.381604
+kolkata south,raipur,Kolkata South,Raipur,22.46665,88.37592,0,16,1.333333333,3,7.5,1,4700
+kolkata south,raja sc mallick road,Kolkata South,Raja Sc Mallick Road,22.493272,88.3720605,0,19,5,1,7.5,2,6705.999551
+kolkata south,rajabasanta roy road,Kolkata South,Rajabasanta Roy Road,22.51392,88.35387,0,20,2,2,7.5,1,10833.33333
+kolkata south,rajdanga,Kolkata South,Rajdanga,22.51323279,88.38953934,0,10,5,2,3,1,7291.666667
+kolkata south,rajpur,Kolkata South,Rajpur,22.41657889,88.40686714,0,1,5,2,0.25,14,4316.326045
+kolkata south,rajpur sonarpur,Kolkata South,Rajpur Sonarpur,22.4610136,88.4087632,0,5,1.333333333,3,1.75,4,3504.564907
+kolkata south,ramchandrapur,Kolkata South,Ramchandrapur,22.432112,88.381536,0,1,5,1,0.5,3,3613.071895
+kolkata south,ramgarh,Kolkata South,Ramgarh,22.4740916,88.377655,0,15,1.333333333,2,7.5,3,4049.844237
+kolkata south,ranikuthi,Kolkata South,Ranikuthi,22.48292,88.35413,0,19,1.333333333,3.5,15,2,4562.939522
+kolkata south,rash behari,Kolkata South,Rash Behari,22.52051985,88.357044,0,15,3.166666667,3,3,4,9541.942596
+kolkata south,rathtala,Kolkata South,Rathtala,22.46928,88.37202,0,15,2,2,7.5,1,3936.170213
+kolkata south,ravindra pally,Kolkata South,Ravindra Pally,22.51960781,88.39215208,0,14,5,1,3,1,3287.671233
+kolkata south,rb connector,Kolkata South,Rb Connector,22.51654971,88.38816558,0,13,5,2,3,1,7253.88601
+kolkata south,ritchie road,Kolkata South,Ritchie Road,22.52688,88.35529,0,26,2,3,7.5,1,10324.48378
+kolkata south,ruby hosp main road,Kolkata South,Ruby Hosp Main Road,22.51315,88.40269,0,7,5,1,3,1,6000
+kolkata south,ruby park east,Kolkata South,Ruby Park East,22.513332,88.386665,0,12,5,4,3,1,6250
+kolkata south,sahapur,Kolkata South,Sahapur,22.50823591,88.32680629,0,17,2,0,15,1,4421.052632
+kolkata south,sakher bazar,Kolkata South,Sakher Bazar,22.48006,88.309469,0,19,5,3,7.5,8,4000
+kolkata south,sammilani park,Kolkata South,Sammilani Park,22.49652,88.396,0,10,5,1,3,1,6072.874494
+kolkata south,santoshpur,Kolkata South,Santoshpur,22.495527,88.384304,0,14,5,2.5,5.25,6,6108.21382
+kolkata south,sarada park,Kolkata South,Sarada Park,22.45864,88.373679,0,11,2,1.5,3,2,4200
+kolkata south,sarat bose road,Kolkata South,Sarat Bose Road,22.526455,88.3526547,0,25,1.333333333,4,3,9,12571.42857
+kolkata south,sarkarhat,Kolkata South,Sarkarhat,22.483595,88.293526,0,9,5,3,3,1,3216.080402
+kolkata south,sarsuna,Kolkata South,Sarsuna,22.482899,88.2866255,0,4,5,1.5,0.5,6,3336.956522
+kolkata south,selimpur,Kolkata South,Selimpur,22.5211575,88.361565,0,7.5,5,2,7.5,2,7634.462151
+kolkata south,shanti pally,Kolkata South,Shanti Pally,22.521038,88.387629,0,14,5,3,15,1,2867.924528
+kolkata south,silpara,Kolkata South,Silpara,22.47498775,88.31100855,0,18,5,1,3,6,3623.780091
+kolkata south,sirity,Kolkata South,Sirity,22.492871,88.337947,0,21,1,3,11.25,2,4494.949495
+kolkata south,sn roy road,Kolkata South,Sn Roy Road,22.5061949,88.3275306,0,17,2,2,7.5,1,4571.428571
+kolkata south,sodepur,Kolkata South,Sodepur,22.47420842,88.3284168,0,16,2,2,0,1,3058.823529
+kolkata south,sonarpur,Kolkata South,Sonarpur,22.439576,88.4126,0,2,5,3,3,23,3599.14408
+kolkata south,southern avenue,Kolkata South,Southern Avenue,22.5133969,88.356058,0,17,5,3,3,9,11235.95506
+kolkata south,sreerampur,Kolkata South,Sreerampur,22.4679,88.38078,0,15,1,1,15,1,4090.909091
+kolkata south,srinagar,Kolkata South,Srinagar,22.4736293,88.4073128,0,10,1.333333333,2,3,1,4198.005698
+kolkata south,subodh garden,Kolkata South,Subodh Garden,22.4715692,88.3625219,0,16,2,0,7.5,1,4390.243902
+kolkata south,sucheta nagar,Kolkata South,Sucheta Nagar,22.509758,88.382569,0,13,5,2,3,1,3277.777778
+kolkata south,sunny park,Kolkata South,Sunny Park,22.536025,88.35469,0,17,1.333333333,1,15,1,16521.73913
+kolkata south,survey park,Kolkata South,Survey Park,22.49194,88.393071,0,11,5,1.5,7.5,12,5069.444444
+kolkata south,swiss park,Kolkata South,Swiss Park,22.504333,88.350367,0,22,1.333333333,3,15,1,5142.857143
+kolkata south,tagore park,Kolkata South,Tagore Park,22.5221309,88.394025,0,16,5,1,7.5,1,5603.448276
+kolkata south,tara park,Kolkata South,Tara Park,22.4972,88.338401,0,24,1,8.5,7.5,8,6730.220955
+kolkata south,thakurpukur,Kolkata South,Thakurpukur,22.454285,88.302975,0,12,5,2,7.5,24,3856.033453
+kolkata south,thakurpukur 3a bus stand,Kolkata South,Thakurpukur 3A Bus Stand,22.4565591,88.30730055,0,12,5,1.5,5.25,2,3271.24183
+kolkata south,thakurpukur bazar,Kolkata South,Thakurpukur Bazar,22.46376,88.30718,0,12,5,1.5,11.25,2,3408.333333
+kolkata south,tiljala,Kolkata South,Tiljala,22.5281485,88.3889255,0,19.5,5,6.5,9,2,5867.886179
+kolkata south,tollygunge,Kolkata South,Tollygunge,22.5,88.35,0,18,1.333333333,6,0.5,188,8982.758621
+kolkata south,tollygunge karunamoyee,Kolkata South,Tollygunge Karunamoyee,22.449213,88.37487,0,6,2,1.5,3,4,3407.453034
+kolkata south,tollygunge phari,Kolkata South,Tollygunge Phari,22.50419887,88.34561322,0,18,1,5,15,1,8895.705521
+kolkata south,topsia,Kolkata South,Topsia,22.543605,88.38697,3,3,5,9,3,6,10594.5333
+kolkata south,usha park,Kolkata South,Usha Park,22.46722854,88.36431454,0,13,2,2,7.5,1,6597.222222
+kolkata south,vivekananda park,Kolkata South,Vivekananda Park,22.482269,88.336605,0,16,1.333333333,2,0.5,1,3378.378378
+kolkata west,andul road,Kolkata West,Andul Road,22.56512,88.28371,0,9,5,3,0.5,1,2982.601491
+kolkata west,arabinda pally,Kolkata West,Arabinda Pally,22.74395,88.392677,0,11,5,4,15,1,3660.130719
+kolkata west,bally,Kolkata West,Bally,22.620338,88.43259,0,24,5,3,3,1,2833.333333
+kolkata west,baltikuri,Kolkata West,Baltikuri,22.60402526,88.29327393,0,7,5,1,0.5,1,4026.315789
+kolkata west,bandel,Kolkata West,Bandel,22.923422,88.382006,0,4,5,2,0,1,2990.217391
+kolkata west,bhadrakali,Kolkata West,Bhadrakali,22.67747385,88.34958415,0,13.5,5,0,4,2,1996.930764
+kolkata west,bhadreswar,Kolkata West,Bhadreswar,22.835021,88.3545,0,3,5,3,15,1,2294.329728
+kolkata west,bhangar,Kolkata West,Bhangar,22.512747,88.609395,0,0,5,2,0.5,1,2729.257642
+kolkata west,chandannagar,Kolkata West,Chandannagar,22.855886,88.38,0,6,5,2,0,5,3425.373134
+kolkata west,chinsurah,Kolkata West,Chinsurah,22.8853009,88.3915944,0,9,5,4,3,1,2914.798206
+kolkata west,dankuni,Kolkata West,Dankuni,22.675295,88.293686,0,2,5,2,7.5,3,2666.666667
+kolkata west,domjur,Kolkata West,Domjur,22.630471,88.220473,0,3,5,3,0,1,5276.225947
+kolkata west,hindmotor,Kolkata West,Hindmotor,22.6850408,88.34613645,0,10,5,2,0.5,4,2600.11104
+kolkata west,hooghly,Kolkata West,Hooghly,22.895469,88.396289,0,11,5,4,15,1,2261.048304
+kolkata west,howrah,Kolkata West,Howrah,22.572646,88.3107255,0,1,1.666666667,1,0,18,5083.348446
+kolkata west,konnagar,Kolkata West,Konnagar,22.699486,88.3509157,0,6,5,2,0.5,49,2600
+kolkata west,liluah,Kolkata West,Liluah,22.6204715,88.323614,0,9,5,2,15,3,4500
+kolkata west,makhla,Kolkata West,Makhla,22.676132,88.317815,0,5,5,2,3,1,2927.400468
+kolkata west,mandirtala,Kolkata West,Mandirtala,22.45432,88.42827,0,4,5,4,15,1,6704.545455
+kolkata west,mankundu,Kolkata West,Mankundu,22.841217,88.339836,0,2,5,2,0.5,1,3641.025641
+kolkata west,mourigram,Kolkata West,Mourigram,22.566305,88.273073,0,7,5,2,0.5,1,3333.333333
+kolkata west,"pipulpati, chinsurah",Kolkata West,"Pipulpati, Chinsurah",22.58802,88.282673,0,0,5,3,0,1,3401.267159
+kolkata west,rishra,Kolkata West,Rishra,22.725355,88.3384899,0,6,5,10,0.5,2,2813.402443
+kolkata west,salap,Kolkata West,Salap,22.614374,88.270976,0,4,5,3,0,1,5270.006506
+kolkata west,santragachi,Kolkata West,Santragachi,22.59661808,88.26242537,3,2,0.8,1,0,8,6153.37432
+kolkata west,serampore,Kolkata West,Serampore,22.737313,88.351235,2,1,1,1,0,16,3732.85588
+kolkata west,tram depot,Kolkata West,Tram Depot,22.56495418,88.32233285,0,16,5,2,3,1,4868.421053
+kolkata west,uttarpara,Kolkata West,Uttarpara,22.68542725,88.34028905,0,6.5,1.666666667,1,0.25,12,3789.087302
+kolkata west,uttarpara kotrung,Kolkata West,Uttarpara Kotrung,22.662827,88.344345,0,13,5,4,7.5,1,3050.288541
+mira road and beyond,bevarly park,Mira Road And Beyond,Bevarly Park,19.2948077,72.8690019,0,28,5,5,7.5,1,7684.210526
+mira road and beyond,bhayander east,Mira Road And Beyond,Bhayander East,19.302993,72.862417,0,35.5,5,5,9,2,10078.125
+mira road and beyond,bhayander west,Mira Road And Beyond,Bhayander West,19.2978835,72.8419965,1.5,1,3.166666667,1,0,2,20993.74918
+mira road and beyond,bolinj,Mira Road And Beyond,Bolinj,19.443608,72.795898,0,32,5,3,7.5,1,6086.956522
+mira road and beyond,chandrapada,Mira Road And Beyond,Chandrapada,19.369672,72.82898,0,1,2,1,0,2,9446.83708
+mira road and beyond,ghodbunder,Mira Road And Beyond,Ghodbunder,19.29041,72.88772,0,23,5,1,0,1,18295.10703
+mira road and beyond,golani naka,Mira Road And Beyond,Golani Naka,19.39454,72.84837,2,1,2,1,0,1,15702.20588
+mira road and beyond,hatkesh udhog nagar,Mira Road And Beyond,Hatkesh Udhog Nagar,19.285102,72.877786,0,26,5,9.5,3,2,12369.65812
+mira road and beyond,indralok phase 3,Mira Road And Beyond,Indralok Phase 3,19.300414,72.869142,0,32,5,1,7.5,1,10937.5
+mira road and beyond,kashimira,Mira Road And Beyond,Kashimira,19.273899,72.877259,0,26,5,5,3,1,15294.11765
+mira road and beyond,mahajan wadi,Mira Road And Beyond,Mahajan Wadi,19.26471343,72.88092847,1,0,2,1,0,3,15000
+mira road and beyond,mira bhayandar,Mira Road And Beyond,Mira Bhayandar,19.2871385,72.87182,2,1,1.333333333,1,0,22,15355.99817
+mira road and beyond,mira road,Mira Road And Beyond,Mira Road,19.281482,72.86922,2,2,5,1,0,43,17451.21951
+mira road and beyond,mira road east,Mira Road And Beyond,Mira Road East,19.28188,72.87499,2,2,1.333333333,1,0,38,16833.33333
+mira road and beyond,miragaon,Mira Road And Beyond,Miragaon,19.273813,72.880641,4,1,1,1,0,4,16940.78947
+mira road and beyond,naigaon east,Mira Road And Beyond,Naigaon East,19.3594194,72.8570597,0,0,1,1,0,19,8851.948052
+mira road and beyond,nalasopara east,Mira Road And Beyond,Nalasopara East,19.405967,72.824451,0,36,5,7,7.5,1,6990.131579
+mira road and beyond,nalasopara west,Mira Road And Beyond,Nalasopara West,19.4054,72.78666,0,8,5,4,0.5,4,5584.083945
+mira road and beyond,naya nagar,Mira Road And Beyond,Naya Nagar,19.28431637,72.86115338,2,1,1.333333333,1,0,3,15242.16524
+mira road and beyond,nilemore,Mira Road And Beyond,Nilemore,19.427469,72.815799,0,38,5,1,0,2,10498.5119
+mira road and beyond,poonam gardens,Mira Road And Beyond,Poonam Gardens,19.277598,72.878599,0.5,11,5,6,5.25,2,13003.91236
+mira road and beyond,vasai,Mira Road And Beyond,Vasai,19.3924255,72.8292925,0,33.5,5,2.5,0.25,4,7230.272436
+mira road and beyond,vasai east,Mira Road And Beyond,Vasai East,19.394822,72.84717187,2,1,1.333333333,1,0,8,11274.93606
+mira road and beyond,vasai west,Mira Road And Beyond,Vasai West,19.3798751,72.8162896,0,33,5,1,3,15,7719.298246
+mira road and beyond,vinay nagar,Mira Road And Beyond,Vinay Nagar,19.280078,72.881717,0,24,5,12.5,1.75,2,16096.9777
+mira road and beyond,virar east,Mira Road And Beyond,Virar East,19.449129,72.81744,0,38,5,7,7.5,1,8262.711864
+mira road and beyond,virar west,Mira Road And Beyond,Virar West,19.470043,72.799953,1,1,2,1,0,37,10031.64557
+mira road and beyond,"yk nagar nx, near expert international high school, virar west",Mira Road And Beyond,"Yk Nagar Nx, Near Expert International High School, Virar West",19.461696,72.802742,0,28,5,7,3,1,7500
+mumbai andheri-dahisar,4 bunglows,Mumbai Andheri-Dahisar,4 Bunglows,19.125888,72.825834,0,9,5,7,15,4,33228.81504
+mumbai andheri-dahisar,adarsh nagar,Mumbai Andheri-Dahisar,Adarsh Nagar,19.1391789,72.8326323,0,4,2,21,7.5,1,22758.62069
+mumbai andheri-dahisar,amboli,Mumbai Andheri-Dahisar,Amboli,19.12708,72.84342,0,25,1.333333333,7,3,5,30162.41299
+mumbai andheri-dahisar,andheri east,Mumbai Andheri-Dahisar,Andheri East,19.117336,72.8684365,0,7,1.333333333,3,3,17,22767.85714
+mumbai andheri-dahisar,andheri west,Mumbai Andheri-Dahisar,Andheri West,19.130933,72.8321907,0,11,2,1.5,0.5,40,31361.27199
+mumbai andheri-dahisar,asha nagar,Mumbai Andheri-Dahisar,Asha Nagar,19.2119918,72.8635202,0,15,5,1,15,1,28888.88889
+mumbai andheri-dahisar,avdhut nagar,Mumbai Andheri-Dahisar,Avdhut Nagar,19.2566666,72.8597604,0,32,5,3,15,1,20000
+mumbai andheri-dahisar,borivali east,Mumbai Andheri-Dahisar,Borivali East,19.221539,72.8614303,1,1,1.333333333,20,0,46,34668.80342
+mumbai andheri-dahisar,borivali west,Mumbai Andheri-Dahisar,Borivali West,19.23693,72.8468785,0,34.5,5,1,1.75,14,28347.5892
+mumbai andheri-dahisar,caesar road,Mumbai Andheri-Dahisar,Caesar Road,19.12812,72.8443,0,26,1.333333333,6,15,1,32451.92308
+mumbai andheri-dahisar,chakala,Mumbai Andheri-Dahisar,Chakala,19.109497,72.85932,0,12,2,3,3,3,32075.4717
+mumbai andheri-dahisar,charkop,Mumbai Andheri-Dahisar,Charkop,19.2107,72.82005,1,0,2,1,0,3,18666.66667
+mumbai andheri-dahisar,chincholi bunder,Mumbai Andheri-Dahisar,Chincholi Bunder,19.180578,72.837635,0,32,2,18,0.5,1,17933.33333
+mumbai andheri-dahisar,dahanukar wadi,Mumbai Andheri-Dahisar,Dahanukar Wadi,19.208543,72.837657,4,2,1.333333333,18,0.5,1,18487.97251
+mumbai andheri-dahisar,dahisar east,Mumbai Andheri-Dahisar,Dahisar East,19.25108,72.87208,1,2,2,1,0.5,13,19906.90979
+mumbai andheri-dahisar,dahisar west,Mumbai Andheri-Dahisar,Dahisar West,19.24755125,72.83937053,0.5,17,3.166666667,3,1.5,4,22596.56531
+mumbai andheri-dahisar,devipada,Mumbai Andheri-Dahisar,Devipada,19.223981,72.865072,0,37.5,5,29,5.25,2,22965.1946
+mumbai andheri-dahisar,dindoshi,Mumbai Andheri-Dahisar,Dindoshi,19.175968,72.862424,4,1,2,1,0,2,26667.91324
+mumbai andheri-dahisar,dn nagar,Mumbai Andheri-Dahisar,Dn Nagar,19.123739,72.8313343,1,2,1.333333333,1,0.5,7,38428.57143
+mumbai andheri-dahisar,eksar,Mumbai Andheri-Dahisar,Eksar,19.2384238,72.8540753,1,1,1.333333333,1,0,3,36372.18045
+mumbai andheri-dahisar,four bungalows,Mumbai Andheri-Dahisar,Four Bungalows,19.12594421,72.82348959,0,10,5,5,7.5,1,35000
+mumbai andheri-dahisar,goregaon east,Mumbai Andheri-Dahisar,Goregaon East,19.166705,72.86371925,1,1,1.333333333,4,3,49,26002.97177
+mumbai andheri-dahisar,goregaon west,Mumbai Andheri-Dahisar,Goregaon West,19.15724,72.84105,2,1,1.333333333,1,0,43,27880.18433
+mumbai andheri-dahisar,gundavali,Mumbai Andheri-Dahisar,Gundavali,19.11874917,72.8,0,9,5,1,0,3,45111.66253
+mumbai andheri-dahisar,jankalyan nagar,Mumbai Andheri-Dahisar,Jankalyan Nagar,19.20082235,72.8147881,0,27,3.5,12,3,2,21667.22352
+mumbai andheri-dahisar,jawahar nagar,Mumbai Andheri-Dahisar,Jawahar Nagar,19.161822,72.847486,0,21,5,5,0,1,25925.92593
+mumbai andheri-dahisar,jogeshwari east,Mumbai Andheri-Dahisar,Jogeshwari East,19.13825,72.859873,0,1,1.333333333,1,0,7,26455.02646
+mumbai andheri-dahisar,jogeshwari west,Mumbai Andheri-Dahisar,Jogeshwari West,19.146029,72.84286296,1,1,1,1,0,11,26932.08431
+mumbai andheri-dahisar,juhu lane,Mumbai Andheri-Dahisar,Juhu Lane,19.1177125,72.8393947,0,33,5,10,15,1,40000
+mumbai andheri-dahisar,jvlr,Mumbai Andheri-Dahisar,Jvlr,19.12465,72.895763,2,2,1.333333333,1,0,18,30227.22416
+mumbai andheri-dahisar,kanchpada,Mumbai Andheri-Dahisar,Kanchpada,19.192336,72.835411,6,2,2,20,0,1,18348.62385
+mumbai andheri-dahisar,kandarpada,Mumbai Andheri-Dahisar,Kandarpada,19.175968,72.8443,0,0,5,9,3,2,19068.95208
+mumbai andheri-dahisar,kandivali east,Mumbai Andheri-Dahisar,Kandivali East,19.2004421,72.87064995,2,1,1.333333333,1,0,40,26417.20892
+mumbai andheri-dahisar,kandivali west,Mumbai Andheri-Dahisar,Kandivali West,19.2068723,72.830758,2,2,1.333333333,1,7.5,15,22806.87831
+mumbai andheri-dahisar,kurar village,Mumbai Andheri-Dahisar,Kurar Village,19.19049,72.86394,0,37,5,1,0,1,15000
+mumbai andheri-dahisar,lokhandwala andheri west,Mumbai Andheri-Dahisar,Lokhandwala Andheri West,19.1712843,72.8439132,0,22.5,5,13,7.75,2,25378.78788
+mumbai andheri-dahisar,lokhandwala kandivali east,Mumbai Andheri-Dahisar,Lokhandwala Kandivali East,19.19679455,72.8739443,0,15.5,5,14,3,6,25820.13796
+mumbai andheri-dahisar,magathane,Mumbai Andheri-Dahisar,Magathane,19.21907,72.86847,1,1,1.333333333,1,0,7,24729.52087
+mumbai andheri-dahisar,mahakali caves,Mumbai Andheri-Dahisar,Mahakali Caves,19.130167,72.873158,0,33,1,3,7.5,1,16363.63636
+mumbai andheri-dahisar,mahavir nagar,Mumbai Andheri-Dahisar,Mahavir Nagar,19.216618,72.845061,0,26,5,8,15,1,26947.36842
+mumbai andheri-dahisar,mahesh nagar,Mumbai Andheri-Dahisar,Mahesh Nagar,19.170541,72.842408,0,25,5,5,3,1,27272.72727
+mumbai andheri-dahisar,malad east,Mumbai Andheri-Dahisar,Malad East,19.181605,72.859486,2,2,1.333333333,6,0.5,35,24305.55556
+mumbai andheri-dahisar,malad west,Mumbai Andheri-Dahisar,Malad West,19.185656,72.835387,1,1,1.333333333,1,0.5,31,26428.57143
+mumbai andheri-dahisar,malvani,Mumbai Andheri-Dahisar,Malvani,19.182184,72.820898,2,1,2,1,0,2,13715.65353
+mumbai andheri-dahisar,maratha colony,Mumbai Andheri-Dahisar,Maratha Colony,19.25331,72.861103,1,1,1.333333333,1,0,2,29322.79916
+mumbai andheri-dahisar,marol,Mumbai Andheri-Dahisar,Marol,19.1145405,72.8841003,2,1,1.333333333,8,0.5,37,22448.97959
+mumbai andheri-dahisar,mindspace,Mumbai Andheri-Dahisar,Mindspace,19.196405,72.829642,0,26,2,9,15,1,21920.66806
+mumbai andheri-dahisar,model town,Mumbai Andheri-Dahisar,Model Town,19.13103989,72.82095697,0,14,2,1,0,3,38005.78035
+mumbai andheri-dahisar,mota nagar,Mumbai Andheri-Dahisar,Mota Nagar,19.113777,72.857834,0,9,2,3,3,1,26902.17391
+mumbai andheri-dahisar,oshiwara,Mumbai Andheri-Dahisar,Oshiwara,19.14669,72.84076,2,1,1.333333333,1,0,10,38309.70626
+mumbai andheri-dahisar,pandurang wadi,Mumbai Andheri-Dahisar,Pandurang Wadi,19.171174,72.850939,0,21,5,2,15,1,23809.52381
+mumbai andheri-dahisar,poisar,Mumbai Andheri-Dahisar,Poisar,19.2128496,72.8483983,1,1,2,1,0,2,27366.5254
+mumbai andheri-dahisar,prem nagar,Mumbai Andheri-Dahisar,Prem Nagar,19.238104,72.852438,0,40,5,8,15,1,34615.38462
+mumbai andheri-dahisar,pushpa park,Mumbai Andheri-Dahisar,Pushpa Park,19.187194,72.858705,0,5,5,14,0.5,1,22448.97959
+mumbai andheri-dahisar,rajan pada,Mumbai Andheri-Dahisar,Rajan Pada,19.179691,72.83319,0,28,2,5,15,1,19469.02655
+mumbai andheri-dahisar,sahar road,Mumbai Andheri-Dahisar,Sahar Road,19.10729379,72.86309623,1,6.5,3,5.5,0,2,28505.50185
+mumbai andheri-dahisar,sakinaka,Mumbai Andheri-Dahisar,Sakinaka,19.09759,72.88725,2,2,1,8,0.5,3,22994.65241
+mumbai andheri-dahisar,sector 2 charkop,Mumbai Andheri-Dahisar,Sector 2 Charkop,19.21371,72.81959,0,26,5,6,15,3,19285.71429
+mumbai andheri-dahisar,sector 8 charkop,Mumbai Andheri-Dahisar,Sector 8 Charkop,19.2160257,72.81637995,0,24,5,3,11.25,4,19669.35484
+mumbai andheri-dahisar,seven bunglow,Mumbai Andheri-Dahisar,Seven Bunglow,19.130086,72.817828,0,11,2,8,15,2,38311.68831
+mumbai andheri-dahisar,shakti nagar,Mumbai Andheri-Dahisar,Shakti Nagar,19.260278,72.863705,0,34,5,3,15,1,15094.33962
+mumbai andheri-dahisar,shastri nagar,Mumbai Andheri-Dahisar,Shastri Nagar,19.141195,72.829366,0,3,3.5,12.5,15,4,33712.12121
+mumbai andheri-dahisar,sher e punjab colony,Mumbai Andheri-Dahisar,Sher E Punjab Colony,19.1312587,72.8604257,2,1,1,1,0,1,24882.62911
+mumbai andheri-dahisar,shivaji nagar,Mumbai Andheri-Dahisar,Shivaji Nagar,19.22574,72.844396,2,1,1.333333333,0,3,1,35714.28571
+mumbai andheri-dahisar,siddharth nagar,Mumbai Andheri-Dahisar,Siddharth Nagar,19.1581,72.841794,0,21,5,7,0,3,23591.5493
+mumbai andheri-dahisar,somwari bazar,Mumbai Andheri-Dahisar,Somwari Bazar,19.181571,72.842034,0,36,2,9,15,1,21666.66667
+mumbai andheri-dahisar,subhash nagar,Mumbai Andheri-Dahisar,Subhash Nagar,19.12518,72.867919,0,27,1,3,15,2,23588.23529
+mumbai andheri-dahisar,sunder nagar,Mumbai Andheri-Dahisar,Sunder Nagar,19.178766,72.84353,0,33,2,4,15,1,22716.04938
+mumbai andheri-dahisar,sv patel nagar,Mumbai Andheri-Dahisar,Sv Patel Nagar,19.135013,72.823038,0,14,2,7,15,3,29548.87218
+mumbai andheri-dahisar,thakur complex,Mumbai Andheri-Dahisar,Thakur Complex,19.213636,72.86181,0,26,5,14,15,1,26222.22222
+mumbai andheri-dahisar,thakur village,Mumbai Andheri-Dahisar,Thakur Village,19.2108045,72.872666,0,16,5,2,3,9,32329.98885
+mumbai andheri-dahisar,upper govind nagar,Mumbai Andheri-Dahisar,Upper Govind Nagar,19.175612,72.853811,0,32,5,5,15,1,31724.13793
+mumbai andheri-dahisar,vazira,Mumbai Andheri-Dahisar,Vazira,19.225931,72.843575,0,29,5,7,15,1,25454.54545
+mumbai andheri-dahisar,veera desai industrial estate,Mumbai Andheri-Dahisar,Veera Desai Industrial Estate,19.13882,72.834113,0,6,2,6,15,1,17777.77778
+mumbai andheri-dahisar,veera desai road,Mumbai Andheri-Dahisar,Veera Desai Road,19.13049,72.8376,0,22,1.333333333,4.5,15,2,23289.81055
+mumbai andheri-dahisar,versova,Mumbai Andheri-Dahisar,Versova,19.1387428,72.812251,1,3,5,1,0.5,6,33243.92318
+mumbai beyond thane,adharwadi,Mumbai Beyond Thane,Adharwadi,19.253936,73.127119,0,42,5,7,15,1,9523.809524
+mumbai beyond thane,ambernath,Mumbai Beyond Thane,Ambernath,19.19945692,73.2007345,2,2,5,1,0,18,6987.901108
+mumbai beyond thane,ambernath east,Mumbai Beyond Thane,Ambernath East,19.189757,73.176814,1,1,5,1,0.5,5,7353.87674
+mumbai beyond thane,ambernath west,Mumbai Beyond Thane,Ambernath West,19.188736,73.205288,1,1,5,1,3,7,5555.555556
+mumbai beyond thane,anjurdive,Mumbai Beyond Thane,Anjurdive,19.247825,73.052334,1,1,5,1,0.5,6,13781.22216
+mumbai beyond thane,asangaon,Mumbai Beyond Thane,Asangaon,19.438428,73.310979,0,7,5,1,3,1,4545.454545
+mumbai beyond thane,badlapur,Mumbai Beyond Thane,Badlapur,19.150545,73.232548,0,17,5,1,0.5,7,5000
+mumbai beyond thane,badlapur east,Mumbai Beyond Thane,Badlapur East,19.153255,73.246766,0,19,5,1,0.5,9,3877.04918
+mumbai beyond thane,badlapur west,Mumbai Beyond Thane,Badlapur West,19.176383,73.257286,0,18,5,1,0,11,5035.264484
+mumbai beyond thane,bhadra nagar,Mumbai Beyond Thane,Bhadra Nagar,19.182469,73.089484,6,0,5,1,0,9,11011.76471
+mumbai beyond thane,bhivpuri,Mumbai Beyond Thane,Bhivpuri,18.963418,73.339358,2,1,2,2,0.5,1,4000
+mumbai beyond thane,bhiwandi,Mumbai Beyond Thane,Bhiwandi,19.268855,73.0482912,0,11,5,8,3,5,7193.229901
+mumbai beyond thane,diva,Mumbai Beyond Thane,Diva,19.1650267,73.0439006,0,3,5,1,0,5,7645.892351
+mumbai beyond thane,dombivli,Mumbai Beyond Thane,Dombivli,19.168447,73.073996,0,4,5,6,3,1,6043.165468
+mumbai beyond thane,dombivli east,Mumbai Beyond Thane,Dombivli East,19.18813905,73.0912124,2,1,2,1,0,84,10271.68166
+mumbai beyond thane,dombivli west,Mumbai Beyond Thane,Dombivli West,19.226503,73.075381,1,19.5,3.166666667,1,0.25,8,9681.487207
+mumbai beyond thane,gauripada,Mumbai Beyond Thane,Gauripada,19.2520246,73.1464039,0,43,5,1,7.5,1,16666.66667
+mumbai beyond thane,golavli,Mumbai Beyond Thane,Golavli,19.2214613,72.959377,0,14,5,1,0,1,12665.40643
+mumbai beyond thane,kalyan,Mumbai Beyond Thane,Kalyan,19.2458643,73.1269215,0,40,5,4,7.5,1,14045.49951
+mumbai beyond thane,kalyan east,Mumbai Beyond Thane,Kalyan East,19.22704595,73.132412,0,40.5,5,1,0,10,8674.794593
+mumbai beyond thane,kalyan west,Mumbai Beyond Thane,Kalyan West,19.250323,73.123194,0,3,2,1,0,29,8928.571429
+mumbai beyond thane,karjat,Mumbai Beyond Thane,Karjat,18.909877,73.337076,0,0,1.333333333,1,0,3,7843.137255
+mumbai beyond thane,katrap,Mumbai Beyond Thane,Katrap,19.167221,73.221005,0,21,5,3,3,7,4114.285714
+mumbai beyond thane,khadakpada,Mumbai Beyond Thane,Khadakpada,19.26614,73.1189,0,26,5,1,0,5,13797.942
+mumbai beyond thane,khoni,Mumbai Beyond Thane,Khoni,19.316638,73.059657,0,27,5,2,3,1,6200
+mumbai beyond thane,kulgaon,Mumbai Beyond Thane,Kulgaon,19.161953,73.237695,0,19,5,1,3,1,4216.86747
+mumbai beyond thane,neral,Mumbai Beyond Thane,Neral,19.024632,73.3161,0,1.5,5,2,0.5,4,4498.130453
+mumbai beyond thane,nilje gaon,Mumbai Beyond Thane,Nilje Gaon,19.16161458,73.07975757,1,2.5,3,2.5,1.5,2,8106.027818
+mumbai beyond thane,pale gaon,Mumbai Beyond Thane,Pale Gaon,19.188288,73.168786,2,1,1.333333333,1,0,2,6399.474148
+mumbai beyond thane,sagaon,Mumbai Beyond Thane,Sagaon,19.2009336,73.09590565,2,19.5,3.5,14.5,5.25,2,9382.243857
+mumbai beyond thane,savarkar road,Mumbai Beyond Thane,Savarkar Road,19.245098,73.10902,0,35,5,3,15,1,8965.517241
+mumbai beyond thane,shahad,Mumbai Beyond Thane,Shahad,19.2402012,73.1586791,2,1,1.333333333,1,0,1,9339.19598
+mumbai beyond thane,sonar pada,Mumbai Beyond Thane,Sonar Pada,19.1921595,73.102971,0,29,5,3.5,3.75,2,10062.51166
+mumbai beyond thane,thakurli,Mumbai Beyond Thane,Thakurli,19.19991,73.103379,0,7,5,2,3,5,8904.109589
+mumbai beyond thane,titwala,Mumbai Beyond Thane,Titwala,19.297805,73.208338,0,5,5,1,0.25,8,6571.496212
+mumbai beyond thane,ulhasnagar,Mumbai Beyond Thane,Ulhasnagar,19.21583,73.164535,0,44,5,2,0.5,3,10769.23077
+mumbai beyond thane,vasind,Mumbai Beyond Thane,Vasind,19.406682,73.259623,0,9,5,3,0.5,1,4195.804196
+mumbai beyond thane,wadeghar,Mumbai Beyond Thane,Wadeghar,19.253744,73.121027,0,40,5,7,0,1,6231.884058
+mumbai harbour,byculla,Mumbai Harbour,Byculla,18.981286,72.841512,0,21,5,1,0,11,24963.18115
+mumbai harbour,byculla east,Mumbai Harbour,Byculla East,18.980143,72.840285,2,1,1,13,0,11,52777.77778
+mumbai harbour,chembur,Mumbai Harbour,Chembur,19.059881,72.895774,1,4,2,1,0,31,28976.89769
+mumbai harbour,chembur east,Mumbai Harbour,Chembur East,19.0517735,72.899179,0,3,2,1,0,24,28759.16354
+mumbai harbour,chembur west,Mumbai Harbour,Chembur West,19.046529,72.910753,3,1,1.333333333,1,0,3,31690.14085
+mumbai harbour,chinchpokli east,Mumbai Harbour,Chinchpokli East,18.990724,72.834058,0,16,5,4,0,1,36666.66667
+mumbai harbour,deonar,Mumbai Harbour,Deonar,19.05539,72.91622,0,17,5,6,3,3,23181.81818
+mumbai harbour,ghatla,Mumbai Harbour,Ghatla,19.050414,72.908669,0,15,5,2.5,0,4,30576.57658
+mumbai harbour,sewri,Mumbai Harbour,Sewri,19.000736,72.8534415,2,1,1.333333333,1,0,3,37777.77778
+mumbai harbour,sindhi society chembur,Mumbai Harbour,Sindhi Society Chembur,19.04925,72.889271,2,1,1,1,0.5,5,30405.40541
+mumbai harbour,tilak nagar,Mumbai Harbour,Tilak Nagar,19.07148254,72.90125503,0,23,5,1,0,5,21041.66667
+mumbai harbour,wadala,Mumbai Harbour,Wadala,19.03707425,72.879407,2,3,5,1,0,33,37037.03704
+mumbai harbour,wadala east,Mumbai Harbour,Wadala East,19.0251078,72.870891,1,1,5,1,0.5,23,30883.91906
+mumbai harbour,wadala west,Mumbai Harbour,Wadala West,19.0215535,72.86769,1,10,3,2,7.5,2,32269.04082
+mumbai south west,band stand,Mumbai South West,Band Stand,19.045304,72.81901,0,5,5,5,15,1,86206.89655
+mumbai south west,bandra,Mumbai South West,Bandra,19.172613,72.942474,0,0,5,2,15,2,31250
+mumbai south west,bandra east,Mumbai South West,Bandra East,19.057433,72.850778,1,1,1.333333333,1,0.5,18,56824.95643
+mumbai south west,bandra kurla complex,Mumbai South West,Bandra Kurla Complex,19.066756,72.852054,0,15,5,10,3,7,31666.66667
+mumbai south west,bandra west,Mumbai South West,Bandra West,19.0562045,72.8318785,0,6,5,3.5,1.75,8,71017.89773
+mumbai south west,gandhi nagar,Mumbai South West,Gandhi Nagar,19.056505,72.848041,0,15,5,14,5.25,2,48452.95056
+mumbai south west,gulmohar colony,Mumbai South West,Gulmohar Colony,19.11631435,72.832271,0,19,5,8.5,3,6,40833.33333
+mumbai south west,gulmohar road,Mumbai South West,Gulmohar Road,19.11361076,72.83227961,0,24,5,7,3,2,48214.28571
+mumbai south west,juhu,Mumbai South West,Juhu,19.1112391,72.8334869,0,13,5,3,3,15,54497.3545
+mumbai south west,juhu circle,Mumbai South West,Juhu Circle,19.116109,72.829827,0,16,5,7,15,2,33626.70676
+mumbai south west,juhu scheme,Mumbai South West,Juhu Scheme,19.1102975,72.8314925,0,18.5,5,2.5,3,2,55357.14286
+mumbai south west,jvpd scheme,Mumbai South West,Jvpd Scheme,19.110785,72.832654,0,19,5,3.5,0.5,8,59978.47147
+mumbai south west,kala nagar,Mumbai South West,Kala Nagar,19.061834,72.85261,0,14,5,4,15,1,36363.63636
+mumbai south west,kalina,Mumbai South West,Kalina,19.07290095,72.8669551,0,19.5,5,8.5,5.25,2,35119.04762
+mumbai south west,khar west,Mumbai South West,Khar West,19.07448472,72.83410997,0,10,5,3.5,3,12,60000
+mumbai south west,lic colony,Mumbai South West,Lic Colony,19.09424,72.840036,0,24,2,3,7.5,1,33980.58252
+mumbai south west,mahim west,Mumbai South West,Mahim West,19.03804195,72.841842,0.5,1,0.9523809524,1,0,4,46464.18577
+mumbai south west,new mig colony,Mumbai South West,New Mig Colony,19.0583465,72.8519609,0,15,5,7,7.5,1,34473.68421
+mumbai south west,pali hill,Mumbai South West,Pali Hill,19.06955195,72.8280399,0,8,5,11,5.25,2,56495.09804
+mumbai south west,ram krishna nagar,Mumbai South West,Ram Krishna Nagar,19.0715,72.838599,0,21,5,2,0,1,31034.48276
+mumbai south west,santacruz east,Mumbai South West,Santacruz East,19.0757235,72.8604045,2,1,1.066666667,1,0,4,35477.20886
+mumbai south west,santacruz west,Mumbai South West,Santacruz West,19.081047,72.8392428,2,2,5,3,0.5,13,56989.24731
+mumbai south west,teachers colony,Mumbai South West,Teachers Colony,19.06973397,72.84631538,2,1,1.333333333,1,0,2,38682.2706
+mumbai south west,union park,Mumbai South West,Union Park,19.0715,72.825677,0,7,5,4,7.5,1,70000
+mumbai south west,vile parle east,Mumbai South West,Vile Parle East,19.09061101,72.85698874,0,20,5,5,7.5,3,36827.95699
+mumbai south west,vile parle west,Mumbai South West,Vile Parle West,19.1053789,72.84125,0,8,5,1,15,3,35294.11765
+mumbai south west,vithaldas nagar,Mumbai South West,Vithaldas Nagar,19.073181,72.832011,0,17,5,5,15,1,52023.12139
+navi mumbai,adivali,Navi Mumbai,Adivali,19.096723,73.056236,0,0,5,1,0,1,11838.50932
+navi mumbai,airoli,Navi Mumbai,Airoli,19.15935,72.992466,2,2,5,1,0.5,10,23616.55839
+navi mumbai,akurli,Navi Mumbai,Akurli,19.007918,73.141953,0,21,5,3,0,1,11356.56836
+navi mumbai,belapur,Navi Mumbai,Belapur,19.0220708,73.0390072,0,14,5,1.5,5.25,4,12042.10526
+navi mumbai,dronagiri,Navi Mumbai,Dronagiri,18.8723755,72.964818,0,1,5,1,0.5,5,11506.27615
+navi mumbai,ghansoli,Navi Mumbai,Ghansoli,19.118945,72.997108,0,2,5,1,0.5,65,19287.83383
+navi mumbai,ghot,Navi Mumbai,Ghot,19.088497,73.111195,2,0,2,1,0,5,10364.0553
+navi mumbai,jijamata nagar,Navi Mumbai,Jijamata Nagar,19.120721,72.992198,0,15,5,3,1.75,4,20990.19608
+navi mumbai,jui nagar,Navi Mumbai,Jui Nagar,19.051574,73.014159,2,1,2,1,0,13,29716.98113
+navi mumbai,kalamboli,Navi Mumbai,Kalamboli,19.037131,73.0950205,0,23,5,3,7.5,13,7164.179104
+navi mumbai,kamothe,Navi Mumbai,Kamothe,19.022624,73.088924,0,23,2,6,3,5,7714.285714
+navi mumbai,karanjade,Navi Mumbai,Karanjade,18.9766805,73.109667,0,40,5,3.5,3,10,7301.587302
+navi mumbai,karave nagar,Navi Mumbai,Karave Nagar,19.011153,73.012224,0,8,5,3,15,1,17910.44776
+navi mumbai,kewale,Navi Mumbai,Kewale,19.023621,73.157134,0,0,5,0,0.5,1,8648.648649
+navi mumbai,khalapur,Navi Mumbai,Khalapur,18.797476,73.282114,1,2,2,1,0.5,3,16107.41688
+navi mumbai,khanda colony,Navi Mumbai,Khanda Colony,19.008232,73.106311,5,1,1.333333333,1,0,4,18001.9305
+navi mumbai,khandeshwar,Navi Mumbai,Khandeshwar,19.010077,73.097134,0,24,2,4,7.5,1,8666.666667
+navi mumbai,kharghar,Navi Mumbai,Kharghar,19.06898962,73.0758915,0,3.5,5,1,0,132,17933.80703
+navi mumbai,"kharghar,sector 23",Navi Mumbai,"Kharghar,Sector 23",19.037617,73.029529,0,20,5,19,0.5,1,31764.70588
+navi mumbai,koperkhairane,Navi Mumbai,Koperkhairane,19.100131,73.00647,0,17,5,1,3,13,20814.97797
+navi mumbai,kutak bandhan,Navi Mumbai,Kutak Bandhan,19.072232,73.077584,0,15,5,1,3,1,8354.43038
+navi mumbai,nere,Navi Mumbai,Nere,19.0110514,73.1707285,0,0,5,2,3,1,7123.655914
+navi mumbai,nerul,Navi Mumbai,Nerul,19.033732,73.021973,2,2,2,1,0,35,26315.78947
+navi mumbai,nerul east,Navi Mumbai,Nerul East,19.03402905,73.02073401,0,19,5,0,0,1,15625
+navi mumbai,new panvel,Navi Mumbai,New Panvel,19.0015736,73.126869,3,1,1.333333333,1,0,39,13724.47183
+navi mumbai,new panvel sec 15a,Navi Mumbai,New Panvel Sec 15A,19.014967,73.09943,0,24,2,3,15,1,10077.51938
+navi mumbai,old panvel,Navi Mumbai,Old Panvel,18.987623,73.101419,0,42,5,1,0,3,13577.43786
+navi mumbai,owe village,Navi Mumbai,Owe Village,19.067095,73.069743,0,21,5,9,3,1,8543.165468
+navi mumbai,palaspe phata,Navi Mumbai,Palaspe Phata,18.969408,73.127568,0,24,5,3,7.5,1,8418.367347
+navi mumbai,palm beach,Navi Mumbai,Palm Beach,19.0610833,73.00363,0,25,5,2,7.5,1,26588.84565
+navi mumbai,panvel,Navi Mumbai,Panvel,18.96791,73.126526,2,1,1.333333333,1,0,104,12844.56323
+navi mumbai,parsik hill belapur,Navi Mumbai,Parsik Hill Belapur,19.037617,73.029529,0,0,5,3,15,1,33457.24907
+navi mumbai,pushpak nagar,Navi Mumbai,Pushpak Nagar,18.9901363,73.078543,1,2,3.5,1,0,20,12615.02799
+navi mumbai,rasayani,Navi Mumbai,Rasayani,19.016119,73.100412,2,1,2,1,0,2,7526.332572
+navi mumbai,roadpali,Navi Mumbai,Roadpali,19.0378525,73.09423191,0,21,5,5.5,1.5,12,8876.995115
+navi mumbai,rohinjan,Navi Mumbai,Rohinjan,19.08935079,73.07904604,0.5,0.5,1.5,1,0,4,12793.16507
+navi mumbai,sai nagar,Navi Mumbai,Sai Nagar,18.994365,73.100043,0,41,2,2,15,1,6000
+navi mumbai,sanpada,Navi Mumbai,Sanpada,19.06148,73.00871,2,3,1.333333333,1,0,19,23291.92547
+navi mumbai,seawoods,Navi Mumbai,Seawoods,19.02174,73.01524,2,1,1.333333333,5,3,31,20975.60976
+navi mumbai,sector 10 kharghar,Navi Mumbai,Sector 10 Kharghar,19.034564,73.076658,0,16,5,10,3,16,13149.13449
+navi mumbai,sector 10 kopar khairane,Navi Mumbai,Sector 10 Kopar Khairane,19.098838,73.006859,0,24,5,1,15,1,15000
+navi mumbai,sector 10 new panvel,Navi Mumbai,Sector 10 New Panvel,19.001365,73.127228,0,22,5,1,15,1,10204.08163
+navi mumbai,sector 10a airoli,Navi Mumbai,Sector 10A Airoli,19.143226,72.990753,0,22,5,12,7.5,1,16746.41148
+navi mumbai,sector 11 ghansoli,Navi Mumbai,Sector 11 Ghansoli,19.125687,72.991905,0,18,5,37,3,1,15151.51515
+navi mumbai,sector 11 kamothe,Navi Mumbai,Sector 11 Kamothe,19.0195311,73.0901729,0,23,2,4,15,1,8173.076923
+navi mumbai,sector 11 khanda colony,Navi Mumbai,Sector 11 Khanda Colony,19.0031413,73.11466235,2,3,1,2,5.25,2,13812.99735
+navi mumbai,sector 11 kharghar,Navi Mumbai,Sector 11 Kharghar,19.038834,73.071567,0,16,5,5,0,5,11836.37946
+navi mumbai,sector 11 koparkhairane,Navi Mumbai,Sector 11 Koparkhairane,19.09388735,73.01022,0,25.5,5,3.5,15,8,15681.81818
+navi mumbai,sector 11 sanpada,Navi Mumbai,Sector 11 Sanpada,19.05525,73.01551,0,22,5,10,7.5,1,15454.54545
+navi mumbai,sector 12 kharghar,Navi Mumbai,Sector 12 Kharghar,19.04321,73.06658,0,21,5,2,0,6,18845.05495
+navi mumbai,sector 13 kharghar,Navi Mumbai,Sector 13 Kharghar,19.045792,73.072401,0,21,5,12,7.5,3,12727.27273
+navi mumbai,sector 14 koparkhairane,Navi Mumbai,Sector 14 Koparkhairane,19.098193,73.004564,0,24,5,2,15,1,13333.33333
+navi mumbai,sector 14 nerul,Navi Mumbai,Sector 14 Nerul,19.039063,73.008897,0,19,5,26.5,5.25,2,29813.86393
+navi mumbai,sector 14 vashi,Navi Mumbai,Sector 14 Vashi,19.083398,73.0034444,0,25,5,2,15,3,23000
+navi mumbai,sector 15 belapur,Navi Mumbai,Sector 15 Belapur,19.0162465,73.0340785,0,12.5,5,3.5,3.75,4,28788.18509
+navi mumbai,sector 15 ghansoli,Navi Mumbai,Sector 15 Ghansoli,19.125346,72.991424,0,18,5,18,3,1,21333.33333
+navi mumbai,sector 15 kamothe,Navi Mumbai,Sector 15 Kamothe,19.01578,73.093383,0,20,2,4.5,7.5,2,8706.293706
+navi mumbai,sector 15 kharghar,Navi Mumbai,Sector 15 Kharghar,19.0409351,73.077833,0,19,5,3,3,5,11607.91058
+navi mumbai,sector 15 kopar khairane,Navi Mumbai,Sector 15 Kopar Khairane,19.09956,73.00438,0,24,5,4,15,1,14843.75
+navi mumbai,sector 16 kharghar,Navi Mumbai,Sector 16 Kharghar,19.0426645,73.0826005,0,24,5,1.5,9,2,11988.63636
+navi mumbai,sector 16 koparkhairane,Navi Mumbai,Sector 16 Koparkhairane,19.099958,72.999319,0,24,5,0,15,1,14568.76457
+navi mumbai,sector 16 sanpada,Navi Mumbai,Sector 16 Sanpada,19.0573,73.00536,0,23,5,10,7.5,1,20202.0202
+navi mumbai,sector 16 ulwe,Navi Mumbai,Sector 16 Ulwe,18.959766,73.019013,0,0,5,9,3,1,10000
+navi mumbai,sector 16a nerul,Navi Mumbai,Sector 16A Nerul,19.036513,73.009964,0,18.5,5,6,11.25,2,20373.98086
+navi mumbai,sector 17 kalamboli,Navi Mumbai,Sector 17 Kalamboli,19.03932,73.096142,0,22,5,5,7.5,1,7747.603834
+navi mumbai,sector 17 kamothe,Navi Mumbai,Sector 17 Kamothe,19.016241,73.0877,0,23,2,1,3,1,8309.52381
+navi mumbai,sector 17 kopar khairane,Navi Mumbai,Sector 17 Kopar Khairane,19.0988165,72.9996555,0,25.5,5,2.5,9,2,12372.54902
+navi mumbai,sector 17 new panvel east,Navi Mumbai,Sector 17 New Panvel East,19.00827,73.106326,1,1,1.333333333,1,0,2,22252.74725
+navi mumbai,sector 17 roadpali,Navi Mumbai,Sector 17 Roadpali,19.040728,73.09606,0,23,5,2,3,1,7164.179104
+navi mumbai,sector 17 ulwe,Navi Mumbai,Sector 17 Ulwe,18.9631727,73.02106525,0,0,5,4,3,8,10119.94915
+navi mumbai,sector 18 kamothe,Navi Mumbai,Sector 18 Kamothe,19.0126035,73.089778,0,20,2,6,3,8,8552.564359
+navi mumbai,sector 18 kharghar,Navi Mumbai,Sector 18 Kharghar,19.045998,73.080555,0,21,5,7,3,3,14666.66667
+navi mumbai,sector 18 kopar khairane,Navi Mumbai,Sector 18 Kopar Khairane,19.103549,73.000979,0,23,5,6,15,1,11578.94737
+navi mumbai,sector 18 new panvel east,Navi Mumbai,Sector 18 New Panvel East,18.994555,73.122578,0,18,5,3,3,1,11923.07692
+navi mumbai,sector 18 ulwe,Navi Mumbai,Sector 18 Ulwe,18.967399,73.023566,0,0,5,8,0.5,7,7359.307359
+navi mumbai,sector 19 airoli,Navi Mumbai,Sector 19 Airoli,19.1575,72.99402,0,21,5,6,7.5,3,14000
+navi mumbai,sector 19 kamothe,Navi Mumbai,Sector 19 Kamothe,19.0132725,73.0924935,0,20.5,2,5,11.25,2,8163.690476
+navi mumbai,sector 19 kharghar,Navi Mumbai,Sector 19 Kharghar,19.0482084,73.07776,0,21,5,14,7.5,7,12650.60241
+navi mumbai,sector 19 koper khairane,Navi Mumbai,Sector 19 Koper Khairane,19.105465,72.999734,0,23,5,5,7.5,1,15850.14409
+navi mumbai,sector 19 ulwe,Navi Mumbai,Sector 19 Ulwe,18.9726585,73.0295816,0,0,5,2,3,3,7492.507493
+navi mumbai,sector 19a nerul,Navi Mumbai,Sector 19A Nerul,19.033342,73.025299,0,20,5,7,7.5,1,24482.75862
+navi mumbai,sector 2 ghansoli,Navi Mumbai,Sector 2 Ghansoli,19.112934,73.007118,0,15,5,15,3,1,14953.27103
+navi mumbai,sector 2 ulwe,Navi Mumbai,Sector 2 Ulwe,18.984649,73.026912,0,1,5,6.5,3,2,9471.264368
+navi mumbai,sector 20 kamothe,Navi Mumbai,Sector 20 Kamothe,19.0146895,73.089267,0,20.5,2,4.5,3,4,8097.560976
+navi mumbai,sector 20 kharghar,Navi Mumbai,Sector 20 Kharghar,19.0504055,73.073781,0,21,5,7.5,7.5,8,12746.67932
+navi mumbai,sector 20 nerul,Navi Mumbai,Sector 20 Nerul,19.034168,73.014726,0,9.5,5,3.5,11.25,2,8591.269841
+navi mumbai,sector 20 roadpali,Navi Mumbai,Sector 20 Roadpali,19.035568,73.093046,0,22,5,5,7.5,3,7826.086957
+navi mumbai,sector 20 sanpada,Navi Mumbai,Sector 20 Sanpada,19.051309,73.010834,0,23,5,0,0,1,16490.90909
+navi mumbai,sector 20 ulwe,Navi Mumbai,Sector 20 Ulwe,18.978032,73.02936,0,0,5,5,3,5,8333.333333
+navi mumbai,sector 20b airoli,Navi Mumbai,Sector 20B Airoli,19.168221,72.991527,0,20,5,17,15,1,12977.09924
+navi mumbai,sector 21 ghansoli,Navi Mumbai,Sector 21 Ghansoli,19.1297171,72.9969724,0,21,5,7.5,5.25,2,9681.463911
+navi mumbai,sector 21 kamothe,Navi Mumbai,Sector 21 Kamothe,19.014386,73.096477,0,22,2,2,7.5,5,10097.71987
+navi mumbai,sector 21 kharghar,Navi Mumbai,Sector 21 Kharghar,19.049929,73.068606,0,22,5,3,3,3,11091.70306
+navi mumbai,sector 21 ulwe,Navi Mumbai,Sector 21 Ulwe,18.981136,73.031337,0,0,5,2,3,3,7526.88172
+navi mumbai,sector 22 kamothe,Navi Mumbai,Sector 22 Kamothe,19.014126,73.100101,0,25,2,3,3,11,8976.377953
+navi mumbai,sector 23 kharghar,Navi Mumbai,Sector 23 Kharghar,19.053426,73.0672501,3,2,1.333333333,14,0.5,5,19594.59459
+navi mumbai,sector 23 taloja,Navi Mumbai,Sector 23 Taloja,19.072062,73.098392,0,5,5,1,0,1,20000
+navi mumbai,sector 23 ulwe,Navi Mumbai,Sector 23 Ulwe,18.97577205,73.032856,0,0,5,1.5,0.5,4,8199.276121
+navi mumbai,sector 24 kamothe,Navi Mumbai,Sector 24 Kamothe,19.012833,73.10233,0,25,2,8,7.5,3,8961.845608
+navi mumbai,sector 25 kamothe,Navi Mumbai,Sector 25 Kamothe,19.009324,73.101044,0,26,2,5,3,1,8285.714286
+navi mumbai,sector 25 khandeshhwar,Navi Mumbai,Sector 25 Khandeshhwar,19.0095365,73.0991115,0,5,5,6,5.25,4,9217.221135
+navi mumbai,sector 25 nerul,Navi Mumbai,Sector 25 Nerul,19.023377,73.022107,0,11,5,6,15,1,15909.09091
+navi mumbai,sector 26 vashi,Navi Mumbai,Sector 26 Vashi,19.0890683,73.0142159,0,27,5,4,15,1,15418.5022
+navi mumbai,sector 27 kharghar,Navi Mumbai,Sector 27 Kharghar,19.057724,73.078775,0,22,5,7,7.5,3,12362.63736
+navi mumbai,sector 27 nerul,Navi Mumbai,Sector 27 Nerul,19.020635,73.026261,0,10,5,7,7.5,1,15597.14795
+navi mumbai,sector 29 nerul,Navi Mumbai,Sector 29 Nerul,19.04164098,73.01923742,2,1,1.333333333,1,0,4,22053.50639
+navi mumbai,sector 29 vashi,Navi Mumbai,Sector 29 Vashi,19.087719,73.005993,0,27,5,3,15,3,19800
+navi mumbai,sector 29c airoli,Navi Mumbai,Sector 29C Airoli,19.143506,72.997233,0,22,5,4,3,3,14705.88235
+navi mumbai,sector 3 airoli,Navi Mumbai,Sector 3 Airoli,19.15862,72.997074,0,21,5,5,15,1,17176.47059
+navi mumbai,sector 3 kharghar,Navi Mumbai,Sector 3 Kharghar,19.02917,73.058043,0,16,5,6,7.5,1,9545.454545
+navi mumbai,sector 3 ulwe,Navi Mumbai,Sector 3 Ulwe,18.985001,73.024031,0,1,5,1,3,1,8325.624422
+navi mumbai,sector 30 kharghar,Navi Mumbai,Sector 30 Kharghar,19.067621,73.070484,0,20.5,5,7.5,11.25,2,7795.853863
+navi mumbai,sector 30a vashi,Navi Mumbai,Sector 30A Vashi,19.066782,73.000796,0,23,5,12,15,1,18965.51724
+navi mumbai,sector 31 kamothe,Navi Mumbai,Sector 31 Kamothe,19.012714,73.09279,0,21,2,9,3,1,7333.333333
+navi mumbai,sector 34 kamothe,Navi Mumbai,Sector 34 Kamothe,19.022932,73.087296,0,23,2,5,3,1,8294.930876
+navi mumbai,sector 34a kharghar,Navi Mumbai,Sector 34A Kharghar,19.0704475,73.081317,0,8,3.5,13,5.25,2,12252.49601
+navi mumbai,sector 34b kharghar,Navi Mumbai,Sector 34B Kharghar,19.07043625,73.0805549,0,15,5,14,5.25,2,12598.84975
+navi mumbai,sector 34c kharghar,Navi Mumbai,Sector 34C Kharghar,19.0715779,73.07865625,2,2.5,1.333333333,7.5,3,4,14572.75542
+navi mumbai,sector 35 kamothe,Navi Mumbai,Sector 35 Kamothe,19.02264965,73.0882948,0,23,2,4.5,5.25,2,9066.030608
+navi mumbai,sector 35d kharghar,Navi Mumbai,Sector 35D Kharghar,19.072303,73.075971,0,15,5,7,3,7,9446.808511
+navi mumbai,sector 35e kharghar,Navi Mumbai,Sector 35E Kharghar,19.069363,73.076896,0,16,5,6,3,3,14761.90476
+navi mumbai,sector 35g kharghar,Navi Mumbai,Sector 35G Kharghar,19.071092,73.069203,0,15,5,7,5.25,8,12492.92586
+navi mumbai,sector 35i kharghar,Navi Mumbai,Sector 35I Kharghar,19.07168515,73.07265,0,15,5,7,3,8,9055.01331
+navi mumbai,sector 36 kamothe,Navi Mumbai,Sector 36 Kamothe,19.025263,73.089789,0,25,5,7,3,5,9384.615385
+navi mumbai,sector 36 kharghar,Navi Mumbai,Sector 36 Kharghar,19.071628,73.08079,0,0,2,1,0,14,19397.76095
+navi mumbai,"sector 37, kharghar",Navi Mumbai,"Sector 37, Kharghar",19.037617,73.029529,0,0,5,11,0,1,7499.166667
+navi mumbai,sector 38 seawoods,Navi Mumbai,Sector 38 Seawoods,19.019182,73.013068,0,7,5,9,0.5,3,20000
+navi mumbai,sector 4 ghansoli,Navi Mumbai,Sector 4 Ghansoli,19.114834,73.001344,0,14,5,1,7.5,1,11544.71545
+navi mumbai,sector 4 kalamboli,Navi Mumbai,Sector 4 Kalamboli,19.029117,73.097703,0,23,5,0,15,1,6903.353057
+navi mumbai,sector 4 kharghar,Navi Mumbai,Sector 4 Kharghar,19.033723,73.060755,0,16,5,4,7.5,1,11333.33333
+navi mumbai,sector 4 kopar khairane,Navi Mumbai,Sector 4 Kopar Khairane,19.1084698,73.0078493,0,16,5,3,7.5,1,11649.58062
+navi mumbai,sector 44 seawoods,Navi Mumbai,Sector 44 Seawoods,19.0151,73.01361,0,8,5,4,15,1,16842.10526
+navi mumbai,sector 44a seawoods,Navi Mumbai,Sector 44A Seawoods,19.0128165,73.0121015,0,8,5,7.5,11.25,2,16184.02778
+navi mumbai,sector 46 a seawoods,Navi Mumbai,Sector 46 A Seawoods,19.015717,73.015854,0,8,5,5,3,1,17333.33333
+navi mumbai,sector 5 kamothe,Navi Mumbai,Sector 5 Kamothe,19.02137,73.097021,0,25,2,8.5,5.25,2,7562.446167
+navi mumbai,sector 5 new panvel east,Navi Mumbai,Sector 5 New Panvel East,19.004639,73.11777,0,33,5,2,15,3,8620.689655
+navi mumbai,sector 5 ulwe,Navi Mumbai,Sector 5 Ulwe,18.980182,73.02512,0,0,5,6,3,5,8450.704225
+navi mumbai,sector 50 seawoods,Navi Mumbai,Sector 50 Seawoods,19.009724,73.017214,0,8,5,1,0.5,5,16854.21995
+navi mumbai,sector 58 seawoods,Navi Mumbai,Sector 58 Seawoods,19.006439,73.014549,0,8,5,8,15,1,28333.33333
+navi mumbai,sector 6 kharghar,Navi Mumbai,Sector 6 Kharghar,19.0445455,73.062702,0.5,10,5,9,7.5,4,14145.87242
+navi mumbai,sector 6 nerul,Navi Mumbai,Sector 6 Nerul,19.042485,73.011765,0,20,5,1.5,15,4,11965.81197
+navi mumbai,sector 7 kamothe,Navi Mumbai,Sector 7 Kamothe,19.0237679,73.0922561,0,25,5,6,7.5,1,8235.294118
+navi mumbai,sector 7 kharghar,Navi Mumbai,Sector 7 Kharghar,19.034459,73.067131,0,15,5,14.5,15,2,12356.38595
+navi mumbai,sector 7 kopar khairane,Navi Mumbai,Sector 7 Kopar Khairane,19.100972,73.005842,0,24,5,7,3,1,24444.44444
+navi mumbai,sector 8 airoli,Navi Mumbai,Sector 8 Airoli,19.144396,72.993828,0,22,5,1,7.5,9,14166.66667
+navi mumbai,sector 8 ghansoli,Navi Mumbai,Sector 8 Ghansoli,19.117666,73.00275,0,14,5,7,7.5,1,17857.14286
+navi mumbai,sector 8 kopar khairane,Navi Mumbai,Sector 8 Kopar Khairane,19.10141,73.008701,0,23,5,5,15,1,10434.78261
+navi mumbai,sector 8 new panvel,Navi Mumbai,Sector 8 New Panvel,19.004543,73.121582,1,1,1.333333333,1,0,2,12196.67084
+navi mumbai,sector 8 sanpada,Navi Mumbai,Sector 8 Sanpada,19.06101,73.00828,2,1,2,1,0,4,31619.11082
+navi mumbai,sector 8 ulwe,Navi Mumbai,Sector 8 Ulwe,18.96727255,73.0153913,0,0,5,10,3,2,8427.927928
+navi mumbai,sector 8a airoli,Navi Mumbai,Sector 8A Airoli,19.037131,73.058043,0,0,5,3,3,1,14201.18343
+navi mumbai,sector 9 airoli,Navi Mumbai,Sector 9 Airoli,19.145533,72.991058,0,21,5,1,7.5,1,8800
+navi mumbai,sector 9 khanda colony,Navi Mumbai,Sector 9 Khanda Colony,19.0078568,73.1127434,0,34,5,7,15,1,12258.06452
+navi mumbai,sector 9 kopar khairane,Navi Mumbai,Sector 9 Kopar Khairane,19.0995744,73.0055743,0,1,2,1,0,5,24442.08289
+navi mumbai,sector 9 new panvel,Navi Mumbai,Sector 9 New Panvel,18.985817,73.131714,0,16,5,2,15,1,8256.880734
+navi mumbai,sector 9 sanpada,Navi Mumbai,Sector 9 Sanpada,19.05931145,73.0115762,0,23,5,12.5,15,2,20816.09195
+navi mumbai,sector 9 ulwe,Navi Mumbai,Sector 9 Ulwe,18.971088,73.01643,0,0,5,5,0.5,7,8294.930876
+navi mumbai,sector-46a seawoods,Navi Mumbai,Sector-46A Seawoods,19.01059,73.013275,0,8,5,6,7.5,1,16625
+navi mumbai,shedung,Navi Mumbai,Shedung,18.95299,73.17473,0,0,5,1,0,3,11142.85714
+navi mumbai,shilphata,Navi Mumbai,Shilphata,19.1535966,73.040753,0.5,1,3.5,1,0,16,10746.38217
+navi mumbai,shirdon,Navi Mumbai,Shirdon,18.934339,73.137665,0,0,5,0,7.5,1,5615.384615
+navi mumbai,taloja,Navi Mumbai,Taloja,19.082636,73.110627,2,1,1.333333333,1,0,32,9460.742388
+navi mumbai,taloja panchanand,Navi Mumbai,Taloja Panchanand,19.079686,73.097633,0,5,5,9,3,1,6363.636364
+navi mumbai,ulwe,Navi Mumbai,Ulwe,18.97472755,73.031543,1,1,2,1,0,58,13620.39631
+navi mumbai,vashi,Navi Mumbai,Vashi,19.0765416,72.999263,1,1,1.333333333,1,0,17,28756.29044
+navi mumbai,vichumbe,Navi Mumbai,Vichumbe,18.986286,73.136108,0,16,5,1,7.5,3,6345.957011
+secunderabad,ahmedguda,Secunderabad,Ahmedguda,17.513195,78.596818,0,8,5,3,15,1,4336.826888
+secunderabad,alwal,Secunderabad,Alwal,17.4930942,78.5031602,0,10,5,3,3,10,7740.487158
+secunderabad,"alwal,3 floor",Secunderabad,"Alwal,3 Floor",17.50763,78.47894,0,15,5,3,3,1,14304.72389
+secunderabad,"alwal,after michale school",Secunderabad,"Alwal,After Michale School",17.526548,78.50529,0,17,5,3,3,1,16161.61616
+secunderabad,"alwal,near michale",Secunderabad,"Alwal,Near Michale",17.52403,78.50463,0,17,5,3,3,1,4827.586207
+secunderabad,"alwal,near michale school",Secunderabad,"Alwal,Near Michale School",17.526495,78.5051,0,17,5,3,3,1,15151.51515
+secunderabad,"alwal,su",Secunderabad,"Alwal,Su",17.52403,78.50463,0,17,5,3,3,1,15635.39587
+secunderabad,ap textbook colony,Secunderabad,Ap Textbook Colony,17.460537,78.497056,0,12,5,1,15,1,5217.391304
+secunderabad,bahadurpally,Secunderabad,Bahadurpally,17.538237,78.480804,0,12,5,9,0,1,4199.227799
+secunderabad,balamrai,Secunderabad,Balamrai,17.448976,78.483872,0,5,1.333333333,3,15,1,4750
+secunderabad,boosareddy guda,Secunderabad,Boosareddy Guda,17.43993,78.49827,0,5,1.333333333,2,15,1,6611.570248
+secunderabad,bowenpally,Secunderabad,Bowenpally,17.450481,78.42444,0,12,5,0,7.5,1,12222.22222
+secunderabad,"chendr nagr,alwal",Secunderabad,"Chendr Nagr,Alwal",17.526495,78.5051,0,17,5,3,7.5,1,8454.10628
+secunderabad,chengicherla,Secunderabad,Chengicherla,17.443395,78.597343,0,2,5,3,3,1,7307.307307
+secunderabad,cherlapally,Secunderabad,Cherlapally,17.469072,78.591847,0,11.5,5,3,0.25,4,7598.039216
+secunderabad,chilkalguda,Secunderabad,Chilkalguda,17.431317,78.513772,0,7,1.333333333,9,15,1,7377.04918
+secunderabad,chinna cherlapally,Secunderabad,Chinna Cherlapally,17.43993,78.49827,0,5,1.333333333,3,0.5,1,5649.717514
+secunderabad,chiryala village,Secunderabad,Chiryala Village,17.52277623,78.62106845,0,0,5,1.5,0.5,2,5217.592593
+secunderabad,dairy farm road,Secunderabad,Dairy Farm Road,17.48531,78.4933,0,11,5,3,7.5,3,4428.571429
+secunderabad,dammaiguda,Secunderabad,Dammaiguda,17.50107,78.59508,0,9,5,3,3,7,6076.923077
+secunderabad,dr as rao nagar,Secunderabad,Dr As Rao Nagar,17.4843253,78.556453,0,15,5,1,0.5,5,6216.216216
+secunderabad,durga vihar colony,Secunderabad,Durga Vihar Colony,17.476228,78.500036,0,10,5,3,15,1,8064.516129
+secunderabad,east anand bagh,Secunderabad,East Anand Bagh,17.4403715,78.361125,0,5,5,3,11.25,2,5648.148148
+secunderabad,east marredpally,Secunderabad,East Marredpally,17.448505,78.514838,0,21,2,3,15,1,4225.352113
+secunderabad,ecil,Secunderabad,Ecil,17.38504,78.48667,0,0,5,3,0,1,5000
+secunderabad,eshwaripuri colony,Secunderabad,Eshwaripuri Colony,17.491639,78.55049,0,15,5,3,15,1,13750
+secunderabad,gundlapochampalli,Secunderabad,Gundlapochampalli,17.575957,78.471167,0,0,5,3,0,15,5913.043478
+secunderabad,habsiguda,Secunderabad,Habsiguda,17.4100895,78.5284885,1,8.5,1.066666667,2.5,0.25,2,7905.990746
+secunderabad,jeedimetla,Secunderabad,Jeedimetla,17.514789,78.462524,0,20,5,2,0.5,1,5302.325581
+secunderabad,kanajiguda,Secunderabad,Kanajiguda,17.48469,78.49716,0,13,5,3,0,1,6357.279085
+secunderabad,keesara,Secunderabad,Keesara,17.5280399,78.6540576,0,1,5,3,0.5,5,5138.888889
+secunderabad,kompally,Secunderabad,Kompally,17.538237,78.480804,0,6,5,3,0.5,79,5798.737174
+secunderabad,kowkoor village,Secunderabad,Kowkoor Village,17.5324584,78.5291706,0,1,5,1,0.5,1,5102.040816
+secunderabad,kowkur,Secunderabad,Kowkur,17.532558,78.529251,0,1,5,3,0.5,11,8818.342152
+secunderabad,kushaiguda,Secunderabad,Kushaiguda,17.48019925,78.5808814,0,16.5,5,2,0.25,2,5124.137931
+secunderabad,lothkunta,Secunderabad,Lothkunta,17.44985,78.39151,0,4,5,0,7.5,1,12333.33333
+secunderabad,machabolaram,Secunderabad,Machabolaram,17.5133794,78.514259,0,10,5,3,0.5,1,12113.61738
+secunderabad,mahendra hills,Secunderabad,Mahendra Hills,17.454981,78.519109,0,13,5,2,0.5,1,9181.494662
+secunderabad,malkajgiri,Secunderabad,Malkajgiri,17.4478104,78.5263305,0,9,5,3,3,8,6528.311063
+secunderabad,mallapur,Secunderabad,Mallapur,17.44337285,78.57260635,0,11,5,2,0.25,4,6836.632399
+secunderabad,manik sai enclave,Secunderabad,Manik Sai Enclave,17.49631265,78.545277,0,17.5,5,3,15,2,8345.498783
+secunderabad,marredpally,Secunderabad,Marredpally,17.44704,78.50547,0,18,1.333333333,4,15,3,7500
+secunderabad,medchal,Secunderabad,Medchal,17.64022877,78.4828091,0,2,5,3,0,6,5191.334842
+secunderabad,moula ali,Secunderabad,Moula Ali,17.42603525,78.52192905,0,8,5,1,0,2,6947.608489
+secunderabad,moulalali,Secunderabad,Moulalali,17.43993,78.49827,0,5,1.333333333,3,7.5,1,15455.30493
+secunderabad,mylargadda,Secunderabad,Mylargadda,17.38504,78.48667,0,16,0.8,1,15,1,4639.80464
+secunderabad,"near michale school,alwal",Secunderabad,"Near Michale School,Alwal",17.526554,78.50513,0,17,5,3,3,1,15151.51515
+secunderabad,new bowenpally,Secunderabad,New Bowenpally,17.46738215,78.4762475,0,10.5,3.5,3,15,2,16368.22773
+secunderabad,old alwal,Secunderabad,Old Alwal,17.5068072,78.5014759,0,13,5,3,7.75,2,14949.78134
+secunderabad,old bowenpally,Secunderabad,Old Bowenpally,17.4827007,78.48071925,0,14.5,5,3,7.5,2,9486.450811
+secunderabad,old safilguda,Secunderabad,Old Safilguda,17.47163,78.548318,0,14,5,1,15,1,5111.111111
+secunderabad,osmania university teachers colony,Secunderabad,Osmania University Teachers Colony,17.492624,78.5435,0,16,5,0.5,7.75,2,5050.827423
+secunderabad,padma rao nagar,Secunderabad,Padma Rao Nagar,17.4273243,78.5054,0,4,1,3,15,3,7200
+secunderabad,parimala nagar,Secunderabad,Parimala Nagar,17.483151,78.567007,0,18,5,3,0,1,6209.150327
+secunderabad,pedso 2,Secunderabad,Pedso 2,17.509831,78.542499,0,7,5,1,7.5,1,4615.384615
+secunderabad,pradham puri colony,Secunderabad,Pradham Puri Colony,17.4913644,78.5544917,0,14,5,4,0.5,1,6000
+secunderabad,radika to dammaiguda road,Secunderabad,Radika To Dammaiguda Road,17.50892,78.50437,0,13,5,1,3,1,5301.204819
+secunderabad,ramakrishnapuram,Secunderabad,Ramakrishnapuram,17.47392,78.53698,0,16,5,3,15,1,10416.66667
+secunderabad,rampally,Secunderabad,Rampally,17.4692708,78.6313624,0,4,5,3,0.5,10,8269.306418
+secunderabad,rc puram,Secunderabad,Rc Puram,17.516785,78.295298,0,22,5,18.5,0.5,2,9264.612755
+secunderabad,registration colony,Secunderabad,Registration Colony,17.51069,78.547467,0,5,5,3,3,1,13499.48079
+secunderabad,safilguda,Secunderabad,Safilguda,17.4667989,78.5398204,0,14,5,3,3,3,6000
+secunderabad,sainikpuri,Secunderabad,Sainikpuri,17.4876857,78.5483395,0,3,5,3,0.5,19,5504.413619
+secunderabad,saket,Secunderabad,Saket,17.4985957,78.5731826,0,15,5,1,0,1,4800
+secunderabad,satya sai enclave,Secunderabad,Satya Sai Enclave,17.485456,78.487045,0,16,5,2,7.5,1,5200
+secunderabad,sd road,Secunderabad,Sd Road,17.4417749,78.5010847,0,9,1,2,7.5,1,8000
+secunderabad,shamirpet,Secunderabad,Shamirpet,17.591122,78.569709,0,1,5,3,0,3,5922.944221
+secunderabad,sikh village,Secunderabad,Sikh Village,17.4608292,78.4872706,0,14,5,3,15,1,7638.888889
+secunderabad,subhash chandra nagar,Secunderabad,Subhash Chandra Nagar,17.48531,78.5054,0,0,5,4,0.5,1,4752.475248
+secunderabad,suchitra,Secunderabad,Suchitra,17.499527,78.4767399,0,10,5,2,0.5,25,6004.728132
+secunderabad,tarnaka,Secunderabad,Tarnaka,17.4059365,78.49247,0,15.5,1.066666667,2.5,15,8,5732.418525
+secunderabad,thumkunta,Secunderabad,Thumkunta,17.557546,78.557555,0,0,5,2,0.25,2,4320.920044
+secunderabad,trimulgherry,Secunderabad,Trimulgherry,17.474201,78.513363,0,8,5,3,15,1,9300.873908
+secunderabad,vasanthapuri colony,Secunderabad,Vasanthapuri Colony,17.4472745,78.5413355,0,12,5,3,15,1,8219.954649
+secunderabad,venkataramana enclave,Secunderabad,Venkataramana Enclave,17.5015947,78.4928162,0,13,5,3,0.5,1,12002.74348
+secunderabad,"vr colony, chinna cherlapally,",Secunderabad,"Vr Colony, Chinna Cherlapally,",17.4626216,78.6313624,0,4,5,3,0.5,1,6074.074074
+secunderabad,west marredpally,Secunderabad,West Marredpally,17.447717,78.5007657,0,16,0.8,3,15,5,9117.647059
+secunderabad,west venkatapuram,Secunderabad,West Venkatapuram,17.497737,78.501152,0,9,5,3,15,1,7575.757576
+secunderabad,yadagirigutta,Secunderabad,Yadagirigutta,17.58048164,78.93686802,0,7,5,0,0,1,5555.555556
+secunderabad,yapral,Secunderabad,Yapral,17.505811,78.539781,0,13,5,3,0.5,19,6938.356164
+south mumbai,breach candy,South Mumbai,Breach Candy,18.9709998,72.8035411,0,19,5,2,15,1,59931.50685
+south mumbai,churchgate,South Mumbai,Churchgate,19.05095085,72.89277435,0,2,5,4,0.5,3,55000
+south mumbai,colaba,South Mumbai,Colaba,18.90369,72.81296,0,9,5,3,15,1,44642.85714
+south mumbai,colaba post office,South Mumbai,Colaba Post Office,18.906427,72.813952,0,10,5,4,15,1,52500
+south mumbai,cuffe parade,South Mumbai,Cuffe Parade,18.915775,72.820759,0,8,5,9,15,1,57281.5534
+south mumbai,dadar,South Mumbai,Dadar,18.9406634,75.17840495,0.5,12.5,3.166666667,1,0,2,51063.49206
+south mumbai,dadar east,South Mumbai,Dadar East,19.0106707,72.848475,2,1,1.333333333,1,0.5,9,48597.19439
+south mumbai,dadar west,South Mumbai,Dadar West,19.0200214,72.8376798,0,22,5,3,1.75,8,44524.96678
+south mumbai,hanuman nagar,South Mumbai,Hanuman Nagar,19.009094,72.824343,2,1,5,45,3,3,41462.49529
+south mumbai,kasaravadi,South Mumbai,Kasaravadi,19.024208,72.84285,0,23,5,20,7.5,1,27580.64516
+south mumbai,lower parel,South Mumbai,Lower Parel,19.0024811,72.83296,1,1,1,17,0.5,9,40000
+south mumbai,mahalaxmi,South Mumbai,Mahalaxmi,18.981857,72.827559,2,1,1.333333333,1,0,42,53991.0291
+south mumbai,malabar hill,South Mumbai,Malabar Hill,18.9542861,72.801325,0,25,5,5,15,5,73170.73171
+south mumbai,matunga,South Mumbai,Matunga,19.03443,72.85758,2,2,1.333333333,1,0,18,48670.48187
+south mumbai,matunga east,South Mumbai,Matunga East,19.023408,72.853006,0,20,5,1,0.5,7,62440.19139
+south mumbai,matunga west,South Mumbai,Matunga West,19.031291,72.842179,0,21,5,20,0,3,33823.52941
+south mumbai,mumbai central,South Mumbai,Mumbai Central,18.966969,72.824349,0,17,5,7,15,1,26855.60054
+south mumbai,napean sea road,South Mumbai,Napean Sea Road,18.9571658,72.7998492,0,23,5,6.5,15,2,63219.33367
+south mumbai,parel,South Mumbai,Parel,19.002926,72.847091,1,1,1.333333333,1,0.5,51,42187.5
+south mumbai,parel east,South Mumbai,Parel East,19.0025723,72.84794917,0,25,5,5,3,1,25714.28571
+south mumbai,peddar road,South Mumbai,Peddar Road,18.9733152,72.8092557,0,17,5,3,15,1,50400
+south mumbai,prabhadevi,South Mumbai,Prabhadevi,19.0100534,72.830884,0,16,5,1,0,26,65301.5627
+south mumbai,prathana samaj,South Mumbai,Prathana Samaj,18.99796,72.841396,0,0,5,8,15,1,51875
+south mumbai,shapur baug,South Mumbai,Shapur Baug,18.960438,72.817112,0,18,5,1,15,1,26909.72222
+south mumbai,shastri nagar,South Mumbai,Shastri Nagar,18.987029,72.827261,0,0,5,1,0,5,30992.59259
+south mumbai,shivaji park,South Mumbai,Shivaji Park,19.0270537,72.8378854,0,20,5,4,7.5,3,47018.03051
+south mumbai,sindhu nagar,South Mumbai,Sindhu Nagar,18.996613,72.847716,0,24,5,16,7.5,1,29545.45455
+south mumbai,tardeo,South Mumbai,Tardeo,18.9716779,72.8126538,2,3,2,6,15,3,37227.9496
+south mumbai,upper worli,South Mumbai,Upper Worli,18.996161,72.820927,0,0,5,26,3,3,51932.36715
+south mumbai,walkeshwar,South Mumbai,Walkeshwar,19.1595655,74.2617524,0,11,5,6,15,2,56099.1608
+south mumbai,worli,South Mumbai,Worli,19.006108,72.82496,2,1,1.333333333,1,0.5,67,58835.07853
+south mumbai,worli seaface,South Mumbai,Worli Seaface,18.9978076,72.8148616,3,1,2,1,0,1,78181.81818
+thane,anand nagar,Thane,Anand Nagar,19.26459949,72.96689395,0,12,5,5.5,7.5,12,12239.689
+thane,balkum,Thane,Balkum,19.223389,72.989916,2,2,2,1,0,62,21097.41259
+thane,brahmand,Thane,Brahmand,19.2434725,72.980389,0,0,2,1,0.25,8,17306.07955
+thane,chendani,Thane,Chendani,19.18841,72.977795,0,23,5,3,0,1,22471.91011
+thane,chirak nagar,Thane,Chirak Nagar,19.210535,72.971692,0,39,5,19,7.5,1,14000
+thane,devdaya nagar,Thane,Devdaya Nagar,19.2197075,72.9595365,0,16,5,14,7.5,1,25000
+thane,dhokali,Thane,Dhokali,19.223747,72.985359,4,1,5,1,0,16,17532.12267
+thane,ghodbunder road,Thane,Ghodbunder Road,19.262833,72.9576972,2,1,1.333333333,9,3,35,15346.53465
+thane,hari om nagar,Thane,Hari Om Nagar,19.17469,72.972252,0,14,5,7.5,11.25,2,26083.72457
+thane,hiranandani estate,Thane,Hiranandani Estate,19.25756,72.98296,0,2,5,9,3,91,25147.92899
+thane,hiranandani meadows,Thane,Hiranandani Meadows,19.2269347,72.9723281,0,10,5,16,15,7,19736.84211
+thane,jk gram,Thane,Jk Gram,19.20847895,72.9672295,3,1,1.333333333,13.5,0.25,10,22191.50526
+thane,kalher,Thane,Kalher,19.245767,73.0157,0,0,5,1,0,6,8883.668558
+thane,kalwa,Thane,Kalwa,19.20224,73.00223,2,1,1.333333333,1,0,1,18161.9256
+thane,kasar vadavali,Thane,Kasar Vadavali,19.263077,72.960732,0,11,5,2,3,35,12500
+thane,kasheli,Thane,Kasheli,19.2399342,73.009631,2,1,1,1,0,2,10204.16822
+thane,kavesar,Thane,Kavesar,19.259788,72.9732812,0,12,5,7,3,9,11428.57143
+thane,kharkar alley,Thane,Kharkar Alley,19.195592,72.978355,0,33,5,2,15,1,15384.61538
+thane,khopat,Thane,Khopat,19.20168,72.972235,0,37,5,2,7.5,1,9750
+thane,kolshet,Thane,Kolshet,19.239442,72.996018,2,1,2,1,0,7,23372.78107
+thane,kolshet industrial area,Thane,Kolshet Industrial Area,19.23027,72.987106,5,5,5,1,0,3,32921.08363
+thane,kolshet road,Thane,Kolshet Road,19.233686,72.988423,3,5,2,1,0.25,50,20789.70608
+thane,laxmi nagar,Thane,Laxmi Nagar,19.209533,72.9726372,1,1,2,1,0,16,26342.78693
+thane,louis wadi,Thane,Louis Wadi,19.192885,72.96126,0,31,5,5,15,1,21298.7013
+thane,louiswadi thane west 400604.,Thane,Louiswadi Thane West 400604.,19.231418,72.977264,0,16,5,2,15,1,12307.69231
+thane,majiwada,Thane,Majiwada,19.21413,72.9860525,2,1,2,1,0,40,20550.62704
+thane,manisha nagar,Thane,Manisha Nagar,19.202565,72.989118,0,31,5,4,15,1,7936.507937
+thane,manpada,Thane,Manpada,19.23223,72.971185,0,5.5,5,1,0.5,52,18759.25069
+thane,mogharpada,Thane,Mogharpada,19.28334,72.97149,2,1,5,1,0,1,10352.94118
+thane,naupada,Thane,Naupada,19.189747,72.9699472,0,35,5,2,3,7,19520.54795
+thane,owale,Thane,Owale,19.296886,72.958632,0,3,5,13,15,1,7894.736842
+thane,panch pakhadi,Thane,Panch Pakhadi,19.197722,72.9652009,0,1,1.333333333,1,0,22,23724.47736
+thane,patlipada,Thane,Patlipada,19.2589325,72.983615,0,16,5,5.5,1.75,6,23679.07759
+thane,pokharan road,Thane,Pokharan Road,19.2077476,72.9674557,2,1,1.333333333,1,0,16,21909.27069
+thane,pokhran 2,Thane,Pokhran 2,19.21760815,72.9605989,2,1,2,1,0,36,23052.20884
+thane,rabodi,Thane,Rabodi,19.204186,72.985175,0,37,5,3,15,1,11818.18182
+thane,shivai nagar,Thane,Shivai Nagar,19.217094,72.957004,0,19,5,0,15,1,11718.75
+thane,teen hath naka,Thane,Teen Hath Naka,19.1930095,72.9628495,1,8.5,3.5,1,0.5,6,24885.65215
+thane,tembhi naka,Thane,Tembhi Naka,19.197689,72.9760535,0,38,5,2,7.5,2,17788.92073
+thane,thane west,Thane,Thane West,19.224871,72.978584,0,5,5,1,0.5,61,18754.47387
+thane,vartak nagar,Thane,Vartak Nagar,19.21284555,72.961248,2,1,2,1,0,8,16770.80403
+thane,vasant vihar,Thane,Vasant Vihar,19.2241029,72.96675,0,10,5,10,7.5,5,15217.3913
+thane,vijay nagari,Thane,Vijay Nagari,19.253731,72.973745,0,14,5,6,7.5,5,10898.08274
+thane,waghbil,Thane,Waghbil,19.257069,72.9741575,0,12.5,5,7.5,7.5,6,10901.45577

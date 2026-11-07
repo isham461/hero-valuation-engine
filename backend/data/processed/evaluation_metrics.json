@@ -1,0 +1,521 @@
+{
+  "model_version": "ps1-v1-d16560dd89f1",
+  "seed": 42,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "shap": "0.54.1",
+    "joblib": "1.6.0"
+  },
+  "metric_definitions": {
+    "mdape_pct": "100 * median(abs(actual - predicted) / actual)",
+    "within_10_pct": "Percent of rows with absolute percentage error <= 10%",
+    "within_20_pct": "Percent of rows with absolute percentage error <= 20%",
+    "auto_accept_pct": "Percent with (high-low)/point <= 0.40 AND >=5 training listings in the exact city/locality; no actual test price is used",
+    "intervals": "LightGBM log-price q10/q90, expanded to include point and correct crossing. Baselines use training-only 5-fold OOF log-residual q10/q90. Not guaranteed/calibrated coverage."
+  },
+  "caveats": [
+    "Listing asking prices from 2023, not transactions or current market valuations.",
+    "City 2nd/98th target-rate percentiles define the full cleaned benchmark before splitting; metrics exclude those tails.",
+    "99acres counts and deterministic proximity proxies; not measured OSM counts, radii, or distances.",
+    "Every model and baseline is retrained independently on each split's training rows.",
+    "Primary benchmark uses available listing coordinates/proxies. Separate lookup-only metrics quantify the minimal API input path.",
+    "GroupShuffleSplit holds out 20% of locality groups; the row fraction is approximate.",
+    "Auto-accept is an illustrative uncertainty/support policy, not an underwriting approval.",
+    "Repeated listing IDs and exact valuation tuples are deduplicated; unidentified near-duplicate listings may remain."
+  ],
+  "splits": {
+    "random": {
+      "train_rows": 19395,
+      "test_rows": 4849,
+      "train_localities": 1518,
+      "test_localities": 857,
+      "locality_overlap_count": 700,
+      "known_locality_test_pct": 96.51474530831099,
+      "raw_quantile_crossing_pct": 0.0,
+      "models": {
+        "Locality median sqft rate": {
+          "n_test": 4849,
+          "mdape_pct": 14.391534387253962,
+          "within_10_pct": 37.86347700556816,
+          "within_20_pct": 61.7240668179006,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 80.22272633532687,
+          "median_relative_interval_width_pct": 72.89703588197717
+        },
+        "Ridge regression": {
+          "n_test": 4849,
+          "mdape_pct": 30.294751716034344,
+          "within_10_pct": 16.745720767168486,
+          "within_20_pct": 33.6976696226026,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 79.08847184986595,
+          "median_relative_interval_width_pct": 120.66728439209571
+        },
+        "LightGBM + quantiles": {
+          "n_test": 4849,
+          "mdape_pct": 11.77786749212743,
+          "within_10_pct": 44.627758300680554,
+          "within_20_pct": 69.58135698082079,
+          "auto_accept_pct": 25.819756650855847,
+          "auto_accept_count": 1252,
+          "accepted_within_20_pct": 87.22044728434504,
+          "interval_coverage_pct": 74.36584862858321,
+          "median_relative_interval_width_pct": 50.01886426216564
+        }
+      },
+      "lightgbm_lookup_only_api_inputs": {
+        "n_test": 4849,
+        "mdape_pct": 13.216768289811021,
+        "within_10_pct": 40.5650649618478,
+        "within_20_pct": 65.80738296555991,
+        "auto_accept_pct": 24.70612497422149,
+        "auto_accept_count": 1198,
+        "accepted_within_20_pct": 82.0534223706177,
+        "interval_coverage_pct": 71.84986595174263,
+        "median_relative_interval_width_pct": 49.89816906843096
+      },
+      "lightgbm_by_city": {
+        "Central Mumbai Suburbs": {
+          "n_test": 170,
+          "mdape_pct": 9.729557208445987,
+          "within_10_pct": 51.17647058823529,
+          "within_20_pct": 77.64705882352942,
+          "auto_accept_pct": 20.588235294117645,
+          "auto_accept_count": 35,
+          "accepted_within_20_pct": 77.14285714285715,
+          "interval_coverage_pct": 77.64705882352942,
+          "median_relative_interval_width_pct": 48.193879506435465
+        },
+        "Gurgaon": {
+          "n_test": 1804,
+          "mdape_pct": 9.349215255349504,
+          "within_10_pct": 52.21729490022173,
+          "within_20_pct": 75.66518847006651,
+          "auto_accept_pct": 42.572062084257205,
+          "auto_accept_count": 768,
+          "accepted_within_20_pct": 89.97395833333334,
+          "interval_coverage_pct": 74.39024390243902,
+          "median_relative_interval_width_pct": 42.60239240439691
+        },
+        "Hyderabad": {
+          "n_test": 872,
+          "mdape_pct": 12.907876993861134,
+          "within_10_pct": 40.137614678899084,
+          "within_20_pct": 67.20183486238533,
+          "auto_accept_pct": 18.23394495412844,
+          "auto_accept_count": 159,
+          "accepted_within_20_pct": 87.42138364779875,
+          "interval_coverage_pct": 76.03211009174312,
+          "median_relative_interval_width_pct": 54.483967146470455
+        },
+        "Kolkata Central": {
+          "n_test": 6,
+          "mdape_pct": 27.835190161990997,
+          "within_10_pct": 0.0,
+          "within_20_pct": 33.33333333333333,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 50.0,
+          "median_relative_interval_width_pct": 77.96659848213072
+        },
+        "Kolkata East": {
+          "n_test": 319,
+          "mdape_pct": 13.870109245854184,
+          "within_10_pct": 40.43887147335423,
+          "within_20_pct": 67.39811912225704,
+          "auto_accept_pct": 24.76489028213166,
+          "auto_accept_count": 79,
+          "accepted_within_20_pct": 79.74683544303798,
+          "interval_coverage_pct": 71.47335423197492,
+          "median_relative_interval_width_pct": 48.05846401830295
+        },
+        "Kolkata North": {
+          "n_test": 232,
+          "mdape_pct": 11.77470691811971,
+          "within_10_pct": 44.827586206896555,
+          "within_20_pct": 66.37931034482759,
+          "auto_accept_pct": 11.206896551724139,
+          "auto_accept_count": 26,
+          "accepted_within_20_pct": 76.92307692307693,
+          "interval_coverage_pct": 68.96551724137932,
+          "median_relative_interval_width_pct": 52.04242975750857
+        },
+        "Kolkata South": {
+          "n_test": 511,
+          "mdape_pct": 13.163798772108953,
+          "within_10_pct": 39.53033268101761,
+          "within_20_pct": 65.36203522504891,
+          "auto_accept_pct": 13.698630136986301,
+          "auto_accept_count": 70,
+          "accepted_within_20_pct": 85.71428571428571,
+          "interval_coverage_pct": 75.53816046966732,
+          "median_relative_interval_width_pct": 54.632911452548896
+        },
+        "Kolkata West": {
+          "n_test": 32,
+          "mdape_pct": 19.765035999566827,
+          "within_10_pct": 28.125,
+          "within_20_pct": 50.0,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 59.375,
+          "median_relative_interval_width_pct": 72.73815722358925
+        },
+        "Mira Road And Beyond": {
+          "n_test": 49,
+          "mdape_pct": 15.751048112152342,
+          "within_10_pct": 32.6530612244898,
+          "within_20_pct": 61.224489795918366,
+          "auto_accept_pct": 20.408163265306122,
+          "auto_accept_count": 10,
+          "accepted_within_20_pct": 100.0,
+          "interval_coverage_pct": 59.183673469387756,
+          "median_relative_interval_width_pct": 48.530620343044504
+        },
+        "Mumbai Andheri-Dahisar": {
+          "n_test": 115,
+          "mdape_pct": 11.362022147262769,
+          "within_10_pct": 45.21739130434783,
+          "within_20_pct": 67.82608695652173,
+          "auto_accept_pct": 24.347826086956523,
+          "auto_accept_count": 28,
+          "accepted_within_20_pct": 75.0,
+          "interval_coverage_pct": 71.30434782608695,
+          "median_relative_interval_width_pct": 47.28572913796121
+        },
+        "Mumbai Beyond Thane": {
+          "n_test": 78,
+          "mdape_pct": 18.18883610007575,
+          "within_10_pct": 30.76923076923077,
+          "within_20_pct": 53.84615384615385,
+          "auto_accept_pct": 7.6923076923076925,
+          "auto_accept_count": 6,
+          "accepted_within_20_pct": 83.33333333333334,
+          "interval_coverage_pct": 78.2051282051282,
+          "median_relative_interval_width_pct": 68.4573737048375
+        },
+        "Mumbai Harbour": {
+          "n_test": 46,
+          "mdape_pct": 13.924308201565117,
+          "within_10_pct": 39.130434782608695,
+          "within_20_pct": 60.86956521739131,
+          "auto_accept_pct": 10.869565217391305,
+          "auto_accept_count": 5,
+          "accepted_within_20_pct": 60.0,
+          "interval_coverage_pct": 84.78260869565217,
+          "median_relative_interval_width_pct": 53.84794839982672
+        },
+        "Mumbai South West": {
+          "n_test": 39,
+          "mdape_pct": 20.340467294386595,
+          "within_10_pct": 23.076923076923077,
+          "within_20_pct": 48.717948717948715,
+          "auto_accept_pct": 15.384615384615385,
+          "auto_accept_count": 6,
+          "accepted_within_20_pct": 66.66666666666666,
+          "interval_coverage_pct": 61.53846153846154,
+          "median_relative_interval_width_pct": 50.551674359638824
+        },
+        "Navi Mumbai": {
+          "n_test": 281,
+          "mdape_pct": 14.054247411608678,
+          "within_10_pct": 37.01067615658363,
+          "within_20_pct": 64.76868327402136,
+          "auto_accept_pct": 11.032028469750891,
+          "auto_accept_count": 31,
+          "accepted_within_20_pct": 80.64516129032258,
+          "interval_coverage_pct": 78.64768683274022,
+          "median_relative_interval_width_pct": 63.09488200357728
+        },
+        "Secunderabad": {
+          "n_test": 71,
+          "mdape_pct": 14.21678373864397,
+          "within_10_pct": 42.25352112676056,
+          "within_20_pct": 59.154929577464785,
+          "auto_accept_pct": 8.450704225352112,
+          "auto_accept_count": 6,
+          "accepted_within_20_pct": 66.66666666666666,
+          "interval_coverage_pct": 73.23943661971832,
+          "median_relative_interval_width_pct": 63.11312989277157
+        },
+        "South Mumbai": {
+          "n_test": 67,
+          "mdape_pct": 14.776667257914418,
+          "within_10_pct": 35.82089552238806,
+          "within_20_pct": 64.17910447761194,
+          "auto_accept_pct": 5.970149253731343,
+          "auto_accept_count": 4,
+          "accepted_within_20_pct": 75.0,
+          "interval_coverage_pct": 76.11940298507463,
+          "median_relative_interval_width_pct": 55.698573992788745
+        },
+        "Thane": {
+          "n_test": 157,
+          "mdape_pct": 12.912796602009252,
+          "within_10_pct": 40.76433121019109,
+          "within_20_pct": 67.51592356687898,
+          "auto_accept_pct": 12.101910828025478,
+          "auto_accept_count": 19,
+          "accepted_within_20_pct": 89.47368421052632,
+          "interval_coverage_pct": 72.61146496815286,
+          "median_relative_interval_width_pct": 50.429178117260676
+        }
+      }
+    },
+    "locality_heldout": {
+      "train_rows": 19495,
+      "test_rows": 4749,
+      "train_localities": 1340,
+      "test_localities": 335,
+      "locality_overlap_count": 0,
+      "known_locality_test_pct": 0.0,
+      "raw_quantile_crossing_pct": 0.02105706464518846,
+      "models": {
+        "Locality median sqft rate": {
+          "n_test": 4749,
+          "mdape_pct": 29.60765346053163,
+          "within_10_pct": 18.235417982733207,
+          "within_20_pct": 36.407664771530854,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 58.264897873236464,
+          "median_relative_interval_width_pct": 71.8025361105268
+        },
+        "Ridge regression": {
+          "n_test": 4749,
+          "mdape_pct": 34.062358818458286,
+          "within_10_pct": 14.024005053695515,
+          "within_20_pct": 28.658664982101495,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 73.74184038744998,
+          "median_relative_interval_width_pct": 117.18793610752367
+        },
+        "LightGBM + quantiles": {
+          "n_test": 4749,
+          "mdape_pct": 18.563028353297415,
+          "within_10_pct": 29.585175826489785,
+          "within_20_pct": 53.35860181090756,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 61.31817224678879,
+          "median_relative_interval_width_pct": 50.62101069029092
+        }
+      },
+      "lightgbm_lookup_only_api_inputs": {
+        "n_test": 4749,
+        "mdape_pct": 23.332370177673386,
+        "within_10_pct": 23.499684144030322,
+        "within_20_pct": 43.98820804379869,
+        "auto_accept_pct": 0.0,
+        "auto_accept_count": 0,
+        "accepted_within_20_pct": null,
+        "interval_coverage_pct": 52.64266161297115,
+        "median_relative_interval_width_pct": 52.74047690338393
+      },
+      "lightgbm_by_city": {
+        "Central Mumbai Suburbs": {
+          "n_test": 483,
+          "mdape_pct": 21.351024866480863,
+          "within_10_pct": 22.15320910973085,
+          "within_20_pct": 47.20496894409938,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 55.072463768115945,
+          "median_relative_interval_width_pct": 50.3413548145865
+        },
+        "Gurgaon": {
+          "n_test": 1859,
+          "mdape_pct": 19.618433797324514,
+          "within_10_pct": 28.994082840236686,
+          "within_20_pct": 51.048951048951054,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 54.11511565357719,
+          "median_relative_interval_width_pct": 45.05231542183857
+        },
+        "Hyderabad": {
+          "n_test": 862,
+          "mdape_pct": 16.77824609899018,
+          "within_10_pct": 30.62645011600928,
+          "within_20_pct": 56.61252900232019,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 69.7215777262181,
+          "median_relative_interval_width_pct": 56.243456761916775
+        },
+        "Kolkata Central": {
+          "n_test": 13,
+          "mdape_pct": 29.792128071156615,
+          "within_10_pct": 30.76923076923077,
+          "within_20_pct": 38.46153846153847,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 53.84615384615385,
+          "median_relative_interval_width_pct": 61.315993063774386
+        },
+        "Kolkata East": {
+          "n_test": 31,
+          "mdape_pct": 10.349177738013944,
+          "within_10_pct": 48.38709677419355,
+          "within_20_pct": 70.96774193548387,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 70.96774193548387,
+          "median_relative_interval_width_pct": 48.89719030079884
+        },
+        "Kolkata North": {
+          "n_test": 269,
+          "mdape_pct": 17.186077918678716,
+          "within_10_pct": 35.687732342007436,
+          "within_20_pct": 57.62081784386617,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 67.28624535315984,
+          "median_relative_interval_width_pct": 53.49242935184879
+        },
+        "Kolkata South": {
+          "n_test": 500,
+          "mdape_pct": 17.23915214423702,
+          "within_10_pct": 31.8,
+          "within_20_pct": 56.8,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 71.0,
+          "median_relative_interval_width_pct": 52.56526376691113
+        },
+        "Kolkata West": {
+          "n_test": 6,
+          "mdape_pct": 23.78263505607881,
+          "within_10_pct": 16.666666666666664,
+          "within_20_pct": 33.33333333333333,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 66.66666666666666,
+          "median_relative_interval_width_pct": 63.531280889056816
+        },
+        "Mira Road And Beyond": {
+          "n_test": 51,
+          "mdape_pct": 19.19596406982203,
+          "within_10_pct": 21.568627450980394,
+          "within_20_pct": 50.98039215686274,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 70.58823529411765,
+          "median_relative_interval_width_pct": 89.34146240238718
+        },
+        "Mumbai Andheri-Dahisar": {
+          "n_test": 137,
+          "mdape_pct": 19.61563390071505,
+          "within_10_pct": 30.656934306569344,
+          "within_20_pct": 54.01459854014598,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 46.715328467153284,
+          "median_relative_interval_width_pct": 40.586039331602926
+        },
+        "Mumbai Beyond Thane": {
+          "n_test": 27,
+          "mdape_pct": 31.52198759733166,
+          "within_10_pct": 18.51851851851852,
+          "within_20_pct": 33.33333333333333,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 55.55555555555556,
+          "median_relative_interval_width_pct": 65.62848719967566
+        },
+        "Mumbai Harbour": {
+          "n_test": 7,
+          "mdape_pct": 13.679671458010342,
+          "within_10_pct": 42.857142857142854,
+          "within_20_pct": 71.42857142857143,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 100.0,
+          "median_relative_interval_width_pct": 64.92727631236725
+        },
+        "Mumbai South West": {
+          "n_test": 15,
+          "mdape_pct": 26.3320369713391,
+          "within_10_pct": 26.666666666666668,
+          "within_20_pct": 40.0,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 60.0,
+          "median_relative_interval_width_pct": 58.39312757692527
+        },
+        "Navi Mumbai": {
+          "n_test": 200,
+          "mdape_pct": 15.772625463118297,
+          "within_10_pct": 32.5,
+          "within_20_pct": 60.0,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 70.5,
+          "median_relative_interval_width_pct": 56.25388775896663
+        },
+        "Secunderabad": {
+          "n_test": 67,
+          "mdape_pct": 17.26104599238194,
+          "within_10_pct": 28.35820895522388,
+          "within_20_pct": 58.2089552238806,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 80.59701492537313,
+          "median_relative_interval_width_pct": 66.50486064719423
+        },
+        "South Mumbai": {
+          "n_test": 122,
+          "mdape_pct": 18.42447150424931,
+          "within_10_pct": 31.967213114754102,
+          "within_20_pct": 54.91803278688525,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 66.39344262295081,
+          "median_relative_interval_width_pct": 56.14355353233819
+        },
+        "Thane": {
+          "n_test": 100,
+          "mdape_pct": 17.302634036845728,
+          "within_10_pct": 32.0,
+          "within_20_pct": 55.00000000000001,
+          "auto_accept_pct": 0.0,
+          "auto_accept_count": 0,
+          "accepted_within_20_pct": null,
+          "interval_coverage_pct": 63.0,
+          "median_relative_interval_width_pct": 47.46029610172816
+        }
+      }
+    }
+  },
+  "shap_additivity_verified": true,
+  "bundle_sha256": "81ec1bf47e702d8255bbf0d7db07444ee63503f0d4f77204f092ccc3ba973549"
+}
