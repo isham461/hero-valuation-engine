@@ -1,7 +1,8 @@
 /**
  * API client connecting directly to FastAPI backend on localhost:8000
+ * Supports configurable VITE_API_BASE for production environments
  */
-const API_BASE = 'http://localhost:8000';
+const API_BASE = (import.meta.env && import.meta.env.VITE_API_BASE) || 'http://localhost:8000';
 
 export async function fetchHealth() {
   try {

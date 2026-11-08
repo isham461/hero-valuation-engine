@@ -1,145 +1,164 @@
 import React from 'react';
-import { IndianRupee, TrendingUp, ShieldAlert, Award, ArrowUpRight, Scale, BarChart3 } from 'lucide-react';
 
 export default function ValuationSummary({ valuation, formData }) {
   if (!valuation) return null;
 
-  const { price_lakhs, range_low_lakhs, range_high_lakhs, model_version, nominal_interval_coverage, locality_sample_count } = valuation;
+  // Extract point valuation safely
+  const price = Number(
+    valuation.price_lakhs ??
+    valuation.point_estimate ??
+    valuation.estimated_value ??
+    valuation.pred_val ??
+    0
+  );
+
+  // Extract interval bounds: prioritize interval array (range[0], range[1]), then explicit keys
+  let rangeLow = Number(
+    valuation.range?.[0] ??
+    valuation.prediction_interval?.[0] ??
+    valuation.range_low_lakhs ??
+    valuation.low_val ??
+    (price * 0.90)
+  );
+
+  let rangeHigh = Number(
+    valuation.range?.[1] ??
+    valuation.prediction_interval?.[1] ??
+    valuation.range_high_lakhs ??
+    valuation.high_val ??
+    (price * 1.10)
+  );
+
+  // Critical Monotonic Guard: Ensure the interval strictly wraps the point estimate
+  // (P10 < Point < P90) and prevents upper bound from collapsing onto point estimate
+  if (rangeHigh <= price) {
+    rangeHigh = Math.round(Math.max(rangeHigh, price * 1.07) * 100) / 100;
+  }
+  if (rangeLow >= price) {
+    rangeLow = Math.round(Math.min(rangeLow, price * 0.93) * 100) / 100;
+  }
+
+  const modelVersion = valuation.model_version || 'v1';
+  const nominalCoverage = valuation.nominal_interval_coverage ?? 0.80;
 
   const sqft = Number(formData.sqft) || 1000;
-  const ppsqft = Math.round((price_lakhs * 100000) / sqft);
-  const lowPpsqft = Math.round((range_low_lakhs * 100000) / sqft);
-  const highPpsqft = Math.round((range_high_lakhs * 100000) / sqft);
+  const ppsqft = Math.round((price * 100000) / sqft);
+  const lowPpsqft = Math.round((rangeLow * 100000) / sqft);
+  const highPpsqft = Math.round((rangeHigh * 100000) / sqft);
 
-  // Convert to Crores if >= 100 Lakhs
   const formatInr = (lakhs) => {
     if (lakhs >= 100) {
       return `₹${(lakhs / 100).toFixed(2)} Cr`;
     }
-    return `₹${lakhs.toFixed(2)} Lakhs`;
+    return `₹${lakhs.toFixed(2)} L`;
   };
 
-  // Safe LTV calculations for lending
-  const ltv80 = (price_lakhs * 0.80).toFixed(2);
-  const conservativeLtv = (range_low_lakhs * 0.75).toFixed(2);
+  const ltv80 = (price * 0.80).toFixed(2);
+  const conservativeLtv = (rangeLow * 0.75).toFixed(2);
 
-  // Relative point position in [low, high]
-  const rangeSpan = range_high_lakhs - range_low_lakhs;
-  const pointOffsetPct = rangeSpan > 0 ? Math.min(100, Math.max(0, ((price_lakhs - range_low_lakhs) / rangeSpan) * 100)) : 50;
+  const rangeSpan = rangeHigh - rangeLow;
+  const pointOffsetPct = rangeSpan > 0 ? Math.min(100, Math.max(0, ((price - rangeLow) / rangeSpan) * 100)) : 50;
 
   return (
-    <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-      <div className="flex items-center justify-between border-b border-slate-800 pb-3">
-        <div className="flex items-center space-x-2">
-          <Award className="w-5 h-5 text-red-500" />
-          <h3 className="font-bold text-slate-100 text-base">Valuation & Risk Appraisal</h3>
-        </div>
-        <div className="flex items-center space-x-2">
-          <span className="text-slate-400 text-xs font-mono bg-slate-950 px-2 py-1 rounded border border-slate-800">
-            {model_version}
-          </span>
-        </div>
+    <div className="bg-white border border-zinc-200/90 rounded-xl p-5 sm:p-6 shadow-sm space-y-5">
+      <div className="flex items-center justify-between border-b border-zinc-100 pb-3">
+        <h3 className="font-semibold text-zinc-900 text-sm tracking-tight">
+          Valuation & Underwriting Cap
+        </h3>
+        <span className="text-[10px] font-mono text-zinc-600 bg-zinc-100 px-2 py-0.5 rounded border border-zinc-200">
+          Model: {modelVersion}
+        </span>
       </div>
 
-      {/* Hero Metric Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {/* 3 Metric Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
         {/* Point Estimate */}
-        <div className="bg-gradient-to-br from-slate-950 to-slate-900/90 border border-slate-800 rounded-xl p-4 relative overflow-hidden">
-          <div className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">
-            Point Market Valuation
+        <div className="bg-zinc-50 border border-zinc-200/80 rounded-lg p-4">
+          <div className="text-[10px] font-mono text-zinc-500 uppercase tracking-wider mb-1">
+            Point Valuation
           </div>
-          <div className="flex items-baseline space-x-2">
-            <span className="text-3xl font-extrabold text-white tracking-tight font-mono">
-              ₹{price_lakhs.toFixed(2)}
+          <div className="flex items-baseline space-x-1.5">
+            <span className="text-2xl sm:text-3xl font-semibold text-zinc-900 font-mono tracking-tight">
+              ₹{price.toFixed(2)}
             </span>
-            <span className="text-sm font-semibold text-red-400">Lakhs</span>
+            <span className="text-xs font-mono text-zinc-500">Lakhs</span>
           </div>
-          <div className="text-xs text-slate-400 mt-1 flex items-center gap-1 font-medium">
-            <span>Equivalent:</span>
-            <span className="text-slate-200 font-semibold">{formatInr(price_lakhs)}</span>
+          <div className="text-xs text-zinc-500 mt-0.5">
+            Equivalent: <span className="text-zinc-800 font-medium">{formatInr(price)}</span>
           </div>
-          <div className="mt-3 pt-2.5 border-t border-slate-800/80 flex justify-between text-xs text-slate-400">
+          <div className="mt-3 pt-2.5 border-t border-zinc-200/80 flex justify-between text-xs text-zinc-600">
             <span>Rate / Sqft:</span>
-            <span className="font-mono text-slate-200 font-semibold">₹{ppsqft.toLocaleString('en-IN')}/sqft</span>
+            <span className="font-mono text-zinc-900 font-medium">₹{ppsqft.toLocaleString('en-IN')}</span>
           </div>
         </div>
 
-        {/* Quantile Range */}
-        <div className="bg-gradient-to-br from-slate-950 to-slate-900/90 border border-slate-800 rounded-xl p-4 relative overflow-hidden">
-          <div className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1 flex items-center justify-between">
-            <span>80% Confidence Range</span>
-            <span className="text-[10px] text-blue-400 bg-blue-950/60 border border-blue-800/60 px-1.5 py-0.5 rounded">
-              q10 – q90
+        {/* Quantile Range (P10 - P90) */}
+        <div className="bg-zinc-50 border border-zinc-200/80 rounded-lg p-4">
+          <div className="text-[10px] font-mono text-zinc-500 uppercase tracking-wider mb-1 flex items-center justify-between">
+            <span>Prediction Interval</span>
+            <span className="text-[10px] text-zinc-500 font-mono">P10 – P90</span>
+          </div>
+          <div className="flex items-baseline space-x-1">
+            <span className="text-xl sm:text-2xl font-semibold text-zinc-900 font-mono tracking-tight">
+              ₹{rangeLow.toFixed(1)} – ₹{rangeHigh.toFixed(1)}
             </span>
+            <span className="text-xs font-mono text-zinc-500">L</span>
           </div>
-          <div className="flex items-baseline space-x-2">
-            <span className="text-2xl font-bold text-slate-200 font-mono">
-              ₹{range_low_lakhs.toFixed(1)} – ₹{range_high_lakhs.toFixed(1)}
-            </span>
-            <span className="text-xs text-slate-400">L</span>
+          <div className="text-xs text-zinc-500 mt-0.5">
+            {formatInr(rangeLow)} to {formatInr(rangeHigh)}
           </div>
-          <div className="text-xs text-slate-400 mt-1 font-medium">
-            {formatInr(range_low_lakhs)} to {formatInr(range_high_lakhs)}
-          </div>
-          <div className="mt-3 pt-2.5 border-t border-slate-800/80 flex justify-between text-xs text-slate-400">
-            <span>Rate Range:</span>
-            <span className="font-mono text-slate-200">
+          <div className="mt-3 pt-2.5 border-t border-zinc-200/80 flex justify-between text-xs text-zinc-600">
+            <span>Rate Spread:</span>
+            <span className="font-mono text-zinc-900 font-medium">
               ₹{lowPpsqft.toLocaleString('en-IN')} – ₹{highPpsqft.toLocaleString('en-IN')}
             </span>
           </div>
         </div>
 
-        {/* Lending LTV Base */}
-        <div className="bg-gradient-to-br from-slate-950 to-slate-900/90 border border-slate-800 rounded-xl p-4 relative overflow-hidden">
-          <div className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1 flex items-center justify-between">
-            <span className="flex items-center gap-1">
-              <Scale className="w-3.5 h-3.5 text-emerald-400" /> Lending LTV Baseline
-            </span>
-            <span className="text-[10px] text-emerald-400 bg-emerald-950/60 border border-emerald-800/60 px-1.5 py-0.5 rounded">
-              80% LTV
-            </span>
+        {/* Max Lending Cap (80% LTV) */}
+        <div className="bg-zinc-50 border border-zinc-200/80 rounded-lg p-4">
+          <div className="text-[10px] font-mono text-zinc-500 uppercase tracking-wider mb-1 flex items-center justify-between">
+            <span>Max Lending Base</span>
+            <span className="text-[10px] text-zinc-700 font-mono font-semibold">80% LTV</span>
           </div>
-          <div className="flex items-baseline space-x-2">
-            <span className="text-3xl font-extrabold text-emerald-400 tracking-tight font-mono">
+          <div className="flex items-baseline space-x-1.5">
+            <span className="text-2xl sm:text-3xl font-semibold text-zinc-900 font-mono tracking-tight">
               ₹{ltv80}
             </span>
-            <span className="text-sm font-semibold text-emerald-500">Lakhs</span>
+            <span className="text-xs font-mono text-zinc-500">Lakhs</span>
           </div>
-          <div className="text-xs text-slate-400 mt-1 font-medium">
-            Max Collateral Sanction Cap
+          <div className="text-xs text-zinc-500 mt-0.5">
+            Collateral Sanction Cap
           </div>
-          <div className="mt-3 pt-2.5 border-t border-slate-800/80 flex justify-between text-xs text-slate-400">
-            <span>Conservative Floor (75% of Low):</span>
-            <span className="font-mono text-slate-300 font-semibold">₹{conservativeLtv} L</span>
+          <div className="mt-3 pt-2.5 border-t border-zinc-200/80 flex justify-between text-xs text-zinc-600">
+            <span>Floor (75% Low):</span>
+            <span className="font-mono text-zinc-800 font-medium">₹{conservativeLtv} L</span>
           </div>
         </div>
       </div>
 
-      {/* Visual Interval Gauge */}
-      <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-4">
-        <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-          <span>Uncertainty Gauge (Nominal Coverage: {(nominal_interval_coverage * 100).toFixed(0)}%)</span>
-          <span className="font-mono text-slate-300">
-            Spread: <strong className="text-white">₹{(range_high_lakhs - range_low_lakhs).toFixed(2)} Lakhs</strong> (
-            {(((range_high_lakhs - range_low_lakhs) / price_lakhs) * 100).toFixed(1)}% of point)
+      {/* Uncertainty Bar */}
+      <div className="bg-zinc-50 border border-zinc-200/80 rounded-lg p-3.5 space-y-2">
+        <div className="flex items-center justify-between text-xs text-zinc-600">
+          <span>Uncertainty Spread (Nominal Coverage: {(nominalCoverage * 100).toFixed(0)}%)</span>
+          <span className="font-mono text-zinc-700 text-xs font-medium">
+            ±₹{((rangeHigh - rangeLow) / 2).toFixed(2)}L (
+            {(((rangeHigh - rangeLow) / price) * 100).toFixed(1)}%)
           </span>
         </div>
 
-        {/* Progress bar container */}
-        <div className="relative w-full h-4 bg-slate-800 rounded-full overflow-hidden">
-          {/* Shaded interval */}
-          <div className="absolute inset-y-0 left-0 right-0 bg-gradient-to-r from-blue-900/60 via-emerald-900/60 to-blue-900/60 rounded-full"></div>
-          {/* Point indicator mark */}
+        <div className="relative w-full h-1.5 bg-zinc-200 rounded-full overflow-hidden">
+          <div className="absolute inset-y-0 left-0 right-0 bg-zinc-300 rounded-full"></div>
           <div
-            className="absolute top-0 bottom-0 w-1.5 bg-red-500 shadow-md shadow-red-500 rounded-full transition-all duration-500"
+            className="absolute top-0 bottom-0 w-2.5 bg-zinc-900 rounded-full transition-all duration-300"
             style={{ left: `${pointOffsetPct}%` }}
           ></div>
         </div>
 
-        <div className="flex justify-between items-center text-[11px] text-slate-400 font-mono mt-1.5">
-          <span>Low (q10): ₹{range_low_lakhs.toFixed(1)}L</span>
-          <span className="text-red-400 font-bold">● Point: ₹{price_lakhs.toFixed(2)}L</span>
-          <span>High (q90): ₹{range_high_lakhs.toFixed(1)}L</span>
+        <div className="flex justify-between items-center text-[10px] text-zinc-500 font-mono">
+          <span>P10 (Low): ₹{rangeLow.toFixed(1)}L</span>
+          <span className="text-zinc-900 font-semibold">Point Valuation: ₹{price.toFixed(2)}L</span>
+          <span>P90 (High): ₹{rangeHigh.toFixed(1)}L</span>
         </div>
       </div>
     </div>

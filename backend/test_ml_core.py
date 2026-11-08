@@ -1,8 +1,16 @@
 import importlib.util
 import json
+import sys
 from pathlib import Path
 import unittest
 from unittest.mock import patch
+
+# Bootstrap sys.path
+_ROOT = Path(__file__).resolve().parent.parent
+_BACKEND = Path(__file__).resolve().parent
+for _p in (str(_ROOT), str(_BACKEND)):
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
 
 import numpy as np
 import pandas as pd
@@ -10,7 +18,10 @@ from sklearn.dummy import DummyRegressor
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 
-from backend import features as f, prepare_data as p
+try:
+    from backend import features as f, prepare_data as p
+except ImportError:
+    import features as f, prepare_data as p
 
 BASE = Path(__file__).resolve().parent
 EXPECTED = ['sqft', 'bhk', 'floor', 'age_years', 'lat', 'lon', 'osm_schools_2km',

@@ -8,9 +8,18 @@ Implements the HTTP API contract defined in README.md:
 from __future__ import annotations
 
 import logging
+import os
+import sys
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Any, Optional
+
+# Ensure both project root and backend dir are in sys.path regardless of execution directory
+_BASE_DIR = Path(__file__).resolve().parent
+_ROOT_DIR = _BASE_DIR.parent
+for _p in (str(_ROOT_DIR), str(_BASE_DIR)):
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
 
 import joblib
 import pandas as pd
@@ -18,11 +27,18 @@ from fastapi import FastAPI, HTTPException, Query, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-from backend import features as f_v1
+try:
+    from backend import features as f_v1
+except ImportError:
+    import features as f_v1
+
 try:
     from backend import features_v2 as f_v2
 except ImportError:
-    f_v2 = None
+    try:
+        import features_v2 as f_v2
+    except ImportError:
+        f_v2 = None
 
 try:
     from backend import explain as exp
@@ -95,14 +111,40 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# Enable CORS for frontend integration (Vite dev server runs on 5173 by default)
+# Determine CORS configuration securely
+cors_env = os.getenv("CORS_ORIGINS", "")
+if cors_env:
+    allowed_origins = [o.strip() for o in cors_env.split(",") if o.strip()]
+else:
+    allowed_origins = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+    ]
+
+# If wildcard is explicitly used, allow_credentials must be False per CORS standards
+is_wildcard = "*" in allowed_origins
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
+    allow_origins=allowed_origins,
+    allow_credentials=not is_wildcard,
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
+
+
+@app.middleware("http")
+async def add_security_headers(request, call_next):
+    """Defense-in-depth HTTP security headers."""
+    response = await call_next(request)
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    return response
 
 
 # ============================================================================
@@ -161,6 +203,12 @@ class ValuationResponse(BaseModel):
     price_lakhs: float
     range_low_lakhs: float
     range_high_lakhs: float
+    range: Optional[list[float]] = None
+    prediction_interval: Optional[list[float]] = None
+    point_estimate: Optional[float] = None
+    estimated_value: Optional[float] = None
+    low_val: Optional[float] = None
+    high_val: Optional[float] = None
     nominal_interval_coverage: float
     auto_accept: bool
     review_reason: Optional[str]
@@ -215,8 +263,8 @@ async def list_cities():
 
 @app.get("/api/v1/localities", tags=["Metadata"])
 async def list_localities(
-    city: Optional[str] = Query(None, description="Filter localities by city name"),
-    q: Optional[str] = Query(None, description="Optional search substring to autocomplete"),
+    city: Optional[str] = Query(None, max_length=100, description="Filter localities by city name"),
+    q: Optional[str] = Query(None, max_length=100, description="Optional search substring to autocomplete"),
 ):
     """Returns localities for a given city with optional autocomplete search."""
     by_city = lookup_cache.get("localities_by_city", {})
@@ -319,5 +367,12 @@ async def explain_property(request: ValuationRequest):
     except Exception as e:
         logger.error("Explanation engine failure: %s", e, exc_info=True)
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Explanation calculation failed")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    print("\n🚀 Starting PS1 Valuation Engine API on http://127.0.0.1:8000 ...\n")
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
 
 

@@ -10,8 +10,16 @@ Outputs structured slice metrics to backend/logs/slice_performance_report.json
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from typing import Any
+
+# Bootstrap sys.path
+_ROOT = Path(__file__).resolve().parent.parent
+_BACKEND = Path(__file__).resolve().parent
+for _p in (str(_ROOT), str(_BACKEND)):
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
 
 import joblib
 import numpy as np

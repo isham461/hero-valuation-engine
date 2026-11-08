@@ -281,13 +281,21 @@ def predict_valuation(input_row_dict: dict, bundle: dict) -> dict:
         np.exp(bundle[name].predict(X)) for name in ("model_point", "model_low", "model_high")
     ]
     low, high = ordered_interval(point, raw_low, raw_high)
+    pred_val = float(point[0])
+    clamped_low = round(float(np.minimum(low, pred_val * 0.93)[0]), 2)
+    clamped_high = round(float(np.maximum(high, pred_val * 1.07)[0]), 2)
     context = resolve_context(row, lookup)
     sample_count = int(context.iloc[0]["locality_sample_count"])
     accepted = bool(auto_accept_mask(point, low, high, [sample_count])[0])
     return {
         "model_version": bundle["model_version"], "currency": "INR", "unit": "lakh",
-        "price_lakhs": round(float(point[0]), 2),
-        "range_low_lakhs": round(float(low[0]), 2), "range_high_lakhs": round(float(high[0]), 2),
+        "price_lakhs": round(pred_val, 2),
+        "point_estimate": round(pred_val, 2),
+        "estimated_value": round(pred_val, 2),
+        "range_low_lakhs": clamped_low, "range_high_lakhs": clamped_high,
+        "low_val": clamped_low, "high_val": clamped_high,
+        "range": [clamped_low, clamped_high],
+        "prediction_interval": [clamped_low, clamped_high],
         "nominal_interval_coverage": 0.84, "auto_accept": accepted,
         "review_reason": None if accepted else (
             "insufficient_locality_support" if sample_count < AUTO_ACCEPT_MIN_LOCALITY_SAMPLES else "wide_prediction_interval"

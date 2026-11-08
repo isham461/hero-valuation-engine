@@ -4,28 +4,29 @@
 
 @layer base {
   body {
-    @apply bg-slate-950 text-slate-100 selection:bg-red-500 selection:text-white;
+    @apply bg-zinc-50 text-zinc-900 antialiased selection:bg-zinc-200 selection:text-zinc-900;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    min-height: 100vh;
   }
 }
 
-/* Custom Scrollbar */
+/* Light Theme Scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #f4f4f5;
 }
 ::-webkit-scrollbar-thumb {
-  background: #334155;
-  border-radius: 9999px;
+  background: #d4d4d8;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #475569;
+  background: #a1a1aa;
 }
 
-/* Range input styling */
+/* Range input */
 input[type=range] {
-  accent-color: #ED1C24;
+  accent-color: #18181b;
 }

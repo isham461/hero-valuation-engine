@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
-import PresetsBar, { PRESETS } from './components/PresetsBar';
+import PresetsBar from './components/PresetsBar';
 import ValuationForm from './components/ValuationForm';
 import TriageBanner from './components/TriageBanner';
 import ValuationSummary from './components/ValuationSummary';
 import ShapDriversChart from './components/ShapDriversChart';
 import ComparablesGrid from './components/ComparablesGrid';
 import { fetchHealth, valuateProperty, explainProperty } from './services/api';
-import { AlertCircle, RefreshCw } from 'lucide-react';
+import { AlertCircle } from 'lucide-react';
 
 export default function App() {
   const [activeModel, setActiveModel] = useState('v1');
@@ -37,7 +37,7 @@ export default function App() {
     });
   }, []);
 
-  // Run initial valuation on mount
+  // Run initial valuation on mount or when model toggles
   useEffect(() => {
     handleRunValuation(formData, activeModel);
   }, [activeModel]);
@@ -59,7 +59,6 @@ export default function App() {
     };
 
     try {
-      // Run valuation and explanation in parallel
       const [valRes, expRes] = await Promise.all([
         valuateProperty(payload),
         explainProperty(payload),
@@ -88,7 +87,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-zinc-50 text-zinc-900 flex flex-col font-sans selection:bg-zinc-200">
       {/* Header */}
       <Header
         apiStatus={apiStatus}
@@ -99,7 +98,7 @@ export default function App() {
       />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
         {/* Presets Bar */}
         <PresetsBar
           onSelectPreset={handleSelectPreset}
@@ -108,21 +107,21 @@ export default function App() {
 
         {/* Error Alert if any */}
         {error && (
-          <div className="bg-red-950/80 border border-red-800 text-red-200 px-4 py-3 rounded-xl flex items-center justify-between text-xs shadow-lg">
-            <div className="flex items-center space-x-2">
-              <AlertCircle className="w-4 h-4 text-red-400 flex-shrink-0" />
+          <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-xl flex items-center justify-between text-xs shadow-sm">
+            <div className="flex items-center space-x-2.5">
+              <AlertCircle className="w-4 h-4 text-red-600 flex-shrink-0" />
               <span>{error}</span>
             </div>
             <button
               onClick={() => setError(null)}
-              className="text-red-400 hover:text-white font-bold text-xs"
+              className="text-red-700 hover:text-red-900 font-medium text-xs transition-colors"
             >
               Dismiss
             </button>
           </div>
         )}
 
-        {/* Two-Column Core Layout */}
+        {/* Two-Column Minimalist Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
           {/* Left Column: Input Form (5 cols) */}
           <div className="lg:col-span-5 space-y-5 lg:sticky lg:top-20">
@@ -137,15 +136,13 @@ export default function App() {
             />
 
             {/* Architecture Provenance Note */}
-            <div className="bg-slate-900/60 border border-slate-800/80 rounded-xl p-4 text-[11px] text-slate-400 space-y-2">
-              <div className="font-semibold text-slate-300 flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>
-                Underwriting & System Architecture
+            <div className="bg-white border border-zinc-200/90 rounded-xl p-4 text-[11px] text-zinc-600 shadow-sm space-y-1.5">
+              <div className="font-semibold text-zinc-800 flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-zinc-700"></span>
+                <span>System Pipeline & Model Contract</span>
               </div>
-              <p>
-                Connecting live to FastAPI backend at <code className="text-slate-300 font-mono">localhost:8000</code>.
-                LightGBM quantile regression outputs natural-log price intervals [q10, q90]. The auto-accept triage gate protects
-                credit approval by enforcing micro-market liquidity support.
+              <p className="leading-relaxed text-zinc-500">
+                LightGBM Quantile Regression models [q10, q90] running on FastAPI (<code className="text-zinc-800 font-mono bg-zinc-100 px-1 py-0.5 rounded">localhost:8000</code>). Auto-accept rule enforces 40% interval threshold and 5+ micro-market sample density.
               </p>
             </div>
           </div>
@@ -168,10 +165,10 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-800/80 bg-slate-950 py-5 text-center text-xs text-slate-500 mt-12">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>Hero Housing Finance Fintech Challenge · Problem Statement 1</span>
-          <span>Person 4 Deliverable · React 18 + Vite + Tailwind CSS + Recharts</span>
+      <footer className="border-t border-zinc-200 bg-white py-6 text-center text-xs text-zinc-500 mt-16">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px]">
+          <span>Hero Housing Finance · PS1 Automated Underwriting Engine</span>
+          <span>Person 4 Deliverable · React 18 + Vite + Tailwind CSS</span>
           <span>Dataset License: CDLA-Sharing-1.0</span>
         </div>
       </footer>

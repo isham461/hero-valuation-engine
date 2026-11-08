@@ -1,8 +1,20 @@
+import sys
 import unittest
+from pathlib import Path
+
+# Bootstrap project root and backend dir into sys.path
+_ROOT = Path(__file__).resolve().parent.parent
+_BACKEND = Path(__file__).resolve().parent
+for _p in (str(_ROOT), str(_BACKEND)):
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
 
 from fastapi.testclient import TestClient
 
-from backend import app as api
+try:
+    from backend import app as api
+except ImportError:
+    import app as api
 
 
 class ValuationAPITests(unittest.TestCase):
