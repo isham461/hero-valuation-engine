@@ -24,6 +24,11 @@ try:
 except ImportError:
     f_v2 = None
 
+try:
+    from backend import explain as exp
+except ImportError:
+    import explain as exp
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("ps1-engine")
 
@@ -274,4 +279,45 @@ async def valuate_property(request: ValuationRequest):
     except Exception as e:
         logger.error("Valuation engine failure: %s", e, exc_info=True)
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Valuation calculation failed")
+
+
+@app.post("/api/v1/explain", tags=["Valuation"])
+async def explain_property(request: ValuationRequest):
+    """Calculates tree-based SHAP local explanation for the property input."""
+    version_key = (request.model_version or "v1").lower()
+    if version_key not in bundles:
+        version_key = "v1" if "v1" in bundles else list(bundles.keys())[0] if bundles else None
+
+    if not version_key or version_key not in bundles:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Model bundle is unavailable. Ensure train.py has run.",
+        )
+
+    bundle = bundles[version_key]
+    input_dict: dict[str, Any] = {
+        "city": request.city,
+        "locality": request.locality,
+        "sqft": request.sqft,
+        "bhk": request.bhk,
+    }
+    if request.floor is not None:
+        input_dict["floor"] = request.floor
+    if request.age_years is not None:
+        input_dict["age_years"] = request.age_years
+    if request.lat is not None:
+        input_dict["lat"] = request.lat
+    if request.lon is not None:
+        input_dict["lon"] = request.lon
+
+    try:
+        explanation = exp.explain_single_property(input_dict, bundle)
+        return explanation
+    except ValueError as e:
+        logger.warning("Explanation validation error: %s", e)
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail=str(e))
+    except Exception as e:
+        logger.error("Explanation engine failure: %s", e, exc_info=True)
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Explanation calculation failed")
+
 
