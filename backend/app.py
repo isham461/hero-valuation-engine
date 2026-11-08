@@ -1,4 +1,4 @@
-"""PS1 Valuation Engine — FastAPI Service (Person 3 Deliverables)
+"""PS1 Valuation Engine — FastAPI Service (Member 2 Deliverable)
 Implements the HTTP API contract defined in README.md:
   - POST /api/v1/valuate: Valuate a residential property with quantile range and 3 comparables
   - GET  /api/v1/cities: List all supported cities and macro-regions for UI dropdowns

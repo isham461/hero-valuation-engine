@@ -168,7 +168,7 @@ export default function App() {
       <footer className="border-t border-zinc-200 bg-white py-6 text-center text-xs text-zinc-500 mt-16">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px]">
           <span>Hero Housing Finance · PS1 Automated Underwriting Engine</span>
-          <span>Person 4 Deliverable · React 18 + Vite + Tailwind CSS</span>
+          <span>Hero Housing Fintech Challenge · 2-Member Team Deliverable</span>
           <span>Dataset License: CDLA-Sharing-1.0</span>
         </div>
       </footer>

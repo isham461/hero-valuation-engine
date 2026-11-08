@@ -1,6 +1,6 @@
 # PS1 Valuation Engine
 
-Hero Housing Fintech Challenge — Problem Statement 1. Runnable, offline ML core with locked benchmarks, point/quantile valuation, train-only locality enrichment, and three comparable listings. The FastAPI backend is implemented; React application integration remains a team task.
+Hero Housing Fintech Challenge — Problem Statement 1. Runnable, offline ML core with locked benchmarks, point/quantile valuation, train-only locality enrichment, and three comparable listings. Powered by a high-throughput FastAPI backend and a modern React + Vite + Tailwind CSS underwriting dashboard built by a 2-member engineering team.
 
 ## Quick start
 
@@ -51,14 +51,12 @@ print(prediction)
 
 Only load trusted pickle/joblib files: loading an untrusted bundle can execute code. Load the bundle once at API startup, not on each request. `backend.features` supports package imports and the scripts also run directly from any working directory.
 
-## Layout and proposed team ownership
+## Layout and Team Architecture (2-Member Team)
 
-| Owner | Files / responsibility |
-|---|---|
-| Person 1 — ML core | `backend/prepare_data.py`, `backend/features.py`, `backend/train.py`, `backend/models/valuation_bundle.pkl`, shared ML regression tests |
-| Person 2 — evaluation/data support | Locked `backend/data/processed/` benchmarks and `backend/logs/`; review metrics, data provenance, and replace proxy infrastructure only with verified offline data in a versioned benchmark |
-| Person 3 — FastAPI | Implemented `backend/app.py` with valuation, city, locality, and health endpoints; added API contract tests in `backend/test_api.py`; uses shared feature/prediction helpers without duplicating feature engineering |
-| Person 4 — frontend | `frontend/`: React + Vite + Tailwind; see its placeholder README |
+| Team Member | Domain & Ownership | Key Files & Responsibilities |
+|---|---|---|
+| **Member 1** — ML Engineering & Data Science | Core Modeling, Feature Engineering & Explainability | • Data cleaning & split locks (`backend/prepare_data.py`, `backend/data/processed/`)<br>• Feature engineering pipelines & locality lookups (`backend/features.py`, `backend/features_v2.py`)<br>• Model training: LightGBM Point + Quantile regression (`backend/train.py`, `backend/train_v2.py`)<br>• Model explainability & SHAP attribution (`backend/explain.py`)<br>• Slice benchmarks & regression tests (`backend/evaluate_slices.py`, `backend/test_ml_core.py`) |
+| **Member 2** — Full-Stack Engineering & Deployment | Backend API, Underwriting Triage & Frontend Dashboard | • High-throughput FastAPI service (`backend/app.py`)<br>• Monotonic interval clamping & routing logic (`backend/routing.py`)<br>• API contract validation & security hardening (`backend/test_api.py`, `run_backend.sh`)<br>• Modern React 18 + Vite + Tailwind CSS dashboard (`frontend/`)<br>• Live autocomplete, triage banners, SHAP visualizations, and 3-comparables grid |
 
 ```text
 backend/
@@ -204,7 +202,7 @@ Response keys:
 - `locality_sample_count`, `location_source`, `infrastructure_source` indicate support/fallback and that landmarks are proxies.
 - `comparables`: up to three objects containing `row_id`, `city`, `locality`, `sqft`, `bhk`, `floor`, `age_years`, `lat`, `lon`, `price_lakhs`, `price_per_sqft` (INR/sqft), `distance_km`, and `feature_distance`.
 
-Person 4 should show the nominal range, review reason, and comparable asking prices, not turn `auto_accept` into a credit approval. This contract intentionally leaves authentication, deployment, underwriting rules, and UI implementation to the owning teammates.
+The underwriting dashboard displays the nominal confidence range, review triage reasons, and comparable asking prices, ensuring `auto_accept` functions as a collateral appraisal check rather than full credit sanctioning.
 
 ## Running and testing the API
 

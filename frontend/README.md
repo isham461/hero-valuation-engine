@@ -1,6 +1,6 @@
 # PS1 Valuation Engine — Frontend Dashboard
 
-**Person 4 Deliverable** for the Hero Housing Fintech Challenge (Problem Statement 1).  
+**Full-Stack UI Deliverable (2-Member Team)** for the Hero Housing Fintech Challenge (Problem Statement 1).  
 Production-ready **React 18 + Vite + Tailwind CSS + Recharts** collateral appraisal & underwriting triage interface.
 
 ---

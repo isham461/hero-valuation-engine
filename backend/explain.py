@@ -1,7 +1,7 @@
-"""PS1 Valuation Engine — Model Explainability Engine (Person 2 Deliverables)
+"""PS1 Valuation Engine — Model Explainability Engine (Member 1 Deliverable)
 Provides tree-based SHAP local and global feature attribution:
   - Local property waterfall explanation: converts log-space SHAP values into rupee (Lakh) impacts
-  - Formatted driver contributions ready for Person 4's React chart components
+  - Formatted driver contributions ready for Member 2's React chart components
   - Global feature importance analysis across test benchmarks
 """
 from __future__ import annotations

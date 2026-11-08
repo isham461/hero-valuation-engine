@@ -1,4 +1,4 @@
-"""PS1 Valuation Engine — Slice & Submarket Evaluation (Person 2 Deliverables)
+"""PS1 Valuation Engine — Slice & Submarket Evaluation (Member 1 Deliverable)
 Performs fine-grained underwriting analysis across property slices:
   - By Major City / Metro Region
   - By Price Tier (<50L, 50-100L, 100-200L, 200-500L, 500L+)
